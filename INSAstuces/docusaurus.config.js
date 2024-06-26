@@ -242,11 +242,11 @@ const config = {
               
               {
                 label: 'GitHub',
-                href: 'https://github.com/billyTheSecond/INSAstuces',
+                href: 'https://github.com/insa-sh/INSAstuces',
               },
               {
                 label: 'Suggérer une modification',
-                href: 'https://github.com/billyTheSecond/INSAstuces/issues/new',
+                href: 'https://github.com/insa-sh/INSAstuces/issues/new',
               },
 
               {

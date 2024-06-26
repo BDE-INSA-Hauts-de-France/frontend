@@ -25,7 +25,7 @@ Les premiers contenus de ce site seront:
     - Logement
     - Admissions
     - Starter Packs
-        - 1A, 2A et 3A : comment bien démarrer l'année et apréhender les cours
+        - 1A, 2A et 3A : comment bien démarrer l'année et appréhender les cours
         - Méthodes de travail
     - Discuter avec les étudiants actuels
 - Vie étudiante
@@ -34,17 +34,17 @@ Les premiers contenus de ce site seront:
     - Les évènements annuels
 - Conseils et tutos info
     - Les logiciels et services fournis par l'UPHF
-    - Comment synchroniser ses mails avec une application mobile poru reçevoir les notifs
+    - Comment synchroniser ses mails avec une application mobile pour recevoir les notifs
     - Les meilleures réducs étudiantes sur les logiciels
 - Administratif
     - Contacts utiles - responsables des SPE...
-    - Fiches d'abscences, syllabus...
+    - Fiches d'absences, syllabus...
 
 
 
 <br>
 
-# Les pages des association
+# Les pages des associations
 Chaque association possède sa propre page sur INS'Astuces. Vous pouvez **personnaliser la page de votre asso** en changeant le logo, l'image d'arrière-plan, la description ou encore les liens affichés... 
 
 Vous pouvez aussi créer une page complète pour présenter votre association, ses activités, ses membres, ses évènements... (au format markdown)
@@ -56,7 +56,7 @@ Vous pouvez aussi créer une page complète pour présenter votre association, s
 
 Pour modifier les informations - logo - photos - liens associés à votre asso, `ouvrez une issue` sur ce dépôt en précisant les modifications à apporter. N'hésitez pas à joindre en pièce jointe les logos ou images que vous souhaitez modifier ou ajouter.
 
-[> Demander une modification [ouvrir une issue]](https://github.com/billyTheSecond/INSAstuces/issues/new)
+[> Demander une modification [ouvrir une issue]](https://github.com/insa-sh/INSAstuces/issues/new)
 
 > **Note :**<br>
 > Si vous ne voulez pas demander publiquement une modification, vous pouvez contacter directement un des contributeurs du projet.
@@ -64,7 +64,7 @@ Pour modifier les informations - logo - photos - liens associés à votre asso, 
 ## Ajouter une nouvelle Asso
 Pour ajouter une association, c'est la même procédure! Ouvrez une issue `en précisant les informations indiquées ci-dessous` et les images à joindre. Les responsables du projet INS'Astuces se chargeront de publier les modifications !
 
-[Ouvrir une issue pour ajouter une association ou un club](https://github.com/billyTheSecond/INSAstuces/issues/new)
+[Ouvrir une issue pour ajouter une association ou un club](https://github.com/insa-sh/INSAstuces/issues/new)
 
 
 **Informations à fournir**
@@ -81,7 +81,7 @@ Pour ajouter une association, c'est la même procédure! Ouvrez une issue `en pr
     > - **Ratio:** Logo carré <br/>
     > - **Résolution idéale:** 600px x 600px<br/>
     > - **Formats acceptés:** favoriser .svg et .webp  (les autres formats seront convertis en .webp) <br/>
-    > - **Note:** Si votre logo a un fond transparent, assurez-vous qu'il soit bine lisible sur un fond noir et un fond blanc (que le logo soit bien adapté aux modes nuit et jour)
+    > - **Note:** Si votre logo a un fond transparent, assurez-vous qu'il soit bien lisible sur un fond noir et un fond blanc (que le logo soit bien adapté aux modes nuit et jour)
 
     >  **Exemples de liens pertinents**
     >- Site internet
@@ -106,7 +106,7 @@ Le contenu de cette page sera écrit en `Markdown`. Vous ne savez pas ce que c'e
 
 <!-- ![Aperçu de la page d'accueil](readmefiles/apercu-site.png) -->
 
-<!-- ![Apercu page plan campus](readmefiles/apercu-plan-campus.png) -->
+<!-- ![Aperçu page plan campus](readmefiles/apercu-plan-campus.png) -->
 
 
 # Rejoindre le projet
