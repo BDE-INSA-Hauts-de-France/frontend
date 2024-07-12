@@ -211,23 +211,23 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/docusaurus',
+          //     },
+          //   ],
+          // },
           {
             title: 'A propos de ce site',
             items: [
@@ -245,7 +245,7 @@ const config = {
                 href: 'https://github.com/insa-sh/INSAstuces',
               },
               {
-                label: 'Suggérer une modification',
+                label: 'Suggérer une fonctionnalité ou modification',
                 href: 'https://github.com/insa-sh/INSAstuces/issues/new',
               },
 
@@ -281,7 +281,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Développé et maintenu avec amour par <b><a href='https://insash.org'>./insa.sh</a></b> – INS'Astuces Hauts-de-France © ${new Date().getFullYear()} ` ,
+        copyright: `Développé et maintenu avec ❤️ par <b><a href='https://insash.org'>./insa.sh</a></b> – INS'Astuces Hauts-de-France © ${new Date().getFullYear()} ` ,
       },
       prism: {
         theme: prismThemes.github,

@@ -3,7 +3,7 @@
 ![Nombre d'issues ouvertes](https://img.shields.io/github/issues/billyTheSecond/INSAstuces?style=for-the-badge)
 
 # INS'Astuces HdF 
-_L'objectif est de créer un site web simple maintenu par les étudiants pour les étudiants ingénieurs de l'INSA Hauts-de-France qui répertoriera toutes les informations importantes à savoir pour leur scolarité et leur vie étudiante._
+_L'objectif est de créer un site web simple maintenu par les étudiants pour les étudiants ingénieurs de l'INSA Hauts-de-France qui répertoriera toutes les informations importantes à savoir pour la scolarité et la vie étudiante._
 
 <br>
 
@@ -43,6 +43,11 @@ Les premiers contenus de ce site seront:
 
 
 <br>
+
+# Accéder au site en avant première
+
+- Clique sur ce lien suivant pour dévérouiller le site : [unlock.insahdf.fr](https://unlock.insahdf.fr/)
+
 
 # Les pages des associations
 Chaque association possède sa propre page sur INS'Astuces. Vous pouvez **personnaliser la page de votre asso** en changeant le logo, l'image d'arrière-plan, la description ou encore les liens affichés... 
@@ -108,8 +113,17 @@ Le contenu de cette page sera écrit en `Markdown`. Vous ne savez pas ce que c'e
 
 <!-- ![Aperçu page plan campus](readmefiles/apercu-plan-campus.png) -->
 
+# Suggérer une fonctionnalité, un contenu ou signaler une erreur
+
+Vous avez une idée de contenu à ajouter, une fonctionnalité à suggérer ou une erreur à signaler ? Ouvrez une issue sur ce dépôt en précisant votre demande.
+
+[> Proposer une fonctionalité, un contenu ou signaler une erreur](https://github.com/insa-sh/INSAstuces/issues/new)
+
+
+
 
 # Rejoindre le projet
+
 Tu veux faire partie du projet ? Passe nous voir au Club info ou rejoins notre Discord pour en discuter !
 
 

@@ -8,16 +8,16 @@ const FeatureList = [
     Svg: require('@site/static/img/logos/logo2.svg').default,
     description: (
       <>
-        Ce site a été créé pour faciliter la vie des étudiants de l'INSA Hauts-de-France
+        Faciliter la vie et l'intégration des nouveaux étudiants de l'INSA HdF
       </>
     ),
   },
   {
     title: 'Maintenu par le Club Info',
-    Svg: require('@site/static/img/assos/logo-insash.svg').default,
+    Svg: require('@site/static/img/assos/logo-insash-2.svg').default,
     description: (
       <>
-        Ce site est régulièrement mis-à-jour par ./insash
+        Maintenu et développé par ./insa.sh
       </>
     ),
   },
@@ -26,8 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Chaque page de ce site a été rédigée par une association spécialisée dans ce domaine. Vous avez donc du contenu travaillé !
       </>
     ),
   },

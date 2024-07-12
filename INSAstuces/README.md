@@ -40,14 +40,6 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
-# Accéder au site en avant première
-
-Si t'es arrivé juqu'ici, tu dois sûrement être curieux. Alors, voici comment déverrouiller le site: 
-
-- Clique sur ce lien : [Déverrouiller le site](https://insahdf.fr/jeveuxaccederausiteenversionbeta.php)
-
-- Retourne sur [https://astuces.insahdf.fr](https://astuces.insahdf.fr) et tout s'affichera comme par magie !
-
 
 # Développement
 
