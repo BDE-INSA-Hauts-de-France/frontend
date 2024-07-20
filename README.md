@@ -127,6 +127,16 @@ Le contenu de cette page sera écrit en `Markdown`. Vous ne savez pas ce que c'e
 
 <!-- ![Aperçu page plan campus](readmefiles/apercu-plan-campus.png) -->
 
+## Créer le contenu d'une page
+Voici le planning du projet avec les tâches à réaliser : https://github.com/orgs/insa-sh/projects/1. Certaines tâches sont réservées à des associations mais si vous avez des idées de contenu à ajouter, n'hésitez pas à nous en faire part. Vous voulez créer une page ? Indiquez que vous travaillez sur une tache et publiez votre contenu sur le Drive dans un fichier Google Doc en suivant le modèle proposé (1ers fichiers du dossier)
+
+> Attention à bien vérifier que les pages que vous choisissez ne sont pas déjà réservées à des associations ! Tout est précisé sur le Drive.
+
+[> Planning du projet](https://github.com/orgs/insa-sh/projects/1)
+
+[> Lien vers le dossier Google Drive](https://example.com)
+
+
 # Suggérer une fonctionnalité, un contenu ou signaler une erreur
 
 Vous avez une idée de contenu à ajouter, une fonctionnalité à suggérer ou une erreur à signaler ? Ouvrez une issue sur ce dépôt en précisant votre demande.
