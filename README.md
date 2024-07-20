@@ -23,7 +23,7 @@ Les premiers contenus de ce site seront:
     - Plan du campus et points repères
     - Transports
     - Logement
-    - Admissions
+    - Admissions (redirection vers les liens officiels du Groupe INSA)
     - Starter Packs
         - 1A, 2A et 3A : comment bien démarrer l'année et appréhender les cours
         - Méthodes de travail
@@ -44,7 +44,7 @@ Les premiers contenus de ce site seront:
 
 <br>
 
-# Accéder au site en avant première
+# Accéder au site en pré-version
 
 - Clique sur ce lien suivant pour dévérouiller le site : [unlock.insahdf.fr](https://unlock.insahdf.fr/)
 
@@ -52,24 +52,39 @@ Les premiers contenus de ce site seront:
 # Les pages des associations
 Chaque association possède sa propre page sur INS'Astuces. Vous pouvez **personnaliser la page de votre asso** en changeant le logo, l'image d'arrière-plan, la description ou encore les liens affichés... 
 
-Vous pouvez aussi créer une page complète pour présenter votre association, ses activités, ses membres, ses évènements... (au format markdown)
 
 ![Aperçu de la pages des associations et clubs](readmefiles/apercu-page-assos.png)
 
+Vous pouvez aussi créer **une page complète pour présenter votre association**, vos activités, membres, évènements...
 
-## Ajouter - modifier la page de mon asso
+![Aperçu de la page des assos](readmefiles/apercu-page-asso.png)
 
-Pour modifier les informations - logo - photos - liens associés à votre asso, `ouvrez une issue` sur ce dépôt en précisant les modifications à apporter. N'hésitez pas à joindre en pièce jointe les logos ou images que vous souhaitez modifier ou ajouter.
 
-[> Demander une modification [ouvrir une issue]](https://github.com/insa-sh/INSAstuces/issues/new)
+
+
+# Contribuer au projet
+
+Vous pouvez participer au projet de différentes manières :
+
+- Créer le contenu des pages déjà proposées (voir ci-dessous)
+- Proposer de nouvelles pages pour le site
+- Personnaliser la page de votre association ou club
+- Proposer des améliorations pour le site
+- Passer nous voir au Club Info pour discuter du développement et de la gestion du projet
+
+## Modifier la page de mon asso
+
+Pour modifier les informations - logo - photos - liens associés à votre asso, `rendez-vous sur le Google Drive dédié`. `Créez un dossier pour votre association` et uploadez les modifications à apporter. N'hésitez pas à joindre en pièce jointe les logos ou images que vous souhaitez modifier ou ajouter.
+
+[> Demander un accès au dossier Google Drive](https://example.com)
 
 > **Note :**<br>
-> Si vous ne voulez pas demander publiquement une modification, vous pouvez contacter directement un des contributeurs du projet.
+> Si votre demande de modification est particulière ou confidentielle, contactez-nous directement sur Instagram ou par mail à [insa.sh.hdf@gmail.com](mailto:insa.sh.hdf@gmail.com).
 
 ## Ajouter une nouvelle Asso
-Pour ajouter une association, c'est la même procédure! Ouvrez une issue `en précisant les informations indiquées ci-dessous` et les images à joindre. Les responsables du projet INS'Astuces se chargeront de publier les modifications !
+Pour ajouter une association, c'est la même procédure! Accédez au dossier Google Drive et `ajoutez-y les informations indiquées ci-dessous` et les images à joindre. Les responsables du projet INS'Astuces se chargeront de publier les modifications !
 
-[Ouvrir une issue pour ajouter une association ou un club](https://github.com/insa-sh/INSAstuces/issues/new)
+[> Demander un accès au dossier Google Drive](https://example.com)
 
 
 **Informations à fournir**
@@ -103,9 +118,8 @@ Pour ajouter une association, c'est la même procédure! Ouvrez une issue `en pr
 ### Ajouter du contenu à la page de mon asso
 Chaque asso possède par défaut une page avec une bannière. Il est possible de rajouter du contenu à cette page pour mettre en avant vos activités, vous présenter. Ce site sera principalement consulté par les futurs étudiants, c'est ici que vous pourrez séduire vos futures recrues.
 
-Le contenu de cette page sera écrit en `Markdown`. Vous ne savez pas ce que c'est ? Pas de soucis! Envoyez-nous ce que vous voulez y mettre et on se chergera de le mettre dans le bon format.
+Le contenu de cette page sera écrit en `Markdown`. Vous ne savez pas ce que c'est ? Pas de soucis! Publiez ce que vous voulez y mettre sur le Drive dans un fichier Google Doc ou Word et on se chargera de le traduire dans le bon format.
 
-![Aperçu de la page des assos](readmefiles/apercu-page-asso.png)
 
 <!-- # Aperçus des pages -->
 
