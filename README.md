@@ -7,8 +7,8 @@ _L'objectif est de créer un site web simple maintenu par les étudiants pour le
 
 <br>
 
-![Aperçu de la page d'accueil](readmefiles/presentation1.svg)
-![Aperçu de la page d'accueil](readmefiles/presentation2.svg)
+![Aperçu de la page d'accueil](readmefiles/presentation1.png)
+![Aperçu de la page d'accueil](readmefiles/presentation2.png)
 
 
 > **Note :**<br>
