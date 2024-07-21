@@ -1,6 +1,6 @@
 ![GitHub Badge juste pour faire beau](https://img.shields.io/badge/INS'Astuces-HdF-pink?style=for-the-badge&logo=github&logoColor=white) 
-![Nombre total de Commits GitHub](https://img.shields.io/github/commit-activity/t/billyTheSecond/INSAstuces?style=for-the-badge)
-![Nombre d'issues ouvertes](https://img.shields.io/github/issues/billyTheSecond/INSAstuces?style=for-the-badge)
+![Nombre total de Commits GitHub](https://img.shields.io/github/commit-activity/t/insa-sh/INSAstuces?style=for-the-badge)
+![Nombre d'issues ouvertes](https://img.shields.io/github/issues/insa-sh/INSAstuces?style=for-the-badge)
 
 # Lancement du projet INS'Astuces
 
@@ -42,7 +42,7 @@ Voilà les pages que nous allons publier en premier sur le site :
     - Contacts utiles - responsables des SPE...
     - Fiches d'absences, syllabus...
 
-> Toute suggestion de votre part sera la bienvenue 🤝!
+> Toute suggestion de votre part est la bienvenue 🤝!
 
 ## Organisation de la création de pages
 Toutes les pages en cours de création sont indiquées sur le Tableau de Bord du Projet : https://github.com/orgs/insa-sh/projects/1.
