@@ -14,6 +14,7 @@ _L'objectif est de créer un site web simple maintenu **par les étudiants pour 
 
  > ℹ️ **Note :** Le site est accessible en pré-version. Les liens d'accès sont susceptibles de changer dans les semaines à venir. 
 
+![Image de présentation 1](readmefiles/presentation2.png)
 
 # Contenu du site 
 
