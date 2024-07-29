@@ -167,6 +167,36 @@ const config = {
             ]
 
           },
+          {
+            type:"dropdown",
+            sidebarId: 'vieEtudianteSidebar',
+            position: 'left',
+            label: 'Mobilités à l\'étranger',
+            to: '/international',
+            items: [
+              {
+                label: '🌐 La Section Internationale',
+                to: 'international/section-internationale' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
+              },
+              {
+                label: '💱 Stages à l\'international',
+                to: 'international/stages-a-l-international' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
+              },
+              {
+                label: '🧳 Césure & ERASMUS',
+                to: 'international/cesure-erasmus-eunice' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
+              },
+              {
+                label: '🗺️ Réseau de l\'INSA HdF et ses alumnis',
+                to: 'international/reseau-international'
+              },
+
+
+
+            ]
+
+          },
+
 
           // {
           //   type: 'docSidebar',
