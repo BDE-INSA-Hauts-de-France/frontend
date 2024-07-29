@@ -1,7 +1,8 @@
-  
 
 {/* Carte de contact */ }
-const ContactCard = ({first_name, last_name, role, photo_link = "", email, phone_number}) => (
+export default function ContactCard ({ first_name, last_name, role, photo_link = "", email, phone_number }) {
+    if (photo_link != "" && photo_link != NULL) {
+        return (
     <div
         class="contact-card"
     >
@@ -9,10 +10,10 @@ const ContactCard = ({first_name, last_name, role, photo_link = "", email, phone
         {/* {photo_link === "" ? photo_link = "/img/profile_pictures/default_pp.svg" : photo_link = photo_link} */}
         {/* else default picture */}
         {photo_link ? (
-    <img src={photo_link} alt="Photo de profil" />
-) : (
-    <img src="/img/profile_pictures/default_pp.svg" alt="Photo de profil par défaut" />
-)}
+            <img src={photo_link} alt="Photo de profil" />
+        ) : (
+            <img src="/img/profile_pictures/default_pp.svg" alt="Photo de profil par défaut" />
+        )}
 
 
 
@@ -21,15 +22,32 @@ const ContactCard = ({first_name, last_name, role, photo_link = "", email, phone
         <div class="contact-card-info">
             <h3>{first_name} {last_name}</h3>
             <p class="role">{role}</p>
-            <a href={`mailto:${email}`}>{email}</a>
-            <a href={`tel:${phone_number}`}>{phone_number}</a>
+            <div class="contact-card-links">
+                <a href={`mailto:${email}`}>{email}</a>
+                <a href={`tel:${phone_number}`}>{phone_number}</a>
+
+            </div>
         </div>
-        
+
     </div>
+    ) } else {
+        return (
+            <div
+            class="contact-card"
+        >
+            <div class="contact-card-info">
+                <h3>{first_name} {last_name}</h3>
+                <p class="role">{role}</p>
+                <div class="contact-card-links">
+                    <a href={`mailto:${email}`}>{email}</a>
+                    <a href={`tel:${phone_number}`}>{phone_number}</a>
+    
+                </div>
+            </div>
+    
+        </div>
+        )}
+                
 
-
-);
-export default ContactCard;
-
-
-
+    };
+// export default function ContactCard;

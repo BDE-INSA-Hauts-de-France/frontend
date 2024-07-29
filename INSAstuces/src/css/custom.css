@@ -126,40 +126,53 @@ a.div-link {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 16px;
   border-radius: 24px;
-  background-color: var(--contact-card-background);
+  /* background-color: var(--contact-card-background); */
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   margin: 8px;
   gap: 24px;
-  border: solid 2px var(--contact-card-border);
+  /* border: solid 2px var(--contact-card-border); */
 }
 
 .contact-card>img {
   border-radius: 100%;
-  max-height: 100px;
+  max-height: 60px;
   aspect-ratio: 1;
 }
-.contact-card>div {
+.contact-card>div.contact-card-info {
   flex: 1;
+  max-width: fit-content;
+  padding: 6px 12px;
+  padding-right: 32px;
+  border-radius: 2px;
+  background-color: var(--contact-card-background);
+  border-left: solid 8px var(--contact-card-border);
 }
 .contact-card>div>h3 {
   margin:0;
+  font-size: 18px;
 
 
 }
 .contact-card>div>p.role {
-  font-size: 1em;
   color: rgb(173, 173, 173);
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
+  font-size: 14px;
 }
-.contact-card>div>a {
+
+.contact-card>div>div.contact-card-links {
+  display: flex;
+  flex-direction: column;
+}
+.contact-card>div>div.contact-card-links>a {
   display: block;
-  
-  margin-bottom: 2px;
+  width: fit-content;
+  /* margin-bottom: -2px; */
+  font-size: 16px;
 }
 
 
