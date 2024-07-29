@@ -64,7 +64,11 @@ const config = {
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: ['./src/css/custom.css',
+            './src/css/components/contactCard.css',
+            './src/css/components/fileDownloadBox.css',
+          ],
+
         },
       }),
     ],

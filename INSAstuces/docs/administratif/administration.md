@@ -12,6 +12,8 @@ import ContactCard from '@site/src/components/ContactCard';
 
 <ContactCard first_name="Priscilla" last_name="Bourdeau" role="Secrétariat Pédagogique SHPI" email="priscilla.bourdeau@uphf.fr" phone_number="+33 3 27 51 12 17"/>
 
+<ContactCard first_name="Véronique" last_name="Sadaune" role="Responsable SHPI 1A" email="veronique.sadaune@uphf.fr" phone_number="+33 3 27 51 12 18"/>
+
 
 ## Secrétariats des spécialités
 
@@ -22,7 +24,9 @@ import ContactCard from '@site/src/components/ContactCard';
 
 ## Relations Internationales
 
-## Relations Entreprises
+## Relations Entreprises & Communication
+<ContactCard first_name="Charline" last_name="Guillier" role="Responsable Relations Entreprises & Partenariat" email="charline.guillier@uphf.fr" phone_number="+33 3 27 51 18 24"/>
+
 
 ## INS'Alumnis
 
