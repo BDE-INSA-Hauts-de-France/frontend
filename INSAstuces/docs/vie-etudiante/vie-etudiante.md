@@ -18,7 +18,7 @@ L'INSA c'est aussi des associations, des clubs, des événements, des soirées, 
 ## Les Assos
 L'école accorde beaucoup d'importance à l'engagement de ses étudiants dans la vie associative. Pour permettre aux étudiants de s'y investir, aucun enseignement n'est dispensé le jeudi après-midi.
 
-L'INSA Hauts-de-France regorge d'associations étudiantes pour plaire à toutes et à tous. Que tu sois sportif, artiste, geek, fêtard, engagé, ou tout ça à la fois, tu trouveras forcément chaussure à ton pied!
+L'INSA Hauts-de-France regorge d'associations étudiantes pour plaire à toutes et à tous. Que vous soyez sportifs, artistes, geeks, fêtards, engagés, ou tout ça à la fois, vous trouverez forcément chaussure à vos pieds!
 
 
 [Voir toutes les associations](/vie-etudiante/assos-et-clubs)

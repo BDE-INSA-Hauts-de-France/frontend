@@ -67,6 +67,7 @@ const config = {
           customCss: ['./src/css/custom.css',
             './src/css/components/contactCard.css',
             './src/css/components/fileDownloadBox.css',
+            './src/css/components/boutonReseauHeader.css',
           ],
 
         },
@@ -175,7 +176,7 @@ const config = {
             type:"dropdown",
             sidebarId: 'vieEtudianteSidebar',
             position: 'left',
-            label: 'Mobilités à l\'étranger',
+            label: 'International',
             to: '/international',
             items: [
               {
@@ -191,7 +192,7 @@ const config = {
                 to: 'international/cesure-erasmus-eunice' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
               },
               {
-                label: '🗺️ Réseau de l\'INSA HdF et ses alumnis',
+                label: '🗺️ Réseau de l\'INSA HdF et ses alumni',
                 to: 'international/reseau-international'
               },
 
@@ -210,13 +211,13 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            to: 'https://insash.org',
-            label: './insa.sh',
+            to: '/',
+            label: 'News',
             position: 'right',
           },
           {
-            to: 'https://bde-insa-hdf.fr',
-            label: 'BDE',
+            to: '/',
+            label: 'Events',
             position: 'right',
           },
         ],
