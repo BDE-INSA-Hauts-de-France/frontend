@@ -91,7 +91,7 @@ Lors d'une consultation, il faut apporter :
 - la carte de mutuelle ou attestation de mutuelle complémentaire
 - le carnet de vaccination
 
-:::info[Etudiants internationnaux]
+:::info[Etudiants internationaux]
 Pour les étudiants internationaux, il faut fournir la **carte européenne d'assurance maladie** et **certificat provisoire** délivré par l'organisme d'affiliation de l'assuré
 :::
 

@@ -15,7 +15,7 @@ import rehypeKatex from 'rehype-katex';
 const config = {
   title: 'INS\'Astuces HdF',
   tagline: 'Le site pour les étudiants ingénieurs de l\'INSA Hauts-de-France',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/assos/logo-bde.png',
 
   // Set the production url of your site here
   url: 'https://astuces.insahdf.fr',
@@ -79,12 +79,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/logos/logo2.svg',
+      image: 'img/favicon.svg',
       navbar: {
         title: 'INS\'Astuces HdF',
         logo: {
           alt: 'Logo du site INS\'Astuces',
-          src: 'img/logos/logo2.svg',
+          src: 'img/favicon.svg',
         },
         items: [
 
@@ -212,7 +212,7 @@ const config = {
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             to: '/',
-            label: 'News',
+            label: 'Calendrier',
             position: 'right',
           },
           {

@@ -33,7 +33,7 @@ Plusieurs résidences du CROUS sont situées à proximité du Campus Hont-Houy.
 ## Liens pratiques
 
 - [CROUS](https://trouverunlogement.lescrous.fr/) - Les logements du Crous
-- [Le bon coin](https://www.leboncoin.fr/)
+- [Leboncoin](https://www.leboncoin.fr/)
 - [Studapart UPHF](https://uphf.studapart.com/fr/)
 - [Jinka](https://www.jinka.fr/) - Une application qui regroupe plusieurs sites de location
 
