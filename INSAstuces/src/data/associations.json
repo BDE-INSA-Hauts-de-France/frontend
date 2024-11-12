@@ -22,7 +22,7 @@
         "asso_page_lien": "coeuribou",
         "asso_lien_instagram": "https://www.instagram.com/coeuribou/",
         "asso_lien_linkedin": "https://www.linkedin.com/in/cœuribou-insahdf-2748b1263",
-        "asso_image_fond":"/img/assos/fonds/cover-coeuribou.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-coeuribou.webp"
 
     },
     {
@@ -33,19 +33,19 @@
         "asso_description_long": "Le kawa c’est un espace de détente et de convivialité où les étudiants peuvent se retrouver autour d’un bon café ☕️",
         "asso_page_lien": "kawa",
         "asso_lien_instagram": "https://www.instagram.com/kawa_insahdf/",
-        "asso_image_fond":"/img/assos/fonds/cover-kawa.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-kawa.webp"
 
     },
     {
         "asso_name": "GR'INSA",
-        "asso_logo": "/img/assos/logo-grinsa.webp",
+        "asso_logo": "/img/assos/logo-grinsa.svg",
         "asso_type": "Asso",
         "asso_description_short": "L'asso verte",
         "asso_description_long": "Association écologique de l’INSA Hauts-de-France🌿",
         "asso_page_lien": "grinsa",
         "asso_lien_instagram": "https://www.instagram.com/grinsa_hdf/",
         "asso_lien_site": "https://grinsa.fr",
-        "asso_image_fond":"/img/assos/fonds/cover-grinsa.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-grinsa.webp"
 
     },
     {
@@ -70,12 +70,12 @@
         "asso_page_lien": "valmev",
         "asso_lien_instagram": "https://www.instagram.com/valmev_/",
         "asso_lien_discord": "https://discord.gg/acPyAKM57n",
-        "asso_image_fond":"/img/assos/fonds/cover-valmev.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-valmev.webp"
 
     },
     {
         "asso_name": "INS'Aerospace",
-        "asso_logo": "/img/assos/logo-insaerospace.jpg",
+        "asso_logo": "/img/assos/logo-insaerospace.png",
         "asso_type": "Asso",
         "asso_description_long": "",
         "asso_description_short": "Vers l'infini et l'au-delà",
@@ -95,7 +95,7 @@
         "asso_page_lien": "nuit-insa",
         "asso_lien_instagram": "https://www.instagram.com/nuit_insa/",
         "asso_lien_site": "https://nuitinsa.com",
-        "asso_image_fond":"/img/assos/fonds/cover-nuit-insa.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-nuit-insa.webp"
 
     },
     {
@@ -106,7 +106,7 @@
         "asso_description_long": "Accompagnement 🖋/ Orientation 🧭/ Animation / Ouverture Culturelle 🎭",
         "asso_page_lien": "insa-jeveuxjepeux",
         "asso_lien_instagram": "https://www.instagram.com/insa_je_veux_je_peux/",
-        "asso_image_fond":"/img/assos/fonds/cover-insa-jeveuxjepeux.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-insa-jeveuxjepeux.webp"
 
     },
     {
@@ -118,7 +118,7 @@
         "asso_page_lien": "insashop",
         "asso_lien_instagram": "https://www.instagram.com/insashop.hdf/",
         "asso_lien_site": "https://www.insashop.fr/hauts-de-france/",
-        "asso_image_fond":"/img/assos/fonds/cover-insashop.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-insashop.webp"
 
     },
     {
@@ -129,7 +129,7 @@
         "asso_description_long": "Bureau des Arts - Musique, Théatre, Cinéma, Danse...",
         "asso_page_lien": "bda",
         "asso_lien_instagram": "https://www.instagram.com/bda_insa_hdf/",
-        "asso_image_fond":"/img/assos/fonds/cover-bda.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-bda.webp"
 
     },
     {
@@ -140,7 +140,7 @@
         "asso_description_long": "Équipe de cheerleading de l’INSA HDF 🦌",
         "asso_page_lien": "cheer-insa-hdf",
         "asso_lien_instagram": "https://www.instagram.com/cheer_insa_hdf/",
-        "asso_image_fond":"/img/assos/fonds/cover-cheer-insa-hdf.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-cheer-insa-hdf.webp"
 
     },
     {
@@ -151,7 +151,7 @@
         "asso_description_long": "Volley, Rugby, Escalade, Piscine...",
         "asso_page_lien": "bds",
         "asso_lien_instagram": "https://www.instagram.com/bds_insa_hdf/",
-        "asso_image_fond":"/img/assos/fonds/cover-bds.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-bds.webp"
 
     },
     {
@@ -162,7 +162,7 @@
         "asso_description_long": "Club de Robotique - Participation à des challenges",
         "asso_page_lien": "valrobotik",
         "asso_lien_instagram": "https://www.instagram.com/valrobotik/",
-        "asso_image_fond":"/img/assos/fonds/cover-valrobotik.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-valrobotik.webp"
 
     },
     {
@@ -185,7 +185,7 @@
         "asso_description_long": "⛵️ Association voile de l'INSA HdF",
         "asso_page_lien": "insea",
         "asso_lien_instagram": "https://www.instagram.com/inseahdf/",
-        "asso_image_fond":"/img/assos/fonds/cover-insea.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-insea.webp"
 
     },
     {
@@ -219,7 +219,7 @@
         "asso_description_long": "Club Photo de l'INSA HdF 📸",
         "asso_page_lien": "cariboushots",
         "asso_lien_instagram": "https://www.instagram.com/cariboushots/",
-        "asso_image_fond":"/img/assos/fonds/cover-cariboushots.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-cariboushots.webp"
 
     },
     {
@@ -230,7 +230,7 @@
         "asso_description_long": "Club de danse de l'INSA Hauts-de-France 💃🕺",
         "asso_page_lien": "danse-avec-linsa",
         "asso_lien_instagram": "https://www.instagram.com/danse_avec_l.insa/",
-        "asso_image_fond":"/img/assos/fonds/cover-danse-avec-linsa.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-danse-avec-linsa.webp"
 
     },
     {
@@ -241,7 +241,7 @@
         "asso_description_long": "",
         "asso_page_lien": "climbinsa",
         "asso_lien_instagram": "https://www.instagram.com/climbinsahdf/",
-        "asso_image_fond": "/img/assos/fonds/cover-climbinsa.jpg"
+        "asso_image_fond": "/img/assos/fonds/cover-climbinsa.webp"
 
     },
     {
@@ -253,7 +253,7 @@
         "asso_page_lien": "studinsa",
         "asso_lien_instagram": "https://www.instagram.com/stud_insa/",
         "asso_lien_spotify": "https://open.spotify.com/artist/6m8Ftwdar9QBkXUuvKP8lX?si=6JEiHOy3RmqLE2SQsKZU5A&nd=1&dlsi=b8a59ba721244a19",
-        "asso_image_fond":"/img/assos/fonds/cover-studinsa.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-studinsa.webp"
 
     },
     {
@@ -276,7 +276,7 @@
         "asso_description_long": "Venez vous amuser avec nous tous les jeudis de 14h à 18h en salle bouleau de la bu dans la joie et la bonne humeur",
         "asso_page_lien": "caribou-game-club",
         "asso_lien_instagram": "https://www.instagram.com/caribou_game_club/",
-        "asso_image_fond":"/img/assos/fonds/cover-caribou-game-club.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-caribou-game-club.webp"
 
     },
     {
@@ -311,7 +311,7 @@
         "asso_description_long": "Troupe de théâtre de l'insa hdf 🎊🦌 - Du théâtre, de l'impro, du rire,...🎭🎭 - N'hésitez pas à nous contacter en DM si vous êtes intéressés !",
         "asso_page_lien": "la-troupe-insa",
         "asso_lien_instagram": "https://www.instagram.com/troupe_insahdf/",
-        "asso_image_fond":"/img/assos/fonds/cover-la-troupe-insa.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-la-troupe-insa.webp"
 
     },
     {
@@ -322,7 +322,7 @@
         "asso_description_long": "Club d'Oenologie de l'INSA HdF",
         "asso_page_lien": "vaoc",
         "asso_lien_instagram": "https://www.instagram.com/vaoc_insa_hdf/",
-        "asso_image_fond":"/img/assos/fonds/cover-vaoc.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-vaoc.webp"
 
     },
     {

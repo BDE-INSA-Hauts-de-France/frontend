@@ -9,7 +9,7 @@ sidebar_position: 4
 # Transports
 <figure>
 
-![Photo du tram de valenciennes](/img/valenciennes/tram.jpg)
+![Photo du tram de valenciennes](/img/valenciennes/tram.webp)
 <figcaption>Le tram devant la gare de Valenciennes - _source : europe-en-france.gouv.fr_ </figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ Attention, les trams ne circulent plus après 21h. Pour rentrer plus tard, il fa
 
 ### La carte Pass&Go (-26 ans)
 
-![Carte Pass&Go](/img/valenciennes/bandeau-passandgo.jpg)
+![Carte Pass&Go](/img/valenciennes/bandeau-passandgo.webp)
 Les transports sont gratuits dans la zone de valenciennes pour les moins de 26 ans. Pour cela, il faut [faire la demande sur le site de transvilles](https://www.transvilles.com/votre-abonnement-passgo/). La carte coûte 20€/an.
 
 La carte de transport est valable dans les zones Valenciennes Métropole et Porte du Hainault (soit 81 agglomérations) pour :

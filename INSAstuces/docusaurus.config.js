@@ -316,7 +316,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Développé et maintenu avec ❤️ par <b><a href='https://insash.org'>./insa.sh</a></b> – INS'Astuces Hauts-de-France © ${new Date().getFullYear()} ` ,
+        copyright: `Développé et maintenu avec ❤️ par <b><a href='https://insash.org' target='_blank'>./insa.sh</a></b> – INS'Astuces Hauts-de-France © ${new Date().getFullYear()} ` ,
       },
       prism: {
         theme: prismThemes.github,
