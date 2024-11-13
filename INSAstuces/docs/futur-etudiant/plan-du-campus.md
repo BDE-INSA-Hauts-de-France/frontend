@@ -6,6 +6,7 @@ tags:
 sidebar_position: 2
 
 ---
+
 import FileDownloadBox from '@site/src/components/FileDownloadBox';
 
 
@@ -28,7 +29,7 @@ Les cours de l'INSA Hauts-de-France ne se déroulent pas dans tous les bâtiment
 ## Lieux de vie
 
 ### Le KAWA ☕
-Durant tes années à l'INSA, tu ne pourras pas passer à côté du KAWA ! C'est **le café étudiant de l'INSA Hauts-de-France**. Il est situé dans le **bâtiment CLJ1**. Le KAWA est une association à part entière qui est maintenue par les étudiants. Tu pourras y trouver des boissons chaudes, des boissons fraîches, des snacks et des plats chauds.
+Durant tes années à l'INSA, tu ne pourras pas passer à côté du [KAWA](/vie-etudiante/assos-et-clubs/kawa) ! C'est **le café étudiant de l'INSA Hauts-de-France**. Il est situé dans le **bâtiment CLJ1**. Le KAWA est une association à part entière qui est maintenue par les étudiants. Tu pourras y trouver des boissons chaudes, des boissons fraîches, des snacks et des plats chauds.
 
 <!-- <figure>
 
@@ -41,7 +42,7 @@ Durant tes années à l'INSA, tu ne pourras pas passer à côté du KAWA ! C'est
 
 Un repas coûte **3,30€** pour tous les étudiants et **1€ pour les boursiers**. Il est possible de bénéficier de 2 repas au tarif étudiant par jour. Tous les paiements se font par **IZLY**, le système de paiement du Crous. [Comment ça marche ?](https://www.izly.fr/index.html#howitworks)
 
-Pour payer, on peut utiliser un QR Code généré par l'[**application IZLY**](https://www.izly.fr/) ou sa **carte étudiante**.
+Pour payer, tu peux utiliser le QR Code généré par l'[**application IZLY**](https://www.izly.fr/) ou ta **carte étudiante** qui est directement connectée à IZLY.
 
 Plusieurs restaurants universitaires sont situés à l'intérieur du Campus Mont-Houy. Ils sont ouverts en semaine de 11h15 à 13h30
 
@@ -63,9 +64,9 @@ Plusieurs restaurants universitaires sont situés à l'intérieur du Campus Mont
 
  
 ## Lieux de travail 📚
-Travailler en groupe ou dans le calme? Pas de soucis! La **BU du Mont-Houy** est là pour toi! Tu y trouveras de **grandes salles de travail** et tu pourras aussi **réserver des salles de travail de groupe** sur l'application Affluences.
+Travailler en groupe ou dans le calme? Pas de soucis! La **BU du Mont-Houy** est là pour toi! Tu y trouveras de **grandes salles de travail** mais aussi des **plus petites salles de travail de groupe** réservables sur l'application [Affluences](/vie-etudiante/assos-et-clubs/club-info).
 
-Les salles de travail de groupe sont dotées de tables, chaises et d'un écran connecté en Wi-Fi pour la projection. Certaines salles sont **insonorisées** donc parfaites pour passer des visioconférences.
+Les salles de travail de groupe sont toutes équipées de tables, chaises et d'un écran connecté pour la projection. Certaines salles sont **insonorisées** donc parfaites pour passer des visioconférences.
 
 Si tu souhaites travailler ailleurs, tu peux aussi t'installer **dans des salles de cours non-occupées** ou dans les **salles informatiques en CLJ-1**, qui sont en **libre accès**.
 
