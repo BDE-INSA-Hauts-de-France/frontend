@@ -15,7 +15,7 @@ import rehypeKatex from 'rehype-katex';
 const config = {
   title: 'INS\'Astuces HdF',
   tagline: 'Le site pour les étudiants ingénieurs de l\'INSA Hauts-de-France',
-  favicon: 'img/assos/logo-bde.png',
+  favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
   url: 'https://astuces.insahdf.fr',
@@ -246,6 +246,37 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Le BDE',
+            items: [
+              {
+                label: 'Actus',
+                to: '/',
+              },
+              {
+                label: 'La Newsletter',
+                to: '/',
+              },
+              {
+                label: 'Le Calendrier',
+                to: '/',
+              },
+              {
+                label: 'Nous rejoindre',
+                to: '/',
+              },
+              {
+                label: 'Partenariats',
+                to: '/',
+              },
+              {
+                label: 'AG & documents officiels',
+                to: '/',
+              },
+
+            ],
+          },
+
           // {
           //   title: 'Community',
           //   items: [
@@ -271,21 +302,21 @@ const config = {
                 href: 'https://insash.org',
               },
               {
-                label: 'BDE INSA HdF',
-                href: 'https://sites.google.com/view/bde-insahdf',
-              },
-              
-              {
-                label: 'GitHub',
-                href: 'https://github.com/insa-sh/INSAstuces',
-              },
-              {
                 label: 'Suggérer une fonctionnalité ou modification',
                 href: 'https://github.com/insa-sh/INSAstuces/issues/new',
               },
+              {
+                label: 'Repo GitHub',
+                href: 'https://github.com/insa-sh/INSAstuces',
+              },
+
 
               {
                 label: 'A propos de ce site',
+                to: '/',
+              },
+              {
+                label: 'Mentions Légales',
                 to: '/',
               },
               {
@@ -312,6 +343,10 @@ const config = {
               {
                 label: 'Fondation INSA',
                 href: 'https://fondation.groupe-insa.fr/',
+              },
+              {
+                label: 'La Coopérative du Groupe INSA',
+                href: 'https://lacooperative.groupe-insa.fr/',
               },
             ],
           },
