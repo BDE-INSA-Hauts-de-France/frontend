@@ -10,27 +10,24 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+    <header id={styles.homePageHeader}>
+      <div id={styles.bdeTitle}>
+        <h1 id={styles.bdeTitleText}>Bureau Des Etudiants</h1>
+        <p id={styles.bdeTitleSubtext}>INSA Hauts-de-France</p>
+        <div className={styles.buttonBox}>
         <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--rg"
             to="futur-etudiant">
             Futur étudiant?
             <br/>Prépare ta rentrée!
           </Link>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--rg"
             to="vie-etudiante">
             Découvre la
             <br/>vie étudiante
           </Link>
         </div>
-
       </div>
     </header>
   );

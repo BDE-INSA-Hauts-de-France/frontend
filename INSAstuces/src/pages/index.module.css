@@ -3,16 +3,42 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+header#homePageHeader {
+  padding: 2vh 4vw;
+  text-align: left;
   position: relative;
-  overflow: hidden;
-  background: linear-gradient(45deg, #f64e70, #ed99a9);
+  /* background: linear-gradient(45deg, #f64e70, #ed99a9); */
+  background-color: rgba(142, 142, 142, 0.1);
+  height: calc(100vh - 60px);
+  max-height: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
+h1#bdeTitleText {
+  font-weight: 900;
+  font-size: 46px;
+  color: var(--rouge-bde);
+  margin: 0;
+
+}
+p#bdeTitleSubtext {
+  font-size: 26px;
+  font-weight: 300;
+}
+
+div.buttonBox {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+
+
 @media screen and (max-width: 996px) {
-  .heroBanner {
+  header {
     padding: 2rem;
   }
 }
@@ -29,3 +55,15 @@
 .buttons p {
   
 }
+
+
+
+/* mobile */
+
+@media screen and (max-width: 996px) {
+  header#homePageHeader {
+    padding: 2vh 20px;
+    flex-direction: column;
+  }
+}
+
