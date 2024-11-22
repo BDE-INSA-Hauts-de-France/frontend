@@ -99,7 +99,7 @@
 
     },
     {
-        "asso_name": "INSA Je veux, Je peux",
+        "asso_name": "INSA, Je veux, Je peux",
         "asso_logo": "/img/assos/logo-insajeveuxjepeux.png",
         "asso_type": "Asso",
         "asso_description_short": "Accompagnement, orientation, animation, culture",
@@ -334,6 +334,17 @@
         "asso_page_lien": "caribou-quest",
         "asso_lien_instagram": "https://www.instagram.com/caribouquest/",
         "asso_image_fond":""
+
+    },
+    {
+        "asso_name": "Bureau de l'Ambiance",
+        "asso_logo": "/img/assos/logo-bdambiance.png",
+        "asso_type": "Club",
+        "asso_description_short": "Supporter, chanter, vibrer pour l'INSA HdF",
+        "asso_description_long": "Le Bureau de l'ambiance est LE Club de l'INSA HdF. Venez supporter, chanter et mettre l'ambiance à tous les événements de l'INSA !",
+        "asso_page_lien": "bdambiance",
+        "asso_lien_instagram": "https://www.instagram.com/barry_le_caribou/",
+        "asso_image_fond":"/img/assos/fonds/cover-bdambiance.webp"
 
     }
 ]

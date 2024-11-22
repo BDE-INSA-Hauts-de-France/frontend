@@ -33,22 +33,43 @@ Pour devenir membre d'une association, il est nécessaire d'avoir payé la cotis
     flexWrap: 'wrap',
     gap: '20px',
   }}>
+{/* ordonne associationData par ordre alphabétique de leur asso_name property*/}
 
-    {associationsData.map((association, index) => (
-        <AssociationCard
-            key={index}
-            asso_name={association.asso_name}
-            asso_logo={association.asso_logo}
-            asso_type={association.asso_type}
-            asso_description_short={association.asso_description_short}
-            asso_page_lien={association.asso_page_lien}
-            asso_lien_instagram={association.asso_lien_instagram}
-            asso_lien_site={association.asso_lien_site}
-            asso_lien_discord={association.asso_lien_discord}
-            asso_lien_linkedin={association.asso_lien_linkedin}
-            asso_lien_spotify={association.asso_lien_spotify}
-        />
-    
 
-      ))}
+{associationsData
+  .sort((a, b) => a.asso_name.localeCompare(b.asso_name))
+  .map((association, index) => (
+    <AssociationCard
+      key={index}
+      asso_name={association.asso_name}
+      asso_logo={association.asso_logo}
+      asso_type={association.asso_type}
+      asso_description_short={association.asso_description_short}
+      asso_page_lien={association.asso_page_lien}
+      asso_lien_instagram={association.asso_lien_instagram}
+      asso_lien_site={association.asso_lien_site}
+      asso_lien_discord={association.asso_lien_discord}
+      asso_lien_linkedin={association.asso_lien_linkedin}
+      asso_lien_spotify={association.asso_lien_spotify}
+    />
+  ))}
+
+
+{/* ancienne version non triée */}
+{/* {associationsData.map((association, index) => (
+    <AssociationCard
+      key={index}
+      asso_name={association.asso_name}
+      asso_logo={association.asso_logo}
+      asso_type={association.asso_type}
+      asso_description_short={association.asso_description_short}
+      asso_page_lien={association.asso_page_lien}
+      asso_lien_instagram={association.asso_lien_instagram}
+      asso_lien_site={association.asso_lien_site}
+      asso_lien_discord={association.asso_lien_discord}
+      asso_lien_linkedin={association.asso_lien_linkedin}
+      asso_lien_spotify={association.asso_lien_spotify}
+    />
+  ))} */}
+
 </div>
