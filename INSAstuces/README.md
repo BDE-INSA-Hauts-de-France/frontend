@@ -61,6 +61,7 @@ Pour développer le site, il est nécessaire d'installer nodeJS. Pour la publica
     
 ### Lancer le site en local sur une machine
 ```bash
+    npm install # Pour installer les dépendances seulement la première fois
     npm run start
 ```
 Le site sera accessible à l'adresse [http://localhost:3000](http://localhost:3000)

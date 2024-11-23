@@ -15,7 +15,7 @@ tags: [Logiciels]
 - [Notes en ligne](https://mdw.uphf.fr/mondossierweb-pegase) - Consultation des notes (à partir de la 3A)
 
 ## Stockage et partage de fichiers
-- 1 To de stockage sur OneDrive à la [création d'un compte étudiant](https://www.microsoft.com/fr-fr/education/products/office) avec l'adresse email en `@uphf.fr`
+- 100 Go de stockage sur OneDrive à la [création d'un compte étudiant](https://www.microsoft.com/fr-fr/education/products/office) avec l'adresse email en `@uphf.fr`
 :::info
 L'UPHF n'offre pas de licence Microsoft 365 aux étudiants. Cependant, il est possible d'utiliser gratuitement la suite office en ligne.
 :::
