@@ -17,8 +17,8 @@ header#homePageHeader {
 }
 
 h1#bdeTitleText {
-  font-weight: 900;
-  font-size: 46px;
+  font-weight: 700;
+  font-size: 64px;
   color: var(--rouge-bde);
   margin: 0;
 

@@ -7,6 +7,11 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+import Button from '@site/src/components/Button';
+
+
+
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -15,18 +20,13 @@ function HomepageHeader() {
         <h1 id={styles.bdeTitleText}>Bureau Des Etudiants</h1>
         <p id={styles.bdeTitleSubtext}>INSA Hauts-de-France</p>
         <div className={styles.buttonBox}>
-        <Link
-            className="button button--secondary button--rg"
-            to="futur-etudiant">
-            Futur étudiant?
-            <br/>Prépare ta rentrée!
-          </Link>
-          <Link
-            className="button button--secondary button--rg"
-            to="vie-etudiante">
-            Découvre la
-            <br/>vie étudiante
-          </Link>
+          <Button style="bordered" textContent="Futur étudiant ? Prépare ta rentrée!" 
+            to="/futur-etudiant"
+          />
+          <Button textContent="Découvre la vie étudiante!" 
+            to="/vie-etudiante"
+          />
+
         </div>
       </div>
     </header>
