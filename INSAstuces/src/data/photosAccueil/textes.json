@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 0,
+        "titre" : "Vie Etudiante",
+        "description" : "Le BDE est l'association qui anime la vie étudiante à l'INSA de Lyon. Il organise de nombreux évènements tout au long de l'année comme des voyages, le WEI, le Gala..."    },
+    {
+        "id" : 1,
+        "titre" : "C'est L'INSA HdF, C'est l'INSA de l'ambiance !",
+        "description" : "Très rapidemment tu connaîtras les chants de l'INSA HdF! Nous sommes prêts à tout pour décrocher le prix de l'ambiance lors de chaque évènement !"
+    },
+    {
+        "id" : 2,
+        "titre" : "Le Gala de l'INSA",
+        "description" : "Le Gala de l'INSA est un évènement incontournable de l'année. La cérémonie de remise des diplômes a lieu en milieu d'année scolaire et est l'occasion pour les étudiants de se retrouver pour une soirée de folie !"
+    },
+    {
+        "id" : 3,
+        "titre" : "Le TOSS",
+        "description" : "Le TOSS est le tournoi sportif ui regroupes toutes les écoles d'ingé de France. Il est organisé par le BDS de Centrale Supélec"
+    }
+
+]

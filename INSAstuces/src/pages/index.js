@@ -10,7 +10,8 @@ import styles from './index.module.css';
 import Button from '@site/src/components/Button';
 import PhotoBoxAccueil from '@site/src/components/PhotoBoxAccueil';
 
-
+// importer un script pour les photos
+// import { changePhoto } from './utils.js';
 
 
 function HomepageHeader() {
@@ -32,10 +33,11 @@ function HomepageHeader() {
       </div>
       <div id={styles.bdePhotoBox}>
         <PhotoBoxAccueil
-          imagePath="/img/insa/amphi-rentree.webp"
+          imagePath="img/insa/photos_accueil/etudiants-insa-credit-photo-manon-van-roekeghem.webp"
           titre="Vie étudiante"
-          description="Découvre les activités et les services proposés par le BDE"
+          description="Le BDE est l'association qui anime la vie étudiante à l'INSA de Lyon. Il organise de nombreux évènements tout au long de l'année comme des voyages, le WEI, le Gala..."
         />
+        
       </div>
     </header>
   );
