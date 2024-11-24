@@ -13,6 +13,8 @@ header#homePageHeader {
   max-height: 700px;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
   align-items: center;
 }
 
@@ -25,7 +27,7 @@ h1#bdeTitleText {
 }
 p#bdeTitleSubtext {
   font-size: 26px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 div.buttonBox {

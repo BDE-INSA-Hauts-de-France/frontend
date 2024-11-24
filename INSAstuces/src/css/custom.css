@@ -35,6 +35,10 @@
   /* autres */
 
   --global-transition-duration : 0.3s;
+
+
+
+  box-sizing: border-box;
   
 }
 
