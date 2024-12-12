@@ -98,7 +98,8 @@
 
 
 #PhotoBoxAccueilBouton {
-    background-color: rgba(52, 52, 52, 0.6);
+    background-color: rgba(211, 211, 211, 0.4);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(4px) !important;
     -webkit-backdrop-filter: blur(4px) !important;
     border-radius: 12px;
