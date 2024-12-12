@@ -66,6 +66,10 @@ div.buttonBox {
   header#homePageHeader {
     padding: 2vh 20px;
     flex-direction: column;
+    height: 100%;
+    max-height: unset;
+    padding-bottom: 40px;
   }
+  
 }
 
