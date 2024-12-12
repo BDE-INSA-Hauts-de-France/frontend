@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "src": "img/insa/photos_accueil/etudiants-insa-credit-photo-manon-van-roekeghem.webp",
+        "idTexte": 1
+    },
+    {
+        "id": 2,
+        "src": "img/insa/photos_accueil/match_vafc_florian.jpg",
+        "idTexte": 2
+    },
+    {
+        "id": 3,
+        "src": "img/insa/photos_accueil/gala-insa-22-23.webp",
+        "idTexte": 3
+    },
+    {
+        "id": 4,
+        "src": "img/insa/photos_accueil/toss.webp",
+        "idTexte": 4
+    }
+
+]

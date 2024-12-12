@@ -346,5 +346,17 @@
         "asso_lien_instagram": "https://www.instagram.com/barry_le_caribou/",
         "asso_image_fond":"/img/assos/fonds/cover-bdambiance.webp"
 
+    },
+    {
+        "asso_name": "La Band'à Barry",
+        "asso_logo": "/img/assos/logo-bandabarry.png",
+        "asso_type": "Asso",
+        "asso_description_short": "La Banda de l’INSA Hdf 🎺🥁",
+        "asso_description_long": "Salut, nous c'est la Band'à Barry, la fanfare de l'école 🎺🥁!",
+        "asso_page_lien": "bandabarry",
+        "asso_lien_instagram": "https://www.instagram.com/la_banda_barry/",
+        "asso_image_fond":"/img/assos/fonds/cover-bandabarry.webp"
+
     }
-]
+
+    ]

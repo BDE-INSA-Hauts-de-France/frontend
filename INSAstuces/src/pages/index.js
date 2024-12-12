@@ -7,37 +7,47 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+import Button from '@site/src/components/Button';
+import PhotoBoxAccueil from '@site/src/components/PhotoBoxAccueil';
+
+// importer un script pour les photos
+// import { changePhoto } from './utils.js';
+
+
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header id={styles.homePageHeader}>
       <div id={styles.bdeTitle}>
         <h1 id={styles.bdeTitleText}>Bureau Des Etudiants</h1>
-        <p id={styles.bdeTitleSubtext}>INSA Hauts-de-France</p>
+        <p id={styles.bdeTitleSubtext}>de l'INSA Hauts-de-France</p>
         <div className={styles.buttonBox}>
-        <Link
-            className="button button--secondary button--rg"
-            to="futur-etudiant">
-            Futur étudiant?
-            <br/>Prépare ta rentrée!
-          </Link>
-          <Link
-            className="button button--secondary button--rg"
-            to="vie-etudiante">
-            Découvre la
-            <br/>vie étudiante
-          </Link>
+          <Button style="bordered" textContent="Futur étudiant ? Prépare ta rentrée!"
+            to="/futur-etudiant"
+          />
+          <Button textContent="Découvre la vie étudiante!"
+            to="/vie-etudiante"
+          />
+
         </div>
+      </div>
+      <div id={styles.bdePhotoBox}>
+        <PhotoBoxAccueil
+          imagePath="img/insa/photos_accueil/etudiants-insa-credit-photo-manon-van-roekeghem.webp"
+          titre="Vie étudiante"
+          description="Le BDE est l'association qui anime la vie étudiante à l'INSA de Lyon. Il organise de nombreux évènements tout au long de l'année comme des voyages, le WEI, le Gala..."
+        />
+        
       </div>
     </header>
   );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Guide de vie à l'INSA Hauts-de-France`}
+      title={`BDE de l'INSA Hauts-de-France`}
       description="Le site pour les étudiants ingénieurs de l'INSA Hauts-de-France
 
       ">

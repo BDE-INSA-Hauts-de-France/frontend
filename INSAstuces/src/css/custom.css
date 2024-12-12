@@ -22,7 +22,23 @@
   --contact-card-background: #f5f5f5;
   --contact-card-border: #e8e8e8;
 
-  --rouge-bde: #ef2c39;
+  --rouge-bde: #d82211;
+  --rouge-bde-dark:	#c21f0f;
+  --rouge-bde-darker:	#b81d0e;
+  --rouge-bde-darkest:#97180c;
+
+  --rouge-insa: #e42618;
+
+
+
+
+  /* autres */
+
+  --global-transition-duration : 0.3s;
+
+
+
+  box-sizing: border-box;
   
 }
 
@@ -42,6 +58,9 @@
 
   --contact-card-background: #333333;
   --contact-card-border: #4d4d4d;
+
+  --rouge-bde: #e52613;
+
 }
 
 
