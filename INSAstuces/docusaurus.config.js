@@ -211,15 +211,11 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            to: '/',
+            to: 'vie-etudiante/evenements',
             label: 'Calendrier',
             position: 'right',
           },
-          {
-            to: '/',
-            label: 'Events',
-            position: 'right',
-          },
+
         ],
       },
       footer: {
