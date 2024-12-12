@@ -21,6 +21,10 @@ import ContactCard from '@site/src/components/ContactCard';
 ### Génie Mécanique
 ### Mécatronique
 ### Informatique et Cybersécurité
+<ContactCard first_name="Emmanuel" last_name="Adam" role="Responsable filière ICy FISE" email="emmanuel.adam@uphf.fr" phone_number="+33 3 27 51 19 56"/>
+
+<ContactCard first_name="Marie" last_name="Thilliez" role="Responsable filière ICy FISA" email="marie.thilliez@uphf.fr" phone_number="+33 3 27 51 14 99"/>
+
 
 ## Relations Internationales
 
