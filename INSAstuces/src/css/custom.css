@@ -82,6 +82,10 @@ figcaption {
   /* margin-left:12px;*/
 }
 
+iframe {
+  max-width: 100%;
+  border-radius: 8px;
+}
 
 /* images */
 img {

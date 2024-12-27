@@ -255,7 +255,7 @@ const config = {
               },
               {
                 label: 'Le Calendrier',
-                to: '/',
+                to: '/vie-etudiante/evenements',
               },
               {
                 label: 'Nous rejoindre',
@@ -308,12 +308,12 @@ const config = {
 
 
               {
-                label: 'A propos de ce site',
-                to: '/',
+                label: 'Crédits & Remerciements',
+                to: '/credits',
               },
               {
                 label: 'Mentions Légales',
-                to: '/',
+                to: '/mentions-legales',
               },
               {
                 label: 'Plan du site',
