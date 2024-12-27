@@ -35,7 +35,7 @@ function HomepageHeader() {
         <PhotoBoxAccueil
           imagePath="img/insa/photos_accueil/etudiants-insa-credit-photo-manon-van-roekeghem.webp"
           titre="Vie étudiante"
-          description="Le BDE est l'association qui anime la vie étudiante à l'INSA de Lyon. Il organise de nombreux évènements tout au long de l'année comme des voyages, le WEI, le Gala..."
+          description="Le BDE est l'association qui anime la vie étudiante à l'INSA. Il organise de nombreux évènements tout au long de l'année comme des voyages, le WEI, le Gala..."
         />
         
       </div>
