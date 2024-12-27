@@ -13,7 +13,7 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'INS\'Astuces HdF',
+  title: 'BDE INSA HdF',
   tagline: 'Le site pour les étudiants ingénieurs de l\'INSA Hauts-de-France',
   favicon: 'img/favicon.svg',
 
@@ -81,9 +81,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/favicon.svg',
       navbar: {
-        title: 'INS\'Astuces HdF',
+        title: 'BDE INSA HdF',
         logo: {
-          alt: 'Logo du site INS\'Astuces',
+          alt: 'Logo du site du BDE de l\'INSA HdF',
           src: 'img/favicon.svg',
         },
         items: [
@@ -347,7 +347,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Développé et maintenu avec ❤️ par <b><a href='https://insash.org' target='_blank'>./insa.sh</a></b> – INS'Astuces Hauts-de-France © ${new Date().getFullYear()} ` ,
+        copyright: `Développé et maintenu avec ❤️ par <b><a href='https://insash.org' target='_blank'>./insa.sh</a></b> – BDE INSA Hauts-de-France © ${new Date().getFullYear()} ` ,
       },
       prism: {
         theme: prismThemes.github,
