@@ -36,7 +36,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'fr',
-    locales: ['fr'],
+    locales: ['fr','en'],
   },
 
   presets: [
@@ -215,6 +215,11 @@ const config = {
             label: 'Calendrier',
             position: 'right',
           },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+  
 
         ],
       },

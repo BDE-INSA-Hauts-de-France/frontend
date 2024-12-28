@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.completeSidebar.category.Nouveaux étudiants": {
+    "message": "New students",
+    "description": "The label for category New students in sidebar completeSidebar"
+  },
+  "sidebar.completeSidebar.category.📚 Starter Packs": {
+    "message": "📚 Starter Packs",
+    "description": "The label for category 📚 Starter Packs in sidebar completeSidebar"
+  },
+  "sidebar.completeSidebar.category.Outils informatiques": {
+    "message": "IT Tools",
+    "description": "The label for category IT Tools in sidebar completeSidebar"
+  },
+  "sidebar.completeSidebar.category.ENT": {
+    "message": "ENT",
+    "description": "The label for category ENT in sidebar completeSidebar"
+  },
+  "sidebar.completeSidebar.category.🎏 Vie étudiante": {
+    "message": "🎏 Student life",
+    "description": "The label for category 🎏 Student life in sidebar completeSidebar"
+  },
+  "sidebar.completeSidebar.category.🌳 Assos et Clubs": {
+    "message": "🌳 Associations and Clubs",
+    "description": "The label for category 🌳 Associations and Clubs in sidebar completeSidebar"
+  },
+  "sidebar.completeSidebar.category.Administratif": {
+    "message": "Administrative",
+    "description": "The label for category Administrative in sidebar completeSidebar"
+  },
+  "sidebar.completeSidebar.category.Administratif.link.generated-index.description": {
+    "message": "Schooling - Secretariats - Contacts - etc.",
+    "description": "The generated-index page description for category Administrative in sidebar completeSidebar"
+  },
+  "sidebar.completeSidebar.category.🌍 international": {
+    "message": "🌍 International",
+    "description": "The label for category 🌍 International in sidebar completeSidebar"
+  },
+  "sidebar.newStudentSidebar.category.📚 Starter Packs": {
+    "message": "📚 Starter Packs",
+    "description": "The label for category 📚 Starter Packs in sidebar newStudentSidebar"
+  },
+  "sidebar.vieEtudianteSidebar.category.🌳 Assos et Clubs": {
+    "message": "🌳 Associations and Clubs",
+    "description": "The label for category 🌳 Associations and Clubs in sidebar vieEtudianteSidebar"
+  },
+  "sidebar.informatiqueSidebar.category.ENT": {
+    "message": "ENT",
+    "description": "The label for category ENT in sidebar informatiqueSidebar"
+  }
+}
