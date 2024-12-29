@@ -304,11 +304,11 @@ const config = {
               },
               {
                 label: 'Suggérer une fonctionnalité ou modification',
-                href: 'https://github.com/insa-sh/INSAstuces/issues/new',
+                href: 'https://github.com/BDE-INSA-Hauts-de-France/frontend/issues/new',
               },
               {
                 label: 'Repo GitHub',
-                href: 'https://github.com/insa-sh/INSAstuces',
+                href: 'https://github.com/BDE-INSA-Hauts-de-France/frontend',
               },
 
 

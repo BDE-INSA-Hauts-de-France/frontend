@@ -1,6 +1,6 @@
 ![GitHub Badge juste pour faire beau](https://img.shields.io/badge/INS'Astuces-HdF-pink?style=for-the-badge&logo=github&logoColor=white) 
-![Nombre total de Commits GitHub](https://img.shields.io/github/commit-activity/t/insa-sh/INSAstuces?style=for-the-badge)
-![Nombre d'issues ouvertes](https://img.shields.io/github/issues/insa-sh/INSAstuces?style=for-the-badge)
+![Nombre total de Commits GitHub](https://img.shields.io/github/commit-activity/t/BDE-INSA-Hauts-de-France/frontend?style=for-the-badge)
+![Nombre d'issues ouvertes](https://img.shields.io/github/issues/BDE-INSA-Hauts-de-France/frontend?style=for-the-badge)
 
 # Lancement du projet INS'Astuces
 
@@ -83,7 +83,7 @@ Vous pouvez participer à la réalisation du site INS'Astuces de différentes ma
 
 Vous avez une idée de contenu à ajouter, une fonctionnalité à suggérer ou une erreur à signaler ? Ouvrez une issue sur ce dépôt en précisant votre demande.
 
-[> Proposer une fonctionnalité, un contenu ou signaler une erreur](https://github.com/insa-sh/INSAstuces/issues/new)
+[> Proposer une fonctionnalité, un contenu ou signaler une erreur](https://github.com/BDE-INSA-Hauts-de-France/frontend/issues/new)
 
 ## Personnaliser les pages des associations
 
@@ -140,7 +140,7 @@ Pour modifier les informations - logo - photos - liens associés à votre asso, 
 
 # Développement
 
-Plus d'informations sur : [Développement](https://github.com/insa-sh/INSAstuces/blob/main/INSAstuces/README.md)
+Plus d'informations sur : [Développement](https://github.com/BDE-INSA-Hauts-de-France/frontend/blob/main/INSAstuces/README.md)
 
 > Inspirations : [WikiEtud INSA Toulouse](https://wiki.etud.insa-toulouse.fr/)
 
