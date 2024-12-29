@@ -1,0 +1,98 @@
+{
+  "title": {
+    "message": "BDE INSA HdF",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "INSA HdF Student Union site logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Futur étudiant": {
+    "message": "New Students",
+    "description": "Navbar item with label New Students"
+  },
+  "item.label.Vie étudiante": {
+    "message": "Student life",
+    "description": "Navbar item with label Student life"
+  },
+  "item.label.Ressources et astuces": {
+    "message": "Resources and tips",
+    "description": "Navbar item with label Resources and tips"
+  },
+  "item.label.International": {
+    "message": "International",
+    "description": "Navbar item with label International"
+  },
+  "item.label.Calendrier": {
+    "message": "Calendar",
+    "description": "Navbar item with label Calendar"
+  },
+  "item.label.🗺️ Plan du campus & Repères": {
+    "message": "🗺️ Campus map",
+    "description": "Navbar item with label Campus map"
+  },
+  "item.label.🏠 Logement": {
+    "message": "🏠 Housing",
+    "description": "Navbar item with label Housing"
+  },
+  "item.label.🚍 Transports": {
+    "message": "🚍 Transportation",
+    "description": "Navbar item with label Transportation"
+  },
+  "item.label.😎 Ton Futur camarade de promo": {
+    "message": "😎 Find your future classmates",
+    "description": "Navbar item with label Find your future classmates"
+  },
+  "item.label.📚 Starter Packs": {
+    "message": "📚 Starter Packs",
+    "description": "Navbar item with label Starter Packs"
+  },
+  "item.label.📝 Admissions": {
+    "message": "📝 Admissions",
+    "description": "Navbar item with label Admissions"
+  },
+  "item.label.🎏 Vie étudiante": {
+    "message": "🎏 Student life",
+    "description": "Navbar item with label Student life"
+  },
+  "item.label.🔔 Le BDE": {
+    "message": "🔔 The Student Union",
+    "description": "Navbar item with label The Student Union"
+  },
+  "item.label.🌳 Assos et Clubs": {
+    "message": "🌳 Clubs and student organizations",
+    "description": "Navbar item with label Clubs and student organizations"
+  },
+  "item.label.🗓️ Les évènements": {
+    "message": "🗓️ Events",
+    "description": "Navbar item with label Events"
+  },
+  "item.label.🧠 Le Point Culture": {
+    "message": "🧠 Culture point",
+    "description": "Navbar item with label Culture point"
+  },
+  "item.label.🧑‍💻 ENT et services informatiques": {
+    "message": "🧑‍💻 ENT and IT services",
+    "description": "Navbar item with label ENT and IT services"
+  },
+  "item.label.💰 Remises étudiantes": {
+    "message": "💰 Student discounts",
+    "description": "Navbar item with label Student discounts"
+  },
+  "item.label.🌐 La Section Internationale": {
+    "message": "🌐 The International Section",
+    "description": "Navbar item with label The International Section"
+  },
+  "item.label.💱 Stages à l'international": {
+    "message": "💱 International internships",
+    "description": "Navbar item with label International internships"
+  },
+  "item.label.🧳 Césure & ERASMUS": {
+    "message": "🧳 Gap years & ERASMUS",
+    "description": "Navbar item with label Gap years & ERASMUS"
+  },
+  "item.label.🗺️ Réseau de l'INSA HdF et ses alumni": {
+    "message": "🗺️ INSA HdF network and its alumni",
+    "description": "Navbar item with label INSA HdF network and its alumni"
+  }
+}

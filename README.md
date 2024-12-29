@@ -10,7 +10,7 @@ _L'objectif est de créer un site web simple maintenu **par les étudiants pour 
 
 # Accéder au site en pré-version
 
-- Clique sur ce lien suivant pour dévérouiller le site : [unlock.insahdf.fr](https://unlock.insahdf.fr/)
+- Clique sur ce lien suivant pour dévérouiller le site : [unlock.insahdf.fr](https://insahdf.fr/verysecretearlyaccess.php)
 
  > ℹ️ **Note :** Le site est accessible en pré-version. Les liens d'accès sont susceptibles de changer dans les semaines à venir. 
 
@@ -18,30 +18,28 @@ _L'objectif est de créer un site web simple maintenu **par les étudiants pour 
 
 # Contenu du site 
 
-## Pages prévues
-
-Voilà les pages que nous allons publier en premier sur le site :
+## Objectifs de contenu
 
 - Un guide pour les futurs étudiants
-    - Plan du campus et points repères
-    - Transports
-    - Logement
-    - Admissions (redirection vers les liens officiels du Groupe INSA)
-    - Starter Packs
-        - 1A, 2A et 3A : comment bien démarrer l'année et appréhender les cours
-        - Méthodes de travail
-    - Discuter avec les étudiants actuels
+    - [ ] Plan du campus et points repères
+    - [ ] Transports
+    - [ ] Logement
+    - [ ] Admissions (redirection vers les liens officiels du Groupe INSA)
+    - [ ] Starter Packs
+        - [ ] 1A, 2A et 3A : comment bien démarrer l'année et appréhender les cours
+        - [ ] Méthodes de travail
+    - [ ] Discuter avec les étudiants actuels
 - Vie étudiante
-    - Le BDE, ça sert à quoi?
-    - Liste des assos de l'INSA HdF (*voir ci-dessous*)
-    - Les évènements annuels
+    - [ ] Le BDE, ça sert à quoi?
+    - [ ] Liste des assos de l'INSA HdF (*voir ci-dessous*)
+    - [ ] Les évènements annuels
 - Conseils et tutos info
-    - Les logiciels et services fournis par l'UPHF
-    - Comment synchroniser ses mails avec une application mobile pour recevoir les notifs
-    - Les meilleures réducs étudiantes sur les logiciels
+    - [ ] Les logiciels et services fournis par l'UPHF
+    - [ ] Comment synchroniser ses mails avec une application mobile pour recevoir les notifs
+    - [ ] Les meilleures réducs étudiantes sur les logiciels
 - Administratif
-    - Contacts utiles - responsables des SPE...
-    - Fiches d'absences, syllabus...
+    - [ ] Contacts utiles - responsables des SPE...
+    - [ ] Fiches d'absences, syllabus...
 
 > Toute suggestion de votre part est la bienvenue 🤝!
 

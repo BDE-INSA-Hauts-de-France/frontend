@@ -1,9 +1,11 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import React from 'react';
 // Bouton qui point vers les réseaux sociaux
 export const BoutonReseau = ({titre, lien, nom_icon, }) => (
     
     <a class="assos-bouton-lien-reseaux" href={lien}>
         <img 
-        src={`/img/icons/${nom_icon}.svg`}
+        src={useBaseUrl(`/img/icons/${nom_icon}.svg`)}
         alt={`Lien vers ${titre}`}
         />
     </a>
@@ -15,7 +17,11 @@ export const BoutonReseau = ({titre, lien, nom_icon, }) => (
 
 
 {/* Boite d'association */}
-const AssociationPreview = ({ asso_name, asso_logo, asso_type, asso_description_short, asso_page_lien, asso_lien_instagram, asso_lien_site, asso_lien_discord, asso_lien_linkedin, asso_lien_spotify}) => (
+const AssociationPreview = ({ 
+    asso_name, asso_logo, asso_type, asso_description_short, asso_page_lien, asso_lien_instagram, asso_lien_site, asso_lien_discord, asso_lien_linkedin, asso_lien_spotify
+}) => {
+    const pageLink = useBaseUrl(`/vie-etudiante/assos-et-clubs/${asso_page_lien}`);
+    return (
   <a
       class="div-link"
       style={{
@@ -26,10 +32,10 @@ const AssociationPreview = ({ asso_name, asso_logo, asso_type, asso_description_
           minWidth: '200px',
           flex:1,
       }}
-      href = {'/vie-etudiante/assos-et-clubs/'+asso_page_lien}
+      href = {pageLink}
       >
       <img
-          src={asso_logo}
+          src={useBaseUrl(asso_logo)}
           alt={asso_name}
           style={{
               width: 'auto',
@@ -85,13 +91,15 @@ const AssociationPreview = ({ asso_name, asso_logo, asso_type, asso_description_
               padding: '0',
               margin: '0',
 
+          
           }}>{asso_description_short}</p>
       </>
 
 
 
   </a>
-);
+    );
+};
 // Je ne sais pas comment créer et importer des composants depuis des fichiers md. 
 // Pour le moment, ils seront créés directement dans les fichiers mdx
 

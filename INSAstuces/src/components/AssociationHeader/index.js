@@ -1,9 +1,11 @@
+import useBaseUrl from "@docusaurus/useBaseUrl";
+
 // Bouton qui point vers les réseaux sociaux
 export const BoutonReseauHeader = ({ titre, lien, nom_icon, }) => (
 
     <a class="assos-bouton-lien-reseaux header" href={lien} target="_blank">
         <img
-            src={`/img/icons/${nom_icon}.svg`}
+            src={useBaseUrl(`/img/icons/${nom_icon}.svg`)}
             alt={`Lien vers ${titre}`}
              
         />
@@ -51,7 +53,7 @@ const styles = {
 const AssociationHeader = ({ asso_name, asso_logo, asso_type, asso_description_long, asso_image_fond, asso_lien_instagram, asso_lien_site, asso_lien_discord, asso_lien_linkedin, asso_lien_spotify, asso_lien_github }) => (
     <div
     style ={{
-        backgroundImage: `url(${asso_image_fond})`,
+        backgroundImage: `url(${useBaseUrl (asso_image_fond)})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -66,7 +68,7 @@ const AssociationHeader = ({ asso_name, asso_logo, asso_type, asso_description_l
             style = {asso_image_fond !== "" ? styles.avecFond : styles.sansFond}
         >
             <img
-                src={asso_logo}
+                src={useBaseUrl (asso_logo)}
                 alt={asso_name}
                 style={{
                     width: 'auto',

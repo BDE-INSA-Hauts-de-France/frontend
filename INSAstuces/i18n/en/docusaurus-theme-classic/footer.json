@@ -1,0 +1,107 @@
+{
+  "link.title.Liens rapides": {
+    "message": "Quick rapides",
+    "description": "The title of the footer links column with title=Liens rapides in the footer"
+  },
+  "link.title.Le BDE": {
+    "message": "The BDE",
+    "description": "The title of the footer links column with title=Le BDE in the footer"
+  },
+  "link.title.A propos de ce site": {
+    "message": "A propos de ce site",
+    "description": "The title of the footer links column with title=A propos de ce site in the footer"
+  },
+  "link.title.L'école": {
+    "message": "The school",
+    "description": "The title of the footer links column with title=L'école in the footer"
+  },
+  "link.item.label.Futur étudiant": {
+    "message": "New Students",
+    "description": "The label of footer link with label=Futur étudiant linking to futur-etudiant"
+  },
+  "link.item.label.Vie étudiante": {
+    "message": "Student life",
+    "description": "The label of footer link with label=Vie étudiante linking to vie-etudiante"
+  },
+  "link.item.label.Ressources informatiques": {
+    "message": "IT Resources",
+    "description": "The label of footer link with label=Ressources informatiques linking to informatique"
+  },
+  "link.item.label.Administratif": {
+    "message": "Administrative",
+    "description": "The label of footer link with label=Administratif linking to administratif/administration"
+  },
+  "link.item.label.Actus": {
+    "message": "News",
+    "description": "The label of footer link with label=Actus linking to /"
+  },
+  "link.item.label.La Newsletter": {
+    "message": "Newsletter",
+    "description": "The label of footer link with label=La Newsletter linking to /"
+  },
+  "link.item.label.Le Calendrier": {
+    "message": "Calendar",
+    "description": "The label of footer link with label=Le Calendrier linking to /vie-etudiante/evenements"
+  },
+  "link.item.label.Nous rejoindre": {
+    "message": "Join us",
+    "description": "The label of footer link with label=Nous rejoindre linking to /"
+  },
+  "link.item.label.Partenariats": {
+    "message": "Partnerships",
+    "description": "The label of footer link with label=Partenariats linking to /"
+  },
+  "link.item.label.AG & documents officiels": {
+    "message": "GA & official documents",
+    "description": "The label of footer link with label=AG & documents officiels linking to /"
+  },
+  "link.item.label.CLUB INFO - ./insa.sh": {
+    "message": "IT Club - ./insa.sh",
+    "description": "The label of footer link with label=CLUB INFO - ./insa.sh linking to https://insash.org"
+  },
+  "link.item.label.Suggérer une fonctionnalité ou modification": {
+    "message": "Suggest a feature or modification",
+    "description": "The label of footer link with label=Suggérer une fonctionnalité ou modification linking to https://github.com/insa-sh/INSAstuces/issues/new"
+  },
+  
+  "link.item.label.Repo GitHub": {
+    "message": "Repo GitHub",
+    "description": "The label of footer link with label=Repo GitHub linking to https://github.com/insa-sh/INSAstuces"
+  },
+  "link.item.label.Crédits & Remerciements": {
+    "message": "Credits & Thanks",
+    "description": "The label of footer link with label=Crédits & Remerciements linking to /credits"
+  },
+  "link.item.label.Mentions Légales": {
+    "message": "Legal Notice",
+    "description": "The label of footer link with label=Mentions Légales linking to /mentions-legales"
+  },
+  "link.item.label.Plan du site": {
+    "message": "Site map",
+    "description": "The label of footer link with label=Plan du site linking to /plan-du-site"
+  },
+  "link.item.label.INSA Hauts-de-France": {
+    "message": "INSA Hauts-de-France",
+    "description": "The label of footer link with label=INSA Hauts-de-France linking to https://www.insa-hautsdefrance.fr/"
+  },
+  "link.item.label.INS'Alumnis HdF": {
+    "message": "INS'Alumnis HdF",
+    "description": "The label of footer link with label=INS'Alumnis HdF linking to http://insalumni.insash.org"
+  },
+  "link.item.label.Groupe INSA": {
+    "message": "Groupe INSA",
+    "description": "The label of footer link with label=Groupe INSA linking to https://www.groupe-insa.fr/"
+  },
+  "link.item.label.Fondation INSA": {
+    "message": "Fondation INSA",
+    "description": "The label of footer link with label=Fondation INSA linking to https://fondation.groupe-insa.fr/"
+  },
+  "link.item.label.La Coopérative du Groupe INSA": {
+    "message": "La Coopérative du Groupe INSA",
+    "description": "The label of footer link with label=La Coopérative du Groupe INSA linking to https://lacooperative.groupe-insa.fr/"
+  },
+  "copyright": {
+    "message": "Developed and maintained with ❤️ by <b><a href='https://insash.org' target='_blank'>./insa.sh</a></b> – BDE INSA Hauts-de-France © 2024 ",
+    "description": "The footer copyright"
+  }
+}
