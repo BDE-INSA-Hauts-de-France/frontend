@@ -1,46 +1,13 @@
-# Website
-Ce site web est construit en utilisant [Docusaurus](https://docusaurus.io/), un générateur de site web statique moderne.
+# Développement
 
-### Installation
+## Technologies
 
-```
-$ yarn
-```
+Ce site est basé sur [Docusaurus](https://docusaurus.io/), un générateur de sites web statique moderne et open-source basé sur React. Il est maintenu par Facebook
 
-### Développement local
-
-```
-$ yarn start
-```
-
-Cette commande lance un serveur de développement local et ouvre une fenêtre de navigateur. La plupart des modifications sont reflétées en direct sans avoir à redémarrer le serveur.
-
-### Construction
-
-```
-$ yarn build
-```
 
 Cette commande génère le contenu statique dans le répertoire `build` et peut être servi en utilisant n'importe quel service d'hébergement de contenu statique.
 
-### Déploiement
-
-Utilisation de SSH :
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Sans utiliser SSH :
-
-```
-$ GIT_USER=<Votre nom d'utilisateur GitHub> yarn deploy
-```
-
-Si vous utilisez GitHub Pages pour l'hébergement, cette commande est un moyen pratique de construire le site web et de le pousser vers la branche `gh-pages`.
-
-
-# Développement
+## Développement
 
 Ce site utilise le modèle [Docusaurus](https://docusaurus.io), un projet Open Source de Facebook. Docusaurus peut être utilisé pour faire un blog et des documentations de produits en utilisant presque uniquement la syntaxe markdown. (+JS pour les pages). 
 
@@ -50,7 +17,7 @@ Pour développer le site, il est nécessaire d'installer nodeJS. Pour la publica
 
 - Node.js (avec npm)
 
-## Initialiser un site docusaurus
+## Initialiser un NOUVEAU site docusaurus
 
 
 ```bash 
@@ -72,6 +39,27 @@ Le site sera accessible à l'adresse [http://localhost:3000](http://localhost:30
     npm run start -- --port 80 --host 0.0.0.0
     # En remplaçant 0.0.0.0 par l'adresse IP de la machine
 ```
+
+### Gérer les différents langages du site
+
+Le site est disponible en deux langues: le français (principale) et l'anglais. Il y a un menu de sélection de laa langue dans le header. Attention cependant à certains points:
+
+- le contenu des pages **doit être traduit manuellement** 
+
+- Les différentes traductions du site sont des applications web différentes. Il est donc nécessaire de lancer le site dans la langue souhaitée pour voir les modifications.
+
+    Pour lancer le site en anglais, il suffit de lancer la commande suivante:
+
+    ```bash
+        npm run start -- --locale en
+    ```
+- Le contenu des traductions est stocké dans le dossier `i18n`. Chaque langue a son propre dossier. Les fichiers markdown (`.md` et `.mdx`) contenus dans le dossier `docs/` sont contenus dans les dossier `docusaurus-plugin-content-docs` de chaque langue.
+
+    Pour copier les fichiers markdown d'une langue à l'autre, il suffit de copier les fichiers du dossier `docs` de la langue source vers le dossier `docs` de la langue cible.
+
+    > Une modification effectuée sur le markdwown principal ou d'une langue particulière doit **impérativement** être reportée **manuellement** sur les autres langues.
+
+- Attention aux liens des images et des liens inter-pages. Les liens des fichiers markdown sont automatiquement traduits en fonction de la langue du site. Les liens contenus dans les composants React doivent parfois être traduits manuellement en utilisant `useBaseUrl()`.
 
 ## Pour déployer le projet
 
