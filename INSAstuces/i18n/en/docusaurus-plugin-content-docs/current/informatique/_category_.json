@@ -1,0 +1,9 @@
+{
+  "label": "Outils informatiques",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "informatique/index" 
+  }
+}
+ 
