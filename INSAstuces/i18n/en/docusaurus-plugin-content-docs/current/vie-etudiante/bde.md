@@ -1,11 +1,9 @@
 ---
-title: ' Le BDE'
-sidebar_label: '🔔Le BDE'
+title: 'The BDE'
+sidebar_label: '🔔The BDE'
 sidebar_position: 2
 ---
 
+Template to be made
 
-
-Modèle à faire
-
-Proposer une modification de la page à l'équipe du BDE
+Propose a modification of the page to the BDE team
