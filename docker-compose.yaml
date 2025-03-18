@@ -1,0 +1,23 @@
+services:
+  frontend:
+    image: ghcr.io/bde-insa-hauts-de-france/frontend:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    deploy:
+      labels:
+        - traefik.enable=true
+        - traefik.docker.network=public
+        - traefik.http.routers.bde-frontend.rule=Host(`bde.insahdf.fr`)
+        - traefik.http.routers.bde-frontend.entrypoints=websecure
+        - traefik.http.services.bde-frontend.loadbalancer.server.port=80
+        - traefik.http.routers.bde-frontend.tls.certresolver=resolver
+      replicas: 1
+    networks:
+      - public
+
+networks:
+  public:
+    name: public
+    external: true
