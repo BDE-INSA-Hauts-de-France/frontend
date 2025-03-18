@@ -18,15 +18,15 @@ const config = {
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
-  url: 'https://astuces.insahdf.fr',
+  url: 'https://bde.insahdf.fr',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: './insa.sh', // Usually your GitHub org/user name.
-  projectName: 'INS\'Astuces', // Usually your repo name.
+  // organizationName: '', // Usually your GitHub org/user name.
+  // projectName: '', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
