@@ -1,33 +1,36 @@
 ---
 title: 🏡 Housing
-description: Find an apartment, a shared flat, or student housing near the Campus
+description: Find an apartment, a shared flat, or student housing close to the Campus
 tags:
 - Housing
 - Mont-Houy
-- New student
+- New Student
 sidebar_position: 3
 date: 2024-04-21
 ---
 
-# Find an apartment
+# Find an Apartment
 
-## INSA Partner Residences
-
-## CROUS Residences
-Several CROUS residences are located near the Mont-Houy Campus.
+## Student Residences 
+### CROUS Residences (red)
+Several CROUS residences are located near the Hont-Houy Campus. 
 - Jules Mousseron
 - Jules Marmottan
-- 
+- Gustave Ansart
 
-## Shared Flats
-
-## Private Residences
+### Private Residences (blue)
 - UXCO
 - Studéa
 - Logifac
 - All Suites Study
 
-## Useful Links
+<iframe width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/residences-etudiantes-autour-de-linsa_1207477?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=false&embedControl=null&datalayersControl=null&onLoadPanel=none&captionBar=false&captionMenus=false&homeControl=true&captionControl=true"></iframe>
+<p><a href="//umap.openstreetmap.fr/en/map/residences-etudiantes-autour-de-linsa_1207477?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=true&embedControl=null&datalayersControl=null&onLoadPanel=none&captionBar=false&captionMenus=false&homeControl=true&captionControl=true" target="_blank">View in full screen</a></p>
+
+## Shared Flats
+To find a spot in an INSA shared flat, we suggest you check us out on Instagram: [BDE INSA HdF (@bdeinsahdf)](https://instagram.com/bdeinsahdf/)!
+
+## Practical Links
 
 - [CROUS](https://trouverunlogement.lescrous.fr/) - CROUS housing
 - [Leboncoin](https://www.leboncoin.fr/)
@@ -36,6 +39,6 @@ Several CROUS residences are located near the Mont-Houy Campus.
 
 ## Housing Assistance
 
-### APL
+### The APL
 
 ### CROUS Assistance
