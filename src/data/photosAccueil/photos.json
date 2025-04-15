@@ -19,5 +19,29 @@
         "src": "img/insa/photos_accueil/toss.webp",
         "idTexte": 4
     }
+    ,
+    {
+        "id": 5,
+        "src": "img/insa/photos_accueil/cheerinsahdf_lesdiables2.png",
+        "idTexte": 5
+    }
+    ,
+    {
+        "id": 6,
+        "src": "img/insa/photos_accueil/fanfare_h5_2025.png",
+        "idTexte": 6
+    }
+    ,
+    {
+        "id": 7,
+        "src": "img/insa/photos_accueil/mascotte_barry.png",
+        "idTexte": 7
+    }
+    ,
+    {
+        "id": 8,
+        "src": "img/insa/photos_accueil/mascottes_des_insa_h5_2025.png",
+        "idTexte": 8
+    }
 
 ]

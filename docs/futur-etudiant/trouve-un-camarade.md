@@ -18,7 +18,7 @@ date: 2024-04-06
 </figure>
 Rejoins le discord des admissibles à l'INSA Hauts-de-France pour discuter avec les futurs étudiants de ta promo et les étudiants actuels. C'est l'endroit idéal pour poser toutes tes questions et rencontrer des gens avant la rentrée.
 
-<button type="button" class="button button--primary shadow--lw" onClick={()=>window.open('https://discord.com/invite/cqKdKmWM5b','_blank')}>Rejoins le Discord !</button>
+<button type="button" class="button button--primary shadow--lw" onClick={()=>window.open('https://discord.com/invite/zcaAFwxKpQ','_blank')}>Rejoins le Discord !</button>
 
 
 ## Le site de Thotis Media

@@ -3,7 +3,7 @@ import React from 'react';
 // Bouton qui point vers les réseaux sociaux
 export const BoutonReseau = ({titre, lien, nom_icon, }) => (
     
-    <a class="assos-bouton-lien-reseaux" href={lien}>
+    <a class="assos-bouton-lien-reseaux" href={lien} target="_blank" rel="noopener noreferrer">
         <img 
         src={useBaseUrl(`/img/icons/${nom_icon}.svg`)}
         alt={`Lien vers ${titre}`}
