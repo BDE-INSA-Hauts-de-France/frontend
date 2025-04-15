@@ -2,7 +2,7 @@
     {
         "asso_name": "./insa.sh",
         "asso_logo": "/img/assos/logo-insash.svg",
-        "asso_type": "Club",
+        "asso_type": "Asso",
         "asso_description_short": "Le Club Info de l'INSA HdF",
         "asso_description_long": "Club Info de l'INSA Hauts-de-France - Evénements, formations, projets...",
         "asso_page_lien": "club-info",
