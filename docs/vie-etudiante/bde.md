@@ -23,3 +23,7 @@ Notre mission ? **Faire de ton passage à l’INSA une expérience inoubliable**
 Que tu sois nouveau à l’INSA ou un habitué de la vie associative, le BDE est là pour t’accompagner et te faire **vivre une aventure étudiante exceptionnelle**. Rejoins-nous et participe à cette belle aventure avec nous !
 
 [Suis-nous sur nos réseaux pour ne rien manquer des prochains événements](https://linktr.ee/bdeinsahdf) !
+
+
+## Historique des listes BDE
+<!-- créer un composant pour chaque liste avec un logo, un nom et une année de mandat -->

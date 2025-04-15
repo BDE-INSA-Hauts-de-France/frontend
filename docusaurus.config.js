@@ -376,6 +376,16 @@ const config = {
         crossorigin: 'anonymous',
       },
     ],
+    scripts: [
+      {
+        src: 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js',
+        type: 'module',
+      },
+      {
+        src: 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js',
+        nomodule: true,
+      },
+    ],
 };
 
 export default config;
