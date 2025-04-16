@@ -66,8 +66,6 @@ const config = {
         theme: {
           customCss: ['./src/css/custom.css',
             './src/css/components/contactCard.css',
-            './src/css/components/fileDownloadBox.css',
-            './src/css/components/boutonReseauHeader.css',
           ],
 
         },

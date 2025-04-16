@@ -18,4 +18,4 @@ sidebar_position: 2
 
 
 ## 2. Réductions
-- [Microsoft Office 365 - 3€/mois](https://www.microsoft.com/fr-fr/microsoft-365/college-student-pricing) - Word, Excel, PowerPoint, Outlook, OneNote, Access, Publisher et 1To de stockage sur OneDrive
+- [Microsoft Office 365 - 5€/mois](https://www.microsoft.com/fr-fr/microsoft-365/college-student-pricing) - Word, Excel, PowerPoint, Outlook, OneNote, Access, Publisher et 1To de stockage sur OneDrive
