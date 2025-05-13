@@ -9,15 +9,15 @@
   },
   "item.label.Futur étudiant": {
     "message": "New Students",
-    "description": "Navbar item with label New Students"
+    "description": "Navbar item with label Futur étudiant"
   },
   "item.label.Vie étudiante": {
     "message": "Student life",
-    "description": "Navbar item with label Student life"
+    "description": "Navbar item with label Vie étudiante"
   },
   "item.label.Ressources et astuces": {
     "message": "Resources and tips",
-    "description": "Navbar item with label Resources and tips"
+    "description": "Navbar item with label Ressources et astuces"
   },
   "item.label.International": {
     "message": "International",
@@ -25,74 +25,74 @@
   },
   "item.label.Calendrier": {
     "message": "Calendar",
-    "description": "Navbar item with label Calendar"
+    "description": "Navbar item with label Calendrier"
   },
   "item.label.🗺️ Plan du campus & Repères": {
     "message": "🗺️ Campus map",
-    "description": "Navbar item with label Campus map"
+    "description": "Navbar item with label 🗺️ Plan du campus & Repères"
   },
   "item.label.🏠 Logement": {
     "message": "🏠 Housing",
-    "description": "Navbar item with label Housing"
+    "description": "Navbar item with label 🏠 Logement"
   },
   "item.label.🚍 Transports": {
     "message": "🚍 Transportation",
-    "description": "Navbar item with label Transportation"
+    "description": "Navbar item with label 🚍 Transports"
   },
   "item.label.😎 Ton Futur camarade de promo": {
     "message": "😎 Find your future classmates",
-    "description": "Navbar item with label Find your future classmates"
+    "description": "Navbar item with label 😎 Ton Futur camarade de promo"
   },
   "item.label.📚 Starter Packs": {
     "message": "📚 Starter Packs",
-    "description": "Navbar item with label Starter Packs"
+    "description": "Navbar item with label 📚 Starter Packs"
   },
   "item.label.📝 Admissions": {
     "message": "📝 Admissions",
-    "description": "Navbar item with label Admissions"
+    "description": "Navbar item with label 📝 Admissions"
   },
   "item.label.🎏 Vie étudiante": {
     "message": "🎏 Student life",
-    "description": "Navbar item with label Student life"
+    "description": "Navbar item with label 🎏 Vie étudiante"
   },
   "item.label.🔔 Le BDE": {
     "message": "🔔 The Student Union",
-    "description": "Navbar item with label The Student Union"
+    "description": "Navbar item with label 🔔 Le BDE"
   },
   "item.label.🌳 Assos et Clubs": {
     "message": "🌳 Clubs and student organizations",
-    "description": "Navbar item with label Clubs and student organizations"
+    "description": "Navbar item with label 🌳 Assos et Clubs"
   },
   "item.label.🗓️ Les évènements": {
     "message": "🗓️ Events",
-    "description": "Navbar item with label Events"
+    "description": "Navbar item with label 🗓️ Les évènements"
   },
   "item.label.🧠 Le Point Culture": {
     "message": "🧠 Culture point",
-    "description": "Navbar item with label Culture point"
+    "description": "Navbar item with label 🧠 Le Point Culture"
   },
   "item.label.🧑‍💻 ENT et services informatiques": {
     "message": "🧑‍💻 ENT and IT services",
-    "description": "Navbar item with label ENT and IT services"
+    "description": "Navbar item with label 🧑‍💻 ENT et services informatiques"
   },
   "item.label.💰 Remises étudiantes": {
     "message": "💰 Student discounts",
-    "description": "Navbar item with label Student discounts"
+    "description": "Navbar item with label 💰 Remises étudiantes"
   },
   "item.label.🌐 La Section Internationale": {
     "message": "🌐 The International Section",
-    "description": "Navbar item with label The International Section"
+    "description": "Navbar item with label 🌐 La Section Internationale"
   },
   "item.label.💱 Stages à l'international": {
     "message": "💱 International internships",
-    "description": "Navbar item with label International internships"
+    "description": "Navbar item with label 💱 Stages à l'international"
   },
   "item.label.🧳 Césure & ERASMUS": {
     "message": "🧳 Gap years & ERASMUS",
-    "description": "Navbar item with label Gap years & ERASMUS"
+    "description": "Navbar item with label 🧳 Césure & ERASMUS"
   },
   "item.label.🗺️ Réseau de l'INSA HdF et ses alumni": {
     "message": "🗺️ INSA HdF network and its alumni",
-    "description": "Navbar item with label INSA HdF network and its alumni"
+    "description": "Navbar item with label 🗺️ Réseau de l'INSA HdF et ses alumni"
   }
 }

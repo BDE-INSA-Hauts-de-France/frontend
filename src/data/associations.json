@@ -2,7 +2,7 @@
     {
         "asso_name": "./insa.sh",
         "asso_logo": "/img/assos/logo-insash.svg",
-        "asso_type": "Club",
+        "asso_type": "Asso",
         "asso_description_short": "Le Club Info de l'INSA HdF",
         "asso_description_long": "Club Info de l'INSA Hauts-de-France - Evénements, formations, projets...",
         "asso_page_lien": "club-info",
@@ -82,7 +82,7 @@
         "asso_page_lien": "insaerospace",
         "asso_lien_instagram": "https://www.instagram.com/insaerospace/",
         "asso_lien_discord": "https://discord.gg/k6pjnCYb8h",
-        "asso_lien_site": "https://insaerospace1.odoo.com/",
+        "asso_lien_site": "https://insaerospace.com/",
         "asso_image_fond":""
 
     },

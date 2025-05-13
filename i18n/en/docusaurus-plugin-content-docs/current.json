@@ -5,7 +5,7 @@
   },
   "sidebar.completeSidebar.category.Nouveaux étudiants": {
     "message": "New students",
-    "description": "The label for category New students in sidebar completeSidebar"
+    "description": "The label for category Nouveaux étudiants in sidebar completeSidebar"
   },
   "sidebar.completeSidebar.category.📚 Starter Packs": {
     "message": "📚 Starter Packs",
@@ -13,7 +13,7 @@
   },
   "sidebar.completeSidebar.category.Outils informatiques": {
     "message": "IT Tools",
-    "description": "The label for category IT Tools in sidebar completeSidebar"
+    "description": "The label for category Outils informatiques in sidebar completeSidebar"
   },
   "sidebar.completeSidebar.category.ENT": {
     "message": "ENT",
@@ -21,23 +21,23 @@
   },
   "sidebar.completeSidebar.category.🎏 Vie étudiante": {
     "message": "🎏 Student life",
-    "description": "The label for category 🎏 Student life in sidebar completeSidebar"
+    "description": "The label for category 🎏 Vie étudiante in sidebar completeSidebar"
   },
   "sidebar.completeSidebar.category.🌳 Assos et Clubs": {
     "message": "🌳 Associations and Clubs",
-    "description": "The label for category 🌳 Associations and Clubs in sidebar completeSidebar"
+    "description": "The label for category 🌳 Assos et Clubs in sidebar completeSidebar"
   },
   "sidebar.completeSidebar.category.Administratif": {
     "message": "Administrative",
-    "description": "The label for category Administrative in sidebar completeSidebar"
+    "description": "The label for category Administratif in sidebar completeSidebar"
   },
   "sidebar.completeSidebar.category.Administratif.link.generated-index.description": {
     "message": "Schooling - Secretariats - Contacts - etc.",
-    "description": "The generated-index page description for category Administrative in sidebar completeSidebar"
+    "description": "The generated-index page description for category Administratif in sidebar completeSidebar"
   },
   "sidebar.completeSidebar.category.🌍 international": {
     "message": "🌍 International",
-    "description": "The label for category 🌍 International in sidebar completeSidebar"
+    "description": "The label for category 🌍 international in sidebar completeSidebar"
   },
   "sidebar.newStudentSidebar.category.📚 Starter Packs": {
     "message": "📚 Starter Packs",
@@ -45,7 +45,7 @@
   },
   "sidebar.vieEtudianteSidebar.category.🌳 Assos et Clubs": {
     "message": "🌳 Associations and Clubs",
-    "description": "The label for category 🌳 Associations and Clubs in sidebar vieEtudianteSidebar"
+    "description": "The label for category 🌳 Assos et Clubs in sidebar vieEtudianteSidebar"
   },
   "sidebar.informatiqueSidebar.category.ENT": {
     "message": "ENT",

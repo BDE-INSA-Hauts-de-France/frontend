@@ -50,10 +50,10 @@ Several university restaurants are located inside the Mont-Houy Campus. They are
   This one is smaller but still very popular. It is also more convivial.
 
 - **The 4 cafeterias**
-  - Cafét RU2
-  - Cafét RU1
-  - Cafét Matisse
-  - Cafét Résidence Jules Mousseron
+    - RU2 Cafeteria (Soon to be relocated to the new multipurpose building at the far end of the campus)
+    - RU1 Cafeteria
+    - Matisse Cafeteria
+    - Jules Mousseron Residence Cafeteria
 
 ## Study Spaces 📚
 Working in a group or in silence? No problem! The **Mont-Houy Library** is there for you! You will find **large study rooms** as well as **smaller group study rooms** that can be reserved via the [Affluences](/vie-etudiante/assos-et-clubs/club-info) application.

@@ -56,7 +56,7 @@ Plusieurs restaurants universitaires sont situés à l'intérieur du Campus Mont
   Celui-ci est plus petit mais quand même très fréquenté. Il est aussi plus convivial
 
 - **Les 4 cafétérias**
-  - Cafét RU2
+  - Cafét RU2 (Bientôt déplacée dans le nouveau bâtiment polyvalent au fond du campus)
   - Cafét RU1
   - Cafét Matisse
   - Cafét Résidence Jules Mousseron

@@ -1,4 +1,5 @@
 import useBaseUrl from "@docusaurus/useBaseUrl";
+import './../AssociationCard/AssociationCard.css';
 
 // Bouton qui point vers les réseaux sociaux
 export const BoutonReseauHeader = ({ titre, lien, nom_icon, }) => (

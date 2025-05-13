@@ -8,12 +8,12 @@ import associationsData from '/src/data/associations.json';
 export const associationId = "club-info";
 export const association = associationsData.find(assoc => assoc.asso_page_lien === associationId);
 
-import ContactCard from '@site/src/components/ContactCard';
+import BetterContactCard from '@site/src/components/BetterContactCard';
 
 
 
 
-{/* Pour transformer un dictionnaire en diff"rentes variables, utiliser ...variable */}
+{/* Pour transformer un dictionnaire en différentes variables, utiliser ...variable */}
 
 <AssociationHeader {...association}/>
 
@@ -44,21 +44,23 @@ Nous avons créé **HebergOS**, une solution spéciale pour héberger les sites 
 
 ---
 
-## L'équipe 2023-2024
+## L'équipe 2025
 
 ### Président
 
-<ContactCard first_name="Sylvain" last_name="Sausse" role="Président" />
+<BetterContactCard first_name="Baptiste" last_name="Saltel" role="Président" github="https://github.com/SHAfoin/" linkedin="https://www.linkedin.com/in/baptiste-saltel/" photo_link="/assos-clubs/clubinfoinsahdf/pp_bureau/prez.png" />
+
+
+### Trésorier
+
+<BetterContactCard first_name="Maxime" last_name="Lemaître" role="Trésorier" instagram="https://instagram.com/maxlem24/" linkedin="https://www.linkedin.com/in/lemaitre-maxime/"  github="https://github.com/maxlem24" photo_link="/assos-clubs/clubinfoinsahdf/pp_bureau/treso.png"/>
 
 
 ### Secrétaire
 
-<ContactCard first_name="Axel" last_name="Lenroué" role="Secrétaire" />
+<BetterContactCard first_name="Clément" photo_link="/assos-clubs/clubinfoinsahdf/pp_bureau/secretaire.png" last_name="Ogé" role="Secrétaire" linkedin="https://www.linkedin.com/in/coge" github="https://github.com/ecateln" siteperso="https://tenclea.dev/"/>
 
-### Trésorier
-
-<ContactCard first_name="Rémi" last_name="Caulier" role="Trésorier" />
 
 ### Respo Communication & Identité Visuelle
 
-<ContactCard first_name="Louison" last_name="Bednarowicz" role="Respo Comm & Identité visuelle" />
+<BetterContactCard first_name="Louison" last_name="Bednarowicz" role="Respo Comm & Identité visuelle"   linkedin="https://www.linkedin.com/in/louisonbednarowicz"  siteperso="https://webdev.knowitbetter.fr"  instagram="https://www.instagram.com/louison_bdz/"  github="https://github.com/BillyTheSecond/" photo_link="/assos-clubs/clubinfoinsahdf/pp_bureau/respocomm.png"/>

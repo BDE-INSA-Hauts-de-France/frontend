@@ -17,6 +17,29 @@
         "id" : 3,
         "titre" : "Le TOSS",
         "description" : "Le TOSS est le tournoi sportif qui regroupe toutes les écoles d'ingé de France. Il est organisé par le BDS de Centrale Supélec"
+    },
+    {
+        "id" : 4,
+        "titre" : "CHEERINSA",
+        "description" : "Nos cheerleaders sont toujours là pour mettre l'ambiance lors des évènements ! Ils participent à de nombreuses compet' comme le TOSS ou le H5 ! Impossible de les manquer !"
+    }
+    ,
+    {
+        "id" : 5,
+        "titre" : "La Band'à Barry",
+        "description" : "Du sport, des assos et de la musique ! C'est la fanfare de l'INSA HdF ! Ils vous feront vibrer, chanter et danser pendant vos années à l'INSA !"
+    }
+    ,
+    {
+        "id" : 6,
+        "titre" : "On n'attend pas Barry ?",
+        "description" : "Barry le caribou, c'est LA mascotte de l'INSA HdF ! Mais attention, Barry ne dévoilera jamais son identité... Il est le gardien des traditions de l'école et il est toujours là pour mettre l'ambiance !"
+    }
+    ,
+    {
+        "id" : 7,
+        "titre" : "Le High Five ?",
+        "description" : "Le High Five est un évènement sportif interINSA incontournable. Il regroupe tous les INSA pour un week-end de folie ! En 2025, il a eu lieu chez nous, à Valenciennes !"
     }
 
 ]

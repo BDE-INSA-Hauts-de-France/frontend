@@ -107,50 +107,9 @@ div.navbar__logo img {
 
 
 /* PAGE VIE ETUDIANTE */
-/* Associations */
-a.assos-bouton-lien-reseaux {
-  background-color: var(--ifm-color-primary);
-  font-size:1em;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding:4px;
-  height: 30px;
-  width: 30px;
-  transition-duration: 1s;
-
-}
-a.assos-bouton-lien-reseaux.header {
-  height: 40px;
-  width: 40px;
-}
 
 
-a.assos-bouton-lien-reseaux:hover {
-  background-color: var(--ifm-color-primary-dark);
-  transition-duration: 1s;
 
-}
-
-a.assos-bouton-lien-reseaux img {
-  max-width: 20px;
-  max-height: 20px;
-  border-radius: 0px;
-}
-a.assos-bouton-lien-reseaux.header img {
-  max-width: 25px;
-  max-height: 25px;
-
-}
-
-a.div-link {
-  /* lien sans style  */
-  text-decoration: none;
-  color: inherit;
-  display: block;
-
-}
 
 
 

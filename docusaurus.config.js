@@ -18,15 +18,15 @@ const config = {
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
-  url: 'https://astuces.insahdf.fr',
+  url: 'https://bde.insahdf.fr',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: './insa.sh', // Usually your GitHub org/user name.
-  projectName: 'INS\'Astuces', // Usually your repo name.
+  // organizationName: '', // Usually your GitHub org/user name.
+  // projectName: '', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -66,8 +66,6 @@ const config = {
         theme: {
           customCss: ['./src/css/custom.css',
             './src/css/components/contactCard.css',
-            './src/css/components/fileDownloadBox.css',
-            './src/css/components/boutonReseauHeader.css',
           ],
 
         },
@@ -374,6 +372,16 @@ const config = {
         integrity:
           'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
         crossorigin: 'anonymous',
+      },
+    ],
+    scripts: [
+      {
+        src: 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js',
+        type: 'module',
+      },
+      {
+        src: 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js',
+        nomodule: true,
       },
     ],
 };

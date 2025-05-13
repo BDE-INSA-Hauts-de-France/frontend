@@ -22,8 +22,17 @@ Aujourd'hui, l'école propose:
 - Des matère spécialisés
 
 ## Le Campus Mont-Houy sous les feux de la Première Guerre Mondiale
+### Bataille du Mont Houy
 
--> Bataille du Mont Houy
+Le **Campus Mont-Houy**, aujourd'hui cœur vibrant de l'**INSA Hauts-de-France**, a traversé une période sombre et tumultueuse au cours de la **Première Guerre Mondiale**. Situé à Valenciennes, dans le département du Nord, ce campus a été le témoin de la **violence dévastatrice** du conflit mondial. Mais c'est en **1917**, lors de la **Bataille du Mont Houy**, qu'il a connu l'un des épisodes les plus dramatiques de son histoire.
+
+La **Bataille du Mont Houy** a eu lieu en **octobre 1917**, un moment crucial de la guerre, où les troupes françaises et allemandes se sont affrontées pour le contrôle stratégique de la colline qui surplombe la région. Cette bataille faisait partie de l'offensive du secteur de Cambrai, visant à percer les lignes ennemies et à reprendre les territoires occupés par les forces allemandes.
+
+Le **Mont Houy**, point culminant de la région, était un emplacement stratégique en raison de sa **position dominante**. C'est pourquoi il a attiré l'attention des deux belligérants. Le campus, alors un petit établissement, se retrouvait au cœur de l'un des fronts les plus intenses de la guerre.
+
+Les combats furent violents et acharnés. Les troupes françaises, soutenues par des chars d’assaut et des soldats d'infanterie, affrontèrent une résistance féroce des troupes allemandes. Les pertes humaines furent considérables, et le paysage de la région fut marqué par les **bombardements**, les tranchées et les destructions.
+
+Le **Mont Houy**, aujourd'hui un symbole de modernité et d'innovation scientifique, témoigne de l'une des batailles les plus cruelles de la Première Guerre Mondiale. À travers la mémoire de ces événements, nous saisissons mieux l'importance de la paix et du **souvenir**, essentiels pour éviter que de telles tragédies ne se reproduisent. Le campus, en étant un lieu d'apprentissage et de progrès, demeure un témoignage vivant de l’histoire de la **Grande Guerre**.
 
 
 

@@ -13,21 +13,30 @@ sidebar_position: 4
 
 
 
+## Les évènements de l'INSA Hauts-de-France
+
+### Le Gala de l’INSA
+
+![Gala](/img/bde/events/gala-insa-22-23.webp)
+
+Le Gala de l’INSA Hauts-de-France est LA soirée chic de l’année, où l’élégance et l’excellence sont à l’honneur. Rendez-vous à la Cité des Congrès de Valenciennes le 22 mars 2025 pour une soirée prestigieuse qui réunira étudiants, diplômés et enseignants dans un cadre exceptionnel. Tenues de soirée, animations haut de gamme et ambiance inoubliable garantis !
+
+### Les semaines de campagne BDE
+Les semaines de campagne BDE sont un **moment clé de la vie étudiante à l’INSA Hauts-de-France**. Début mai 2025, deux nouvelles listes s’affronteront pour succéder à notre liste CampINSA et prendre les rênes du BDE pour le mandat 2026-2027. Entre défis, animations et soirées, ces semaines seront pleines de rebondissements et d’émotions. Que le meilleur l’emporte !
 
 
+## Les évènements inter-INSA & inter-écoles d'ingé
 
-## Les évènements inter-INSA
+### Le H5 - High Five
 
-### Le H5
-
+![H5](/img/bde/events/highfiverose.png)
+Cette année, l’INSA Hauts-de-France a eu l’honneur d’accueillir le H5 - High Five du 14 au 16 mars 2025 ! Cet événement légendaire rassemble des étudiants des différents INSA pour trois jours de fête, de rencontres et d’activités mémorables. Entre soirées endiablées et animations sur le campus, cette édition restera gravée dans les esprits !
 
 
 ### Le TOSS
+Le TOSS 2025, organisé par CentraleSupélec du 16 au 18 mai 2025 à Gif-sur-Yvette, est l’un des plus grands tournois sportifs étudiants de France. Ce week-end intense rassemblera 4500 participants venant s’affronter dans de nombreuses disciplines (football, basket, volley, handball, etc.). Plus qu’un simple tournoi, c’est une expérience où compétition, fair-play et ambiance festive se mêlent pour offrir un événement inoubliable !
 
-### Le Gala
 
-### Les semaines de campagne BDE
-
-### Les 24h de l'INSA
-
+### Les 24H de l’INSA
+Les 24H de l’INSA sont bien plus qu’une simple course, c’est un véritable festival de musique organisé à l’INSA Lyon les 23, 24 et 25 mai 2025. Cette année, l’événement accueillera des artistes de renom comme Adèle Castillon, Caballero & JeanJass ! Entre concerts, animations et défis sportifs, cet événement mythique est un incontournable du réseau INSA.
 

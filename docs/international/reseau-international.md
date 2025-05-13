@@ -1,0 +1,14 @@
+---
+title: "Réseau international de l'INSA HdF et ses alumni" 
+sidebar_label: "🗺️ Réseau de l'école et ses alumni"
+sidebar_position: 4
+---
+
+
+## Un réseau global pour une carrière mondiale
+
+L'INSA Hauts-de-France, c'est aussi une **communauté mondiale d’anciens élèves** qui partagent leur expérience et leurs conseils. Le réseau alumni est une **ressource précieuse** pour les étudiants et jeunes diplômés, offrant des opportunités de mentorat, de collaborations professionnelles, et de mise en relation avec des **entreprises internationales**. 
+
+## Rejoins-nous !
+
+En tant qu'**étudiant de l’INSA**, **tu fais partie d'un réseau international** en constante croissance. Dès ton entrée à l'école, tu peux commencer à t’impliquer dans ce réseau en participant à des événements organisés dans différents pays. Ce réseau te permettra de t’ouvrir à de **nouvelles perspectives professionnelles** et d’échanger avec des experts dans ton domaine.
