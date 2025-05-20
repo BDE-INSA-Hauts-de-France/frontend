@@ -1,0 +1,18 @@
+---
+title: "Internships Abroad"
+sidebar_label: "🌍 Internships Abroad"
+sidebar_position: 2
+---
+
+## Why do an internship abroad?
+Doing an internship abroad is an **invaluable professional and personal experience**. It allows you not only to develop technical skills, but also to experience new cultures, discover a **different work environment**, and expand your international network. Whether in a European country or on the other side of the world, you will have the opportunity to learn and grow **in a unique setting**.
+
+## Mobility abroad: an essential step
+
+It is important to know that during your studies at INSA Hauts-de-France, **mobility abroad is mandatory**. If you plan to work in France after your 5th year, it is therefore preferable to do your **4th year internship abroad** or to **go on an exchange semester at a partner university**. This will allow you to open up to new professional perspectives and increase your chances on the job market, in France or internationally.
+
+## How does it work?
+
+The international internship can be done **during your 4th or 5th year**. It can be carried out in a company or within academic institutions, depending on your professional goals. **You will find all the necessary support at INSA Hauts-de-France** to find internship opportunities and prepare for your departure, whether it is administrative procedures or finding accommodation.
+
+This internship will allow you to gain valuable experience that will enrich your CV and give you **an edge on the international job market**.

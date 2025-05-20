@@ -1,0 +1,13 @@
+---
+title: "INSA HdF International Network and its Alumni"
+sidebar_label: "🗺️ School Network and its Alumni"
+sidebar_position: 4
+---
+
+## A global network for a worldwide career
+
+INSA Hauts-de-France is also a **global community of alumni** who share their experience and advice. The alumni network is a **valuable resource** for students and young graduates, offering opportunities for mentoring, professional collaborations, and connections with **international companies**.
+
+## Join us!
+
+As an **INSA student**, **you are part of a constantly growing international network**. From your first day at the school, you can start getting involved in this network by participating in events organized in different countries. This network will allow you to open up to **new professional perspectives** and connect with experts in your field.

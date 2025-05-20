@@ -7,14 +7,28 @@ sidebar_position: 4
 
 <iframe src="https://calendar.google.com/calendar/u/0/embed?color=%234986e7&color=%237bd148&color=%23b99aff&color=%23d06b64&color=%23f691b2&src=c_636fd23d7309e28f094f4faa8264c0db4362c6f9fa3c66169c631b154ccd6cba@group.calendar.google.com&src=c_8139ad11b8ad56b3fae6259fa6811b9a472e21e59d29bf41f74e2f2040dfd528@group.calendar.google.com&src=c_ba6390e875dffbc739525b202170ee48b518fe9bed0e35f1db320ba5add6a525@group.calendar.google.com&src=c_bdcbd9e5948133a0c84e8790e10e1f972bd8b714f203fa5b60b77873cd2d6c7b@group.calendar.google.com&src=c_c2197c247bfc828f36b8e97162aeaa0c43753676cc66e2245b06318fd38027ce@group.calendar.google.com" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-## Inter-INSA Events
 
-### H5
+## INSA Hauts-de-France Events
 
-### TOSS
+### INSA Gala
 
-### Gala
+![Gala](/img/bde/events/gala-insa-22-23.webp)
+
+The INSA Hauts-de-France Gala is THE chic evening of the year, where elegance and excellence are in the spotlight. Meet at the Cité des Congrès de Valenciennes on March 22, 2025, for a prestigious evening bringing together students, graduates, and teachers in an exceptional setting. Evening attire, top-notch entertainment, and an unforgettable atmosphere guaranteed!
 
 ### BDE Campaign Weeks
+BDE campaign weeks are a **key moment in student life at INSA Hauts-de-France**. In early May 2025, two new lists will compete to succeed our CampINSA list and take the reins of the BDE for the 2026-2027 term. Between challenges, activities, and parties, these weeks will be full of twists and emotions. May the best win!
+
+## Inter-INSA & Inter-Engineering School Events
+
+### H5 - High Five
+
+![H5](/img/bde/events/highfiverose.png)
+This year, INSA Hauts-de-France had the honor of hosting the H5 - High Five from March 14 to 16, 2025! This legendary event brings together students from different INSAs for three days of celebration, meetings, and memorable activities. Between wild parties and campus activities, this edition will remain unforgettable!
+
+### TOSS
+TOSS 2025, organized by CentraleSupélec from May 16 to 18, 2025, in Gif-sur-Yvette, is one of the largest student sports tournaments in France. This intense weekend will bring together 4,500 participants competing in many disciplines (football, basketball, volleyball, handball, etc.). More than just a tournament, it's an experience where competition, fair play, and a festive atmosphere combine for an unforgettable event!
 
 ### INSA 24 Hours
+The INSA 24 Hours is much more than just a race; it's a real music festival organized at INSA Lyon on May 23, 24, and 25, 2025. This year, the event will welcome renowned artists such as Adèle Castillon, Caballero & JeanJass! Between concerts, activities, and sports challenges, this legendary event is a must in the INSA network.
+

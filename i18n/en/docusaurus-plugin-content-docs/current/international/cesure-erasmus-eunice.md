@@ -1,0 +1,13 @@
+---
+title: "Gap Year (ERASMUS, EUNICE...)"
+sidebar_label: "🧳 Gap Year (ERASMUS, EUNICE...)"
+sidebar_position: 3
+---
+
+A gap year, **an opportunity for your future**! If you want to take a little more time to explore the world or focus on professional or personal projects, a gap year is an **excellent option**. It can last **between 6 months and 1 year**, and allows you to **engage in various activities**: internship abroad, volunteering, or even additional training. This can be the perfect opportunity to go on **Erasmus**, join **EUNICE** projects, or other international initiatives.
+
+## Why choose a gap year?
+
+- Develop **personal and professional skills**.
+- Discover a new country, a new **culture**, and an international work environment.
+- Take a step back to better reflect on your **career plan** while enriching your CV.
