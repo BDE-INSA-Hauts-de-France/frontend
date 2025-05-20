@@ -65,7 +65,6 @@ const config = {
         // },
         theme: {
           customCss: ['./src/css/custom.css',
-            './src/css/components/contactCard.css',
           ],
 
         },
