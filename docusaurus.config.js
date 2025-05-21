@@ -383,6 +383,16 @@ const config = {
         nomodule: true,
       },
     ],
+    headTags: [
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'apple-touch-icon',
+          sizes: '180x180',
+          href: '/img/app-icon.png', // chemin absolu pour être toujours correct
+        },
+      },
+    ],
 };
 
 export default config;
