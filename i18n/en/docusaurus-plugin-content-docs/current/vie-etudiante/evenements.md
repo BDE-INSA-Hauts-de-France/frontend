@@ -29,6 +29,14 @@ This year, INSA Hauts-de-France had the honor of hosting the H5 - High Five from
 ### TOSS
 TOSS 2025, organized by CentraleSupélec from May 16 to 18, 2025, in Gif-sur-Yvette, is one of the largest student sports tournaments in France. This intense weekend will bring together 4,500 participants competing in many disciplines (football, basketball, volleyball, handball, etc.). More than just a tournament, it's an experience where competition, fair play, and a festive atmosphere combine for an unforgettable event!
 
-### INSA 24 Hours
-The INSA 24 Hours is much more than just a race; it's a real music festival organized at INSA Lyon on May 23, 24, and 25, 2025. This year, the event will welcome renowned artists such as Adèle Castillon, Caballero & JeanJass! Between concerts, activities, and sports challenges, this legendary event is a must in the INSA network.
+### CODINSA
+The [Cod'INSA](https://codinsa.org) competition is a free annual computer science contest created by and for students of the INSA schools in France. For them, it's an opportunity to compete in a fun way, but above all, to meet around a shared passion! The competition takes place in two stages: qualifications, organized in each INSA to select a team of five students, and a final where these students will challenge other INSAs during a weekend combining games and competition.
 
+### Inter-INSA CTF
+Five schools from the INSA group (CVL, HDF, Lyon, Rennes, and Toulouse) organize a CTF competition for teams of four, aimed at their students.
+
+### The 24 Hours of INSA Lyon
+The 24 Hours of INSA is much more than just a race; it's a true music festival organized at INSA Lyon on May 23, 24, and 25, 2025. This year, the event will host renowned artists such as Adèle Castillon and Caballero & JeanJass! Between concerts, activities, and sports challenges, this legendary event is a must-attend for the INSA network.
+
+### Rock'n Solex
+Rock'n Solex is an iconic event organized by INSA Rennes since 1979. It is a Solex race held annually in May. Participants gather in a festive and friendly atmosphere. Rock'n Solex is an opportunity to celebrate the passion for cycling and music, with concerts and activities throughout the weekend.
