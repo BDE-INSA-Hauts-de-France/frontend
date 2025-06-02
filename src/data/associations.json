@@ -74,7 +74,7 @@
 
     },
     {
-        "asso_name": "INS'Aerospace",
+        "asso_name": "INSAerospace",
         "asso_logo": "/img/assos/logo-insaerospace.png",
         "asso_type": "Asso",
         "asso_description_long": "",
@@ -83,7 +83,7 @@
         "asso_lien_instagram": "https://www.instagram.com/insaerospace/",
         "asso_lien_discord": "https://discord.gg/k6pjnCYb8h",
         "asso_lien_site": "https://insaerospace.com/",
-        "asso_image_fond":""
+        "asso_image_fond":"/img/assos/fonds/cover-insaerospace.png"
 
     },
     {
@@ -229,7 +229,7 @@
         "asso_description_short": "Club de Danse",
         "asso_description_long": "Club de danse de l'INSA Hauts-de-France 💃🕺",
         "asso_page_lien": "danse-avec-linsa",
-        "asso_lien_instagram": "https://www.instagram.com/danse_avec_l.insa/",
+        "asso_lien_instagram": "https://www.instagram.com/danse.avec.l.insa/",
         "asso_image_fond":"/img/assos/fonds/cover-danse-avec-linsa.webp"
 
     },
