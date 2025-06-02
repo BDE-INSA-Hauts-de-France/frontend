@@ -22,7 +22,7 @@ sidebar_position: 4
 Le Gala de l’INSA Hauts-de-France est LA soirée chic de l’année, où l’élégance et l’excellence sont à l’honneur. Rendez-vous à la Cité des Congrès de Valenciennes le 22 mars 2025 pour une soirée prestigieuse qui réunira étudiants, diplômés et enseignants dans un cadre exceptionnel. Tenues de soirée, animations haut de gamme et ambiance inoubliable garantis !
 
 ### Les semaines de campagne BDE
-Les semaines de campagne BDE sont un **moment clé de la vie étudiante à l’INSA Hauts-de-France**. Début mai 2025, deux nouvelles listes s’affronteront pour succéder à notre liste CampINSA et prendre les rênes du BDE pour le mandat 2026-2027. Entre défis, animations et soirées, ces semaines seront pleines de rebondissements et d’émotions. Que le meilleur l’emporte !
+Les semaines de campagne BDE sont un **moment clé de la vie étudiante à l’INSA Hauts-de-France**. Début mai 2025, deux nouvelles listes s’affronteront pour succéder à notre liste CAMP'INSA et prendre les rênes du BDE pour le mandat 2026-2027. Entre défis, animations et soirées, ces semaines seront pleines de rebondissements et d’émotions. Que le meilleur l’emporte !
 
 
 ## Les évènements inter-INSA & inter-écoles d'ingé
