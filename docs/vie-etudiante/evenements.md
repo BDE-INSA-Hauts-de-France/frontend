@@ -47,5 +47,5 @@ Cinq écoles du groupe INSA (CVL, HDF, Lyon, Rennes et Toulouse) organisent une 
 Les 24H de l’INSA sont bien plus qu’une simple course, c’est un véritable festival de musique organisé à l’INSA Lyon les 23, 24 et 25 mai 2025. Cette année, l’événement accueillera des artistes de renom comme Adèle Castillon, Caballero & JeanJass ! Entre concerts, animations et défis sportifs, cet événement mythique est un incontournable du réseau INSA.
 
 ### Le Rock'n Solex
-Le Rock'n Solex est un événement emblématique organisé par l'INSA Rennes depuis 1979. Il s'agit d'une course de Solex qui se déroule chaque année en mai. Les participants se rassemblent dans une ambiance festive et conviviale. Le Rock'n Solex est l'occasion de célébrer la passion du vélo et de la musique, avec des concerts et des animations tout au long du week-end.
+Le Rock'n Solex est un événement emblématique organisé par l'INSA Rennes depuis 1967. Il s'agit d'une course de Solex qui se déroule chaque année en mai. Les participants se rassemblent dans une ambiance festive et conviviale. Le Rock'n Solex est l'occasion de célébrer la passion du vélo et de la musique, avec des concerts et des animations tout au long du week-end.
 
