@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './ClickableCardList.module.css';
+import Link from '@docusaurus/Link';
 import PropTypes from 'prop-types';
 
 export default function ClickableCardList({ cards }) {
@@ -36,9 +37,9 @@ export default function ClickableCardList({ cards }) {
   return (
     <div className={styles.cardList}>
       {cards.map((card) => (
-        <a
+        <Link
           key={card.title}
-          href={card.href}
+          to={card.href}
           className={styles.card}
           style={{
             background: getGradient(card.color || 'var(--rouge-bde, #c62828)'),
@@ -48,13 +49,13 @@ export default function ClickableCardList({ cards }) {
           <ion-icon
             name={card.icon}
             class={styles.cardIcon}
-            style={{color: 'white' }}
+            style={{ color: 'white' }}
           ></ion-icon>
           <div className={styles.cardContent}>
             <h3>{card.title}</h3>
             {card.description && <p>{card.description}</p>}
           </div>
-        </a>
+        </Link>
       ))}
     </div>
   );
