@@ -37,3 +37,19 @@ Le **Mont Houy**, aujourd'hui un symbole de modernité et d'innovation scientifi
 
 
 ## Le Groupe INSA
+L'école a d'abord fait partie du réseau de partenaires du Groupe INSA avant de devenir officiellement un établissement labellisé INSA en 2019. Le Groupe INSA est un réseau d'écoles d'ingénieurs françaises, reconnu pour son excellence académique et son engagement envers la formation d'ingénieurs de haut niveau.
+
+Les INSA ne sont pas seulement des établissements individuels ! De nombreux projets soutenus par le Groupe INSA, sa fondation et l'AEI (Asociation des Elèves des INSA) permettent la **création de liens forts entre les écoles et leurs étudiants**. Il existe donc une **dynamique nationale**, chaque insaïen appartient à son INSA mais aussi à un groupe plus large d'étudiants partageant les **mêmes valeurs**.
+
+À chaque INSA sa couleur et sa mascote ! Chez nous, c’est le **rose** 🩷 et notre animal totem, c’est le **Barry, le caribou** 🫎 !
+
+| École                  | Année de création | Couleur   | Animal totem   |
+|------------------------|-------------------|-----------|----------------|
+| INSA Hauts-de-France   | 2019              | Rose 🩷   | Caribou 🫎    |
+| INSA Centre Val de Loire | 2014            | Violet 💜 | Sanglier 🐗   |
+| INSA Strasbourg        | 2003              | Vert 💚   | Cigogne 🪿    |
+| INSA Rouen Normandie   | 1985              | Bleu 💙   | Requin 🦈     |
+| INSA Rennes            | 1966              | Orange 🧡 | Tigre 🐯      |
+| INSA Toulouse          | 1963              | Rouge ❤️ | Renard 🦊      |
+| INSA Lyon              | 1957              | Jaune 💛 | Rhinocéros 🦏  |
+
