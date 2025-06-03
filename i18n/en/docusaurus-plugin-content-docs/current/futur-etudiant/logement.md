@@ -39,5 +39,10 @@ To find a place in an INSA shared flat, we advise you to contact us on Instagram
 ## Housing assistance
 
 ### APL (Personalized Housing Assistance)
+-> Find information on Personalized Housing Assistance (APL) here: [Housing Assistance - Service Public](https://www.service-public.fr/particuliers/vosdroits/F12006?lang=en)
+
+### CROUS Assistance
+The CROUS offers financial aid for students facing difficulties. Note that these aids might only be available for French students. You can find all the information on their website: [See all CROUS scholarships and financial aids](https://www.crous-lille.fr/bourses-et-aides-financieres/).
 
 
+For international students, you can also check this page [Aides financières pour les étudiants internationaux](https://www.etudiant.gouv.fr/fr/aides-financieres-pour-les-etudiants-internationaux-1663) for information on housing assistance and scholarships available to you.
