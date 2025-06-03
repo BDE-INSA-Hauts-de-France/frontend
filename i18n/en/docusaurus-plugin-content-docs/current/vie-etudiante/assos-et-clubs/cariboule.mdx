@@ -1,0 +1,11 @@
+---
+title: Cari'boule
+hide_title: true
+---
+import AssociationHeader from '@site/src/components/AssociationHeader';
+import associationsData from '/src/data/associations.json';
+
+export const associationId = "cariboule";
+export const association = associationsData.find(assoc => assoc.asso_page_lien === associationId);
+
+<AssociationHeader {...association}/>

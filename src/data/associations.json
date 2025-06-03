@@ -14,7 +14,7 @@
 
     },
     {
-        "asso_name": "Coeur'ibou",
+        "asso_name": "Coeuribou",
         "asso_logo": "/img/assos/logo-coeuribou.jpg",
         "asso_type": "Asso",
         "asso_description_short": "L'association humanitaire",
@@ -357,6 +357,50 @@
         "asso_lien_instagram": "https://www.instagram.com/la_banda_barry/",
         "asso_image_fond":"/img/assos/fonds/cover-bandabarry.webp"
 
+    },
+    {
+        "asso_name": "CariSolex",
+        "asso_logo": "/img/assos/logo-carisolex.png",
+        "asso_type": "Asso",
+        "asso_description_short": "À compléter",
+        "asso_description_long": "À compléter",
+        "asso_page_lien": "carisolex",
+        "asso_image_fond": ""
+    },
+    {
+        "asso_name": "Cari Dune",
+        "asso_logo": "/img/assos/logo-caridune.png",
+        "asso_type": "Asso",
+        "asso_description_short": "À compléter",
+        "asso_description_long": "À compléter",
+        "asso_page_lien": "caridune",
+        "asso_image_fond": ""
+    },
+    {
+        "asso_name": "Cari'boule",
+        "asso_logo": "/img/assos/logo-cariboules.png",
+        "asso_type": "Club",
+        "asso_description_short": "À compléter",
+        "asso_description_long": "À compléter",
+        "asso_page_lien": "cariboule",
+        "asso_image_fond": ""
+    },
+    {
+        "asso_name": "CariMix",
+        "asso_logo": "/img/assos/logo-carimix.png",
+        "asso_type": "Club",
+        "asso_description_short": "À compléter",
+        "asso_description_long": "À compléter",
+        "asso_page_lien": "carimix",
+        "asso_image_fond": ""
+    },
+    {
+        "asso_name": "INSWIM",
+        "asso_logo": "/img/assos/logo-inswim.png",
+        "asso_type": "Club",
+        "asso_description_short": "À compléter",
+        "asso_description_long": "À compléter",
+        "asso_page_lien": "inswim",
+        "asso_image_fond": ""
     }
-
-    ]
+]
