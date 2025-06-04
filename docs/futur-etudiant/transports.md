@@ -68,15 +68,27 @@ Temps de trajet : 1h30 au départ de la Gare de Valenciennes
 
 
 ### Se rendre à Bruxelles
-Temps de trajet : 🤔 
+Temps de trajet : 1h40 à 2h
 
+**En train (Gare de Valenciennes → Gare de Bruxelles-Midi)**
 - Prendre le **tram T1/T2** jusqu'à la gare de Valenciennes
-- Prendre le **TER** à destination de Lille-Flandres
--  aucune idée
+- Prendre le **TER** jusqu'à Lille Flandres (35 min)
+- Marcher jusqu'à la gare de Lille Europe (10 min à pied)
+- Prendre un **TGV** ou un **train** de Lille Europe à Bruxelles-Midi (30 min)
 
+**En voiture**
+- Prendre l'**A2** direction Bruxelles (environ 1h10)
+- Aucun péage, trajet direct
 
 ### Se rendre à Paris
-Temps de trajet : 🤔 
+Temps de trajet : 2h à 3h selon l'itinéraire
 
-- Il existe des TGV Valenciennes - Paris Nord
+**Paris Nord** 🚅
+- Prendre **Gare de Valenciennes - Paris Nord** via Douai et Arras (2h)
 
+**Paris Charles de Gaulle** 🚅
+- Prendre un TER **Valenciennes - Lille Flandres** (35-50 min)  
+- Prendre un TGV **Lille Flandres ou Lille Europe - Paris CDG** (1h)
+
+**Trajet en Flixbus** 🚌
+- Départ **Valenciennes Université**, au bout du campus (2h30)

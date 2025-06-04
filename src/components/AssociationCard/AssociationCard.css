@@ -10,7 +10,6 @@ a.assos-bouton-lien-reseaux {
     height: 30px;
     width: 30px;
     transition: all 0.2s ease-in-out;
-
 }
 
 a.assos-bouton-lien-reseaux.header {
@@ -18,10 +17,8 @@ a.assos-bouton-lien-reseaux.header {
     width: 40px;
 }
 
-
 a.assos-bouton-lien-reseaux:hover {
     background-color: var(--ifm-color-primary-dark);
-
 }
 
 a.assos-bouton-lien-reseaux img {
@@ -33,7 +30,6 @@ a.assos-bouton-lien-reseaux img {
 a.assos-bouton-lien-reseaux.header img {
     max-width: 25px;
     max-height: 25px;
-
 }
 
 .association-card {
@@ -50,50 +46,47 @@ a.assos-bouton-lien-reseaux.header img {
     display: block;
 
     transition: all 0.2s ease-in-out;
+}
 
-    &:hover {
-        color: inherit;
-        text-decoration: none;
-        background-color: #AAAAAA40;
-    }
-      
-      
+.association-card:hover {
+    color: inherit;
+    text-decoration: none;
+    background-color: #AAAAAA40;
+}
 
-    >img {
-        width: auto;
-        height: 100px;
-        border-radius: 100px;
+.association-card > img {
+    width: auto;
+    height: 100px;
+    border-radius: 100px;
+}
 
-    }
+.association-card h3 {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
 
-    h3 {
-        font-size: 1.2em;
-        margin: 0;
-        padding: 0;
-    }
+.association-card p.asso-type {
+    color: #888;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0;
+    margin-bottom: 0;
+}
 
-    p.asso-type {
-        color: #888;
-        font-size: 0.8em;
-        font-weight: bold;
-        text-transform: uppercase;
-        padding: 0;
-        margin-bottom: 0;
-    }
+.association-card div.association-card-links {
+    margin: 0.5em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
 
-    div.association-card-links {
-        margin: 0.5em 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 1em;
-        align-items: center;
-    }
-
-    p.association-card-description {
-        font-size: 1em;
-        padding: 0;
-        margin: 0;
-    }
+.association-card p.association-card-description {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
 }
 
