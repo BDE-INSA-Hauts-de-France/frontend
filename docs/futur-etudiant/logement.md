@@ -40,6 +40,12 @@ Pour trouver une place dans une collocation de l'INSA, on te conseille de te rap
 
 ### Les APL
 
+-> Retrouve ici les informations sur les Aides Personnalisées au Logement (APL) : [Aides au logement - Service Public](https://www.service-public.fr/particuliers/vosdroits/F12006)
+
 ### Les aides du Crous
 
+Le Crous propose des aides pour les étudiants en difficulté financière. Tu peux retrouver toutes les informations sur le site : [Voir toutes les aides et bourses du CROUS](https://www.crous-lille.fr/bourses-et-aides-financieres/).
 
+### Pour les étudiants internationaux
+
+Pour les étudiants internationaux, vous pouvez également consulter cette page : [Aides financières pour les étudiants internationaux](https://www.etudiant.gouv.fr/fr/aides-financieres-pour-les-etudiants-internationaux-1663) pour obtenir des informations sur les aides au logement et les bourses disponibles.

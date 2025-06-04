@@ -1,7 +1,8 @@
+import './ContactCard.css'; // Import the CSS file
 
-{/* Carte de contact */ }
+{/* Carte de contact */}
 export default function ContactCard ({ first_name, last_name, role, photo_link = "", email, phone_number }) {
-    if (photo_link != "" && photo_link != NULL) {
+    if (photo_link !== "" && photo_link != null) {
         return (
     <div
         class="contact-card"

@@ -1,0 +1,79 @@
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap : 32px;
+  /* background:   #d32f2f; */
+  /* gradient discret */
+  background: linear-gradient(230deg, #d32f2f, #a31515);
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  text-decoration: none;
+
+  min-width: min(300px,90vw);
+  flex: 1;
+  padding: 16px 24px;
+  transition: all 0.2s;
+  cursor: pointer;
+  position: relative;
+   
+
+}
+
+.card:hover {
+  /* background: var(--rouge-bde-darker, #a31515); */
+  /* background: linear-gradient(230deg, #a31515, #d32f2f); */
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(144, 144, 144, 0.2);
+  text-decoration: none;
+  color: white;  ;
+  * {
+    text-decoration: none;
+    /* color: white; */
+
+  }
+}
+
+.cardImage {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.cardContent {
+  text-align: center;
+}
+
+.cardContent h3 {
+  margin: 0 0 8px 0;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.cardContent p {
+   text-align: left;
+  font-size: 16px;
+  margin: 0;
+}
+
+.cardIcon {
+  font-size: 42px;
+  color: #fff;
+  /* --ionicon-stroke-width: 32px; */
+  /* Pour un rendu plus épais */
+}

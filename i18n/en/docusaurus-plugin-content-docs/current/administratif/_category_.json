@@ -1,10 +1,10 @@
 {
-  "label": "Administratif",
+  "label": "Administrative",
   "position": 5,
 
   "link": {
     "type": "generated-index",
-    "description": "Scolarité - Secrétariats - Contacts - etc."
+    "description": "Schooling - Secretariats - Contacts - etc."
   }
 }
- 
+

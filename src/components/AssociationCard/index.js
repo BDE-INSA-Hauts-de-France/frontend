@@ -1,4 +1,5 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
 import React from 'react';
 import './AssociationCard.css';
 // Bouton qui point vers les réseaux sociaux
@@ -23,29 +24,24 @@ const AssociationCard = ({
 }) => {
     const pageLink = useBaseUrl(`/vie-etudiante/assos-et-clubs/${asso_page_lien}`);
     return (
-  <a
-      class="association-card"
-
-      href = {pageLink}
+  <Link
+      className="association-card"
+      to={pageLink}
       >
       <img
           src={useBaseUrl(asso_logo)}
           alt={asso_name}
-
       />
       <>
           <h3>{asso_name}</h3>
-
           <p className="asso-type">{asso_type}</p>
           <div className="association-card-links">
               {asso_lien_instagram && (
                   <BoutonReseau titre="Lien vers le compte Instagram" nom_icon="instagram" lien={asso_lien_instagram}/>
               )}
-
               {asso_lien_site && (
                   <BoutonReseau titre="Lien vers le site internet" nom_icon="globe-solid" lien={asso_lien_site}/>
               )}
-
               {asso_lien_discord && (
                   <BoutonReseau titre="Lien d'invitation au serveur Discord" nom_icon="discord" lien={asso_lien_discord}/>
               )}
@@ -55,14 +51,10 @@ const AssociationCard = ({
               {asso_lien_spotify && (
                   <BoutonReseau titre="Lien vers Spotify" nom_icon="spotify" lien={asso_lien_spotify}/>
               )}
-
           </div>
           <p className='association-card-description'>{asso_description_short}</p>
       </>
-
-
-
-  </a>
+  </Link>
     );
 };
 // Je ne sais pas comment créer et importer des composants depuis des fichiers md. 

@@ -14,7 +14,7 @@
 
     },
     {
-        "asso_name": "Coeur'ibou",
+        "asso_name": "Coeuribou",
         "asso_logo": "/img/assos/logo-coeuribou.jpg",
         "asso_type": "Asso",
         "asso_description_short": "L'association humanitaire",
@@ -58,7 +58,7 @@
         "asso_lien_instagram": "https://www.instagram.com/jinnov.insa/",
         "asso_lien_site": "https://jinnov-insa.fr",
         "asso_lien_linkedin": "https://www.linkedin.com/company/jinnov/",
-        "asso_image_fond":"/img/assos/fonds/cover-jinnov.webp"
+        "asso_image_fond":"/img/assos/fonds/cover-jinnov.png"
 
     },
     {
@@ -74,16 +74,16 @@
 
     },
     {
-        "asso_name": "INS'Aerospace",
+        "asso_name": "INSAerospace",
         "asso_logo": "/img/assos/logo-insaerospace.png",
         "asso_type": "Asso",
-        "asso_description_long": "",
-        "asso_description_short": "Vers l'infini et l'au-delà",
+        "asso_description_long": "INSAerospace est l'association d'aérospatiale et d'astronomie. Nous concevons des fusées de toutes tailles !",
+        "asso_description_short": "Fusées et observation",
         "asso_page_lien": "insaerospace",
         "asso_lien_instagram": "https://www.instagram.com/insaerospace/",
         "asso_lien_discord": "https://discord.gg/k6pjnCYb8h",
         "asso_lien_site": "https://insaerospace.com/",
-        "asso_image_fond":""
+        "asso_image_fond":"/img/assos/fonds/cover-insaerospace.png"
 
     },
     {
@@ -229,7 +229,7 @@
         "asso_description_short": "Club de Danse",
         "asso_description_long": "Club de danse de l'INSA Hauts-de-France 💃🕺",
         "asso_page_lien": "danse-avec-linsa",
-        "asso_lien_instagram": "https://www.instagram.com/danse_avec_l.insa/",
+        "asso_lien_instagram": "https://www.instagram.com/danse.avec.l.insa/",
         "asso_image_fond":"/img/assos/fonds/cover-danse-avec-linsa.webp"
 
     },
@@ -357,6 +357,50 @@
         "asso_lien_instagram": "https://www.instagram.com/la_banda_barry/",
         "asso_image_fond":"/img/assos/fonds/cover-bandabarry.webp"
 
+    },
+    {
+        "asso_name": "CariSolex",
+        "asso_logo": "/img/assos/logo-carisolex.png",
+        "asso_type": "Asso",
+        "asso_description_short": "À compléter",
+        "asso_description_long": "À compléter",
+        "asso_page_lien": "carisolex",
+        "asso_image_fond": ""
+    },
+    {
+        "asso_name": "Cari Dune",
+        "asso_logo": "/img/assos/logo-caridune.png",
+        "asso_type": "Asso",
+        "asso_description_short": "À compléter",
+        "asso_description_long": "À compléter",
+        "asso_page_lien": "caridune",
+        "asso_image_fond": ""
+    },
+    {
+        "asso_name": "Cari'boule",
+        "asso_logo": "/img/assos/logo-cariboules.png",
+        "asso_type": "Club",
+        "asso_description_short": "À compléter",
+        "asso_description_long": "À compléter",
+        "asso_page_lien": "cariboule",
+        "asso_image_fond": ""
+    },
+    {
+        "asso_name": "CariMix",
+        "asso_logo": "/img/assos/logo-carimix.png",
+        "asso_type": "Club",
+        "asso_description_short": "À compléter",
+        "asso_description_long": "À compléter",
+        "asso_page_lien": "carimix",
+        "asso_image_fond": ""
+    },
+    {
+        "asso_name": "INSWIM",
+        "asso_logo": "/img/assos/logo-inswim.png",
+        "asso_type": "Club",
+        "asso_description_short": "À compléter",
+        "asso_description_long": "À compléter",
+        "asso_page_lien": "inswim",
+        "asso_image_fond": ""
     }
-
-    ]
+]

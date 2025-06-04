@@ -42,6 +42,11 @@
         "id": 8,
         "src": "img/insa/photos_accueil/mascottes_des_insa_h5_2025.png",
         "idTexte": 8
+    },
+    {
+        "id": 9,
+        "src": "img/insa/photos_accueil/insaerospace2-23-24.png",
+        "idTexte": 9
     }
 
 ]

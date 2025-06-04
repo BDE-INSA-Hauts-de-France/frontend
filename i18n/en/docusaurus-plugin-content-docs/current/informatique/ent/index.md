@@ -9,4 +9,3 @@ description: "You will find all the important information for your studies: Emai
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
-

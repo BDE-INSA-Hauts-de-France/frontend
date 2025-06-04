@@ -2,10 +2,9 @@
   "label": "📚 Starter Packs",
   "position": 5,
   "collapsible": true,
-  
   "link": {
     "type": "doc",
     "id": "futur-etudiant/starter-packs/index"
   }
 }
- 
+

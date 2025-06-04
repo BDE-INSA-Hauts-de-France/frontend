@@ -65,7 +65,6 @@ const config = {
         // },
         theme: {
           customCss: ['./src/css/custom.css',
-            './src/css/components/contactCard.css',
           ],
 
         },
@@ -382,6 +381,16 @@ const config = {
       {
         src: 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js',
         nomodule: true,
+      },
+    ],
+    headTags: [
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'apple-touch-icon',
+          sizes: '180x180',
+          href: '/img/app-icon.png', // chemin absolu pour être toujours correct
+        },
       },
     ],
 };

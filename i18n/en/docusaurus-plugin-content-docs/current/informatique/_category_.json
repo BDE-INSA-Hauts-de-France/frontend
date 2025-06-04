@@ -1,9 +1,9 @@
 {
-  "label": "Outils informatiques",
+  "label": "IT Tools",
   "position": 2,
   "link": {
     "type": "doc",
-    "id": "informatique/index" 
+    "id": "informatique/index"
   }
 }
- 
+

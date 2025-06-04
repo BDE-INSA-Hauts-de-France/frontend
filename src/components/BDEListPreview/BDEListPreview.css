@@ -28,7 +28,7 @@
     margin: 0;
 }
 
-.bde-list-preview.div.bde-list-preview-links {
+.bde-list-preview div.bde-list-preview-links {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -36,7 +36,7 @@
     gap: 18px;
     margin-top: 10px;
 }
-.bde-list-preview.a {
+.bde-list-preview a {
     color: var(--ifm-color-primary);
     text-decoration: none;
 

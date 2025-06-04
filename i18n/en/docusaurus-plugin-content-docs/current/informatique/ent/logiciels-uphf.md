@@ -15,9 +15,9 @@ tags: [Software]
 - [Online Grades](https://mdw.uphf.fr/mondossierweb-pegase) - View grades (from the 3rd year)
 
 ## File Storage and Sharing
-- 100 GB of storage on OneDrive upon [creating a student account](https://www.microsoft.com/fr-fr/education/products/office) with the email address `@uphf.fr`
+- 100 GB of storage on OneDrive when [creating a student account](https://www.microsoft.com/fr-fr/education/products/office) with the email address in `@uphf.fr`
 :::info
-UPHF does not offer Microsoft 365 licenses to students. However, it is possible to use the online Office suite for free.
+UPHF does not offer a Microsoft 365 license to students. However, it is possible to use the Office suite online for free.
 :::
 - [FileSender](https://filesender.renater.fr/Shibboleth.sso/Login?entityID=https://idp.uphf.fr/idp/shibboleth) - Send large files
 - [UPDF](https://updf.uphf.fr/) - Manipulate PDF files (merge, extract, rotate)

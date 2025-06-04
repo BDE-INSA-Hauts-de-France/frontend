@@ -2,35 +2,37 @@
 title: 'Admissions'
 sidebar_label: '📝 Admissions'
 sidebar_position: 6
-description: All details regarding admissions to INSA Hauts-de-France
+description: Tous les détails concernant les admissions à l'INSA Hauts-de-France
 ---
-> Find here all the details about admissions and contacts if you want more information.
+> Retrouve ici tous les détails sur les admissions et des contacts si tu souhaites avoir plus d'informations.
 
-## Admissions in 1A
+## Admissions en 1A
 
-Admissions for the first year of the preparatory cycle are done via the **Parcoursup** platform or on the **INSA website for international students**
+Les Admissions pour la première année du cycle préparatoire se font via la plateforme **Parcoursup** ou sur le **site de l'INSA pour les étudiants internationaux**
 
-Our advice:
-- Fill in all sections of Parcoursup (the "optional" sections are not really optional)
-- Highlight your extracurricular culture, your interests, and your working methods. For your academic results, the records speak for themselves.
-- Find out about the type of profiles that INSA is looking for and show that you are the right person, show that you know the school.
+Nos conseils:
+- Remplissez bien toutes les sections de Parcoursup (les sections "facultatives" ne sont pas vraiment facultatives)
+- Mettez en avant votre culture extra-scolaire, vos centres d'intérêts et vos méthodes de travail. Pour vos résultats scolaires, les dossiers parlent d'eux-mêmes. 
+- Renseignez-vous sur le type de profils que recherche l'INSA et montrez que vous êtes la bonne personne, montrez que vous connaissez l'école. 
 
-<button type="button" class="button button--primary shadow--lw" onClick={()=>window.open('https://www.groupe-insa.fr/preparer/comment-candidater/les-procedures/integrer-le-groupe-insa-en-1re-annee','_blank')}>All admission procedures of the INSA Group (1A)</button>
+<button type="button" class="button button--primary shadow--lw" onClick={()=>window.open('https://www.groupe-insa.fr/preparer/comment-candidater/les-procedures/integrer-le-groupe-insa-en-1re-annee','_blank')}>Toutes les procédures d'admission du Groupe INSA (1A)</button>
 
-### Admission Interviews
-If you are among the top candidates for INSA programs, you will likely be invited for an admission interview. This interview aims to refine the rankings and discover future students, their ambitions, and their goals.
 
-No stress for the interview! The goal is to demonstrate a certain critical thinking and culture by showing that you care about current events and future challenges.
+### Oraux d'admission
+Si tu fais partie des meilleurs candidats aux formations des INSA, tu seras sûrement convoqué.e pour un oral d'admission. Cet oral a pour but d'affiner les classements et de découvrir les futurs étudiants, leurs ambitions et leurs objectifs.
 
-The interview is generally divided into two parts: the first where you are presented with an image. You must say what it reminds you of in economic, industrial, and ecological terms. Then, you are asked questions about your personal life: your projects, your passions, sports...
+Pas de stress pour l'entretien! Le but est de faire preuve d'un certain esprit critique et de culture en montrant que vous vous souciez de l'actualité et des enjeux de demain.
 
-:::info[No interviews for you?]
-If you have not been selected for the oral interviews, don't worry, **you still have a chance to be admitted to INSA Hauts-de-France!** However, it will be more challenging to get into more selective INSAs like Lyon or Toulouse.
+L'entretien se divise généralement en deux parties : la première où on vous présente une image. Vous devez dire à quoi elle vous fait penser sur le plan économique, industriel et écologique. Ensuite, on vous pose des questions sur votre vie personnelle: vos projets, vos passions, le sport...
+
+:::info[Pas d'oraux pour toi ?]
+Si tu n'as pas été selectionné.e pour les entretiens oraux, ne t'inquiète pas, **tu as encore des chances d'être admis.e à l'INSA Hauts-de-France !** Ce sera par contre plus tendu pour accéder à des INSA plus sélectifs comme Lyon ou Toulouse.
 :::
 
-## Admissions in 2A
+## Admissions en 2A
 
-<button type="button" class="button button--primary shadow--lw" onClick={()=>window.open('https://www.groupe-insa.fr/preparer/comment-candidater/les-procedures/integrer-le-groupe-insa-en-2e-annee','_blank')}>All admission procedures of the INSA Group (2A)</button>
+<button type="button" class="button button--primary shadow--lw" onClick={()=>window.open('https://www.groupe-insa.fr/preparer/comment-candidater/les-procedures/integrer-le-groupe-insa-en-2e-annee','_blank')}>Toutes les procédures d'admission du Groupe INSA (2A)</button>
 
-## Admissions in 3A - SCEI
-<button type="button" class="button button--primary shadow--lw" onClick={()=>window.open('https://www.groupe-insa.fr/preparer/comment-candidater/les-procedures/integrer-le-groupe-insa-en-3e-annee','_blank')}>All admission procedures of the INSA Group (3A)</button>
+
+## Admissions en 3A - SCEI
+<button type="button" class="button button--primary shadow--lw" onClick={()=>window.open('https://www.groupe-insa.fr/preparer/comment-candidater/les-procedures/integrer-le-groupe-insa-en-3e-annee','_blank')}>Toutes les procédures d'admission du Groupe INSA (3A)</button>

@@ -41,5 +41,11 @@
         "titre" : "Le High Five ?",
         "description" : "Le High Five est un évènement sportif interINSA incontournable. Il regroupe tous les INSA pour un week-end de folie ! En 2025, il a eu lieu chez nous, à Valenciennes !"
     }
+    ,
+    {
+        "id" : 8,
+        "titre" : "INSAerospace",
+        "description" : "L'école regorge d'associations techniques comme INSAerospace, qui est l'association d'aérospatiale. Ils conçoivent et lancent leurs propres fusées!"
+    }
 
 ]
