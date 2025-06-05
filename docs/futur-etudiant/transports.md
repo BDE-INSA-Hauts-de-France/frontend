@@ -34,7 +34,9 @@ Les principaux arrêts sont:
 On vous recommande de télécharger l'[application Transvilles](https://www.transvilles.com/lapplication-temps-reel/) pour avoir les alertes en temps réel sur les perturbations et les horaires. L'application **Google Maps fonctionne mieux** pour connaître les horaires des trams.
 
 :::warning[Attention - arret des trams à 21h]
-Attention, les trams ne circulent plus après 21h. Pour rentrer plus tard, il faudra prendre la **Luciole** (navette) qui passe une fois par heure hors vacances et jours fériés. [Voir les horaires de la Luciole](https://storage.googleapis.com/is-wp-14-prod/uploads-prod/2023/07/Ligne_Luciole_0923.pdf)
+Attention, les trams ne circulent plus après 21h. Pour rentrer plus tard, il faudra prendre la navette **FlexO** qui passe une fois par heure jusqu'à 23h hors vacances et jours fériés (et jusqu'à 00h30 les weekends) [**Voir les horaires du FlexO**](https://storage.googleapis.com/is-wp-14-prod/uploads-prod/2023/07/Ligne_Luciole_0923.pdf)
+
+Attention à ne pas manquer la dernière, cette navette ne fait pas beaucoup de trajets !
 :::
 
 ### La carte Pass&Go (-26 ans)
@@ -48,9 +50,16 @@ La carte de transport est valable dans les zones Valenciennes Métropole et Port
 - Les TER dans une zone limitée autour de Valenciennes
 
 ### Plan du réseau de tram et bus
-[Plan du réseau de tram et bus [pdf]](https://storage.googleapis.com/is-wp-14-preprod/uploads-preprod/2023/03/Plan-reseau0323.pdf)
+[Plan du réseau de tram et bus [pdf]](https://www.transvilles.com/plans-du-reseau/)
 
-## Le vélo
+## Le vélo 🚲
+À Valenciennes on te conseille vivement de te déplacer à vélo ! **À vélo, tout est proche !** Le campus n'est qu'à un quart d'heure du centre-ville !
+
+Sur le campus, vous retrouverez de nombreux **parcs à vélos** devant chaque bâtiment. En plus de cela, de **nouveau parcs à vélo** couverts et sécurisés viennent juste d'être installés. Il est recommandé d'utiliser un antivol solide pour éviter le vol de votre vélo.
+
+Des vélos sont aussi **mis à disposition par la ville de Valenciennes**, il suffit d'installer l'application [**Donkey**](https://www.transvilles.com/nos-services/velos-en-libre-service/) pour en louer un. Les tarifs sont très abordables (**1€ de l'heure**). Vous en trouverez un peu partout sur le campus et en ville, dans des **zones de dépôt dédiées**.
+
+
 
 ## Itinéraires courants
 ### Se rendre sur Lille
@@ -58,7 +67,7 @@ Temps de trajet : 35 à 45 minutes
 
 - Prendre le **TER** à destination depuis la Gare de Valenciennes de Lille-Flandres (35 min). Il y a des TER presque **toutes les demi-heures**
 
-### Se rendre à l'aéroport
+### Se rendre à l'aéroport ✈️
 Temps de trajet : 1h30 au départ de la Gare de Valenciennes
 
 - Prendre le **tram T1/T2** jusqu'à la gare de Valenciennes
@@ -68,15 +77,27 @@ Temps de trajet : 1h30 au départ de la Gare de Valenciennes
 
 
 ### Se rendre à Bruxelles
-Temps de trajet : 🤔 
+Temps de trajet : 1h40 à 2h
 
+**En train (Gare de Valenciennes → Gare de Bruxelles-Midi)**
 - Prendre le **tram T1/T2** jusqu'à la gare de Valenciennes
-- Prendre le **TER** à destination de Lille-Flandres
--  aucune idée
+- Prendre le **TER** jusqu'à Lille Flandres (35 min)
+- Marcher jusqu'à la gare de Lille Europe (10 min à pied)
+- Prendre un **TGV** ou un **train** de Lille Europe à Bruxelles-Midi (30 min)
 
+**En voiture**
+- Prendre l'**A2** direction Bruxelles (environ 1h10)
+- Aucun péage, trajet direct
 
 ### Se rendre à Paris
-Temps de trajet : 🤔 
+Temps de trajet : 2h à 3h selon l'itinéraire
 
-- Il existe des TGV Valenciennes - Paris Nord
+**Paris Nord** 🚅
+- Prendre **Gare de Valenciennes - Paris Nord** via Douai et Arras (2h)
 
+**Paris Charles de Gaulle** 🚅
+- Prendre un TER **Valenciennes - Lille Flandres** (35-50 min)  
+- Prendre un TGV **Lille Flandres ou Lille Europe - Paris CDG** (1h)
+
+**Trajet en Flixbus** 🚌
+- Départ **Valenciennes Université**, au bout du campus (2h30)

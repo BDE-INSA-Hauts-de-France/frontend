@@ -1,79 +1,79 @@
 ---
-sidebar_label: '🚆 Transport'
+sidebar_label: '🚆 Transports'
 description: How to get around Valenciennes and its surroundings
 tags:
-- Transport
-- New student
+- Transports
+- New Student
 sidebar_position: 4
 ---
-# Transport
+# Transports
 <figure>
 
-![Photo of the Valenciennes tram](/img/valenciennes/tram.webp)
+![Photo of Valenciennes tram](/img/valenciennes/tram.webp)
 <figcaption>The tram in front of Valenciennes station - _source: europe-en-france.gouv.fr_ </figcaption>
 </figure>
 
-## Tram lines T1 and T2
+## Tram Lines T1 and T2
 The tram serves the Mont-Houy campus.
 
 The main stops are:
-- **Université** (terminus): CROUS Jules Matteron residence, Les 7 Muids
-- **Moriamez Recherche**: In front of the CLJ1 and Lottman buildings, BU, Gymnasium & Stadium
-- **Campus Mont-Houy**: MSE (Student Services House - Health Center - Ticketing)
-- **Chemin Vert**: Aulnoy-Les-Valenciennes, CROUS Jules Mousseron residence, UXCO, All Suites Study, Action, O'terra...
+- **Université** (terminus): CROUS Jules Matteron Residence, Les 7 Muids
+- **Moriamez Recherche**: In front of CLJ1 and Lottman buildings, Library, Gymnasium & Stadium
+- **Campus Mont-Houy**: MSE (Student Services Center - Health Center - Ticket Office)
+- **Chemin Vert**: Aulnoy-Les-Valenciennes, CROUS Jules Mousseron Residence, UXCO, All Suites Study, Action, O'terra...
 - **Jules Chevalier**: Carrefour, Brico Dépot
 - **La Briquette**: Lidl, Marly
-- **Hôtel de Ville**: Place d'armes, Restaurants, Shops, Fnac...
-- **Gare de Valenciennes**: Valenciennes station
+- **Hôtel de Ville**: Place d'Armes, Restaurants, Shops, Fnac...
+- **Gare de Valenciennes**: Valenciennes Station
 
-[Tram timetables](https://www.transvilles.com/les-horaires-de-la-rentree-2023/) are available on the Transvilles website.
+[Tram schedules](https://www.transvilles.com/les-horaires-de-la-rentree-2023/) are available on the Transvilles website.
 
-We recommend downloading the [Transvilles app](https://www.transvilles.com/lapplication-temps-reel/) to get real-time alerts on disruptions and timetables. The **Google Maps app works better** for knowing tram times.
+We recommend downloading the [Transvilles app](https://www.transvilles.com/lapplication-temps-reel/) for real-time alerts on disruptions and schedules. The **Google Maps app works better** for checking tram schedules.
 
-:::warning[Attention - trams stop at 9pm]
-Attention, trams no longer run after 9pm. To return later, you will have to take the **Luciole** (shuttle) which runs once an hour except during holidays and public holidays. [See Luciole timetables](https://storage.googleapis.com/is-wp-14-prod/uploads-prod/2023/07/Ligne_Luciole_0923.pdf)
+:::warning[Attention - tram service ends at 9 PM]
+Please note that trams stop running after 9 PM. To return later, you will need to take the **FlexO shuttle**, which runs once an hour until 11 PM outside holidays and public holidays (and until 12:30 AM on weekends). [**See FlexO schedules**](https://storage.googleapis.com/is-wp-14-prod/uploads-prod/2023/07/Ligne_Luciole_0923.pdf)
+
+Be careful not to miss the last one, as this shuttle does not run frequently!
 :::
 
-### The Pass&Go card (under 26)
+### Pass&Go Card (-26 years old)
 
-![Carte Pass&Go](/img/valenciennes/bandeau-passandgo.webp)
-Transport is free in the Valenciennes area for those under 26. To do this, you must [apply on the Transvilles website](https://www.transvilles.com/votre-abonnement-passgo/). The card costs €20/year.
+![Pass&Go Card](/img/valenciennes/bandeau-passandgo.webp)
+Transportation is free in the Valenciennes area for those under 26 years old. To benefit from this, you need to [apply on the Transvilles website](https://www.transvilles.com/votre-abonnement-passgo/). The card costs €20/year.
 
-The transport card is valid in the Valenciennes Métropole and Porte du Hainault areas (i.e. 81 municipalities) for:
+The transport card is valid in the Valenciennes Métropole and Porte du Hainault zones (covering 81 municipalities) for:
 - Trams
 - Buses
-- TER trains in a limited area around Valenciennes
+- TER trains within a limited area around Valenciennes
 
-### Tram and bus network map
-[Plan du réseau de tram et bus [pdf]](https://storage.googleapis.com/is-wp-14-preprod/uploads-preprod/2023/03/Plan-reseau0323.pdf)
+### Tram and Bus Network Map
+[Tram and Bus Network Map [PDF]](https://www.transvilles.com/plans-du-reseau/)
 
-## By bike
+## Cycling 🚲
+In Valenciennes, cycling is highly recommended! **By bike, everything is close!** The campus is only a 15-minute ride from the city center!
 
-## Common routes
-### To get to Lille
+On campus, you will find numerous **bike racks** in front of each building. Additionally, **new covered and secure bike racks** have just been installed. It is recommended to use a sturdy lock to prevent bike theft.
+
+Bikes are also **available for rent from the city of Valenciennes**. Simply install the [**Donkey** app](https://www.transvilles.com/nos-services/velos-en-libre-service/) to rent one. The rates are very affordable (**€1 per hour**). You will find them scattered across the campus and city in **dedicated drop-off zones**.
+
+## Common Routes
+### Getting to Lille
 Travel time: 35 to 45 minutes
 
-- Take the **TER** from Valenciennes station to Lille-Flandres (35 min). There are TER trains almost **every half hour**
+- Take the **TER** from Valenciennes Station to Lille-Flandres (35 min). TER trains run almost **every half hour**.
 
-### To get to the airport
-Travel time: 1h30 from Valenciennes station
+### Getting to the Airport ✈️
+Travel time: 1h30 from Valenciennes Station
 
-- Take the **tram T1/T2** to Valenciennes station
+- Take the **tram T1/T2** to Valenciennes Station
 - Take the **TER** to Lille-Flandres
-- Take the **[Flibco Shuttle](https://www.flibco.com/fr/shuttle/navette-bus-aeroport-lille-lesquin)** to Lille-Lesquin airport (Every half hour on weekdays)
+- Take the **[Flibco Shuttle](https://www.flibco.com/fr/shuttle/navette-bus-aeroport-lille-lesquin)** to Lille-Lesquin Airport (every half hour on weekdays).
 
+### Getting to Brussels
+Travel time: 1h40 to 2h
 
-
-### To get to Brussels
-Travel time: 🤔 
-
-- Take the **tram T1/T2** to Valenciennes station
-- Take the **TER** to Lille-Flandres
--  no idea
-
-
-### To get to Paris
-Travel time: 🤔 
-
-- There are TGV trains from Valenciennes to Paris Nord
-
+**By train (Valenciennes Station → Brussels-Midi Station)**
+- Take the **tram T1/T2** to Valenciennes Station
+- Take the **TER** to Lille-Flandres (35 min)
+- Walk to Lille Europe Station (10 min on foot)
+- Take a **TGV** or **train** from Lille Europe to Brussels-Midi (30 min)
