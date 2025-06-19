@@ -283,14 +283,14 @@
 
     },
     {
-        "asso_name": "GAM'INSA",
+        "asso_name": "Gam'INSA",
         "asso_logo": "/img/assos/logo-gaminsa.jpg",
         "asso_type": "Club",
-        "asso_description_short": "Club de jeux vidéo",
-        "asso_description_long": "Club de jeux vidéo de l'INSA HdF. Rejoignez notre communauté Discord!",
+        "asso_description_short": "Gaming Chill",
+        "asso_description_long": "Gam'INSA est l'espace pour tous les passionnés de jeux vidéos",
         "asso_page_lien": "gaminsa",
         "asso_lien_instagram": "https://www.instagram.com/gaminsahdf/",
-        "asso_lien_discord": "https://discord.com/invite/SuAmJzUgzd",
+        "asso_lien_discord": "https://discord.gg/pr4d4rUd",
         "asso_image_fond":""
 
     },
