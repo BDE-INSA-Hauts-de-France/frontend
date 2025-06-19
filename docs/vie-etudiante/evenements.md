@@ -37,7 +37,7 @@ Cette année, l’INSA Hauts-de-France a eu l’honneur d’accueillir le H5 - H
 Le TOSS 2025, organisé par CentraleSupélec du 16 au 18 mai 2025 à Gif-sur-Yvette, est l’un des plus grands tournois sportifs étudiants de France. Ce week-end intense rassemblera 4500 participants venant s’affronter dans de nombreuses disciplines (football, basket, volley, handball, etc.). Plus qu’un simple tournoi, c’est une expérience où compétition, fair-play et ambiance festive se mêlent pour offrir un événement inoubliable !
 
 ### CODINSA
-Le concours [Cod'INSA](htps://codinsa.org) est un concours d'informatique gratuit et annuel créé par et pour les élèves des INSA de France. Pour ces-derniers, c'est l'occasion de s'affronter de manière ludique, mais aussi et surtout de se rencontrer autour d'une passion commune ! Le concours se déroule en deux étapes : des qualifications, organisées dans chaque INSA dans le but de sélectionner une équipe de cinq étudiants, et une finale où ces derniers devront aller défier les autres INSA lors d'un week-end mêlant jeu et compétition.
+Le concours [Cod'INSA](https://codinsa.org) est un concours d'informatique gratuit et annuel créé par et pour les élèves des INSA de France. Pour ces-derniers, c'est l'occasion de s'affronter de manière ludique, mais aussi et surtout de se rencontrer autour d'une passion commune ! Le concours se déroule en deux étapes : des qualifications, organisées dans chaque INSA dans le but de sélectionner une équipe de cinq étudiants, et une finale où ces derniers devront aller défier les autres INSA lors d'un week-end mêlant jeu et compétition.
 
 
 ### CTF interINSA

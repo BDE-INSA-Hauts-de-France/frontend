@@ -51,7 +51,7 @@ const styles = {
   
 
 {/* Boite d'association */ }
-const AssociationHeader = ({ asso_name, asso_logo, asso_type, asso_description_long, asso_image_fond, asso_lien_instagram, asso_lien_site, asso_lien_discord, asso_lien_linkedin, asso_lien_spotify, asso_lien_github }) => (
+const AssociationHeader = ({ asso_name, asso_logo, asso_type, asso_description_long, asso_image_fond, asso_lien_instagram, asso_lien_site, asso_lien_discord, asso_lien_linkedin, asso_lien_spotify, asso_lien_github, asso_lien_mail }) => (
     <div
     style ={{
         backgroundImage: `url(${useBaseUrl (asso_image_fond)})`,
@@ -121,6 +121,9 @@ const AssociationHeader = ({ asso_name, asso_logo, asso_type, asso_description_l
                     )}
                     {asso_lien_github && (
                         <BoutonReseauHeader titre="Lien vers GitHub" nom_icon="github" lien={asso_lien_github} />
+                    )}
+                    {asso_lien_mail && (
+                        <BoutonReseauHeader titre="Envoyer un mail" nom_icon="envelope" lien={`mailto:${asso_lien_mail}`} />
                     )}
 
                 </div>
