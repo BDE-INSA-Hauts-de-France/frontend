@@ -146,7 +146,10 @@ const config = {
                 label: '🧠 Le Point Culture',
                 to: 'vie-etudiante/le-point-culture'
               },
-
+              {
+                label: '🏛️ Quoi faire à VA ?',
+                to: 'vie-etudiante/quoi-faire-a-valenciennes'
+              },
 
             ]
 
@@ -248,28 +251,12 @@ const config = {
             title: 'Le BDE',
             items: [
               {
-                label: 'Actus',
-                to: '/',
-              },
-              {
-                label: 'La Newsletter',
-                to: '/',
+                label: 'Qui sommes-nous ?',
+                to: '/vie-etudiante/bde',
               },
               {
                 label: 'Le Calendrier',
                 to: '/vie-etudiante/evenements',
-              },
-              {
-                label: 'Nous rejoindre',
-                to: '/',
-              },
-              {
-                label: 'Partenariats',
-                to: '/',
-              },
-              {
-                label: 'AG & documents officiels',
-                to: '/',
               },
 
             ],
