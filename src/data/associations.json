@@ -234,11 +234,11 @@
 
     },
     {
-        "asso_name": "CLIMB'INSA",
+        "asso_name": "Climb'INSA",
         "asso_logo": "/img/assos/logo-climbinsa.png",
         "asso_type": "Club",
-        "asso_description_short": "Club d'escalade",
-        "asso_description_long": "",
+        "asso_description_short": "Escalade & Slackline",
+        "asso_description_long": "Climb'INSA c'est le club d'escalade de l'INSA",
         "asso_page_lien": "climbinsa",
         "asso_lien_instagram": "https://www.instagram.com/climbinsahdf/",
         "asso_image_fond": "/img/assos/fonds/cover-climbinsa.webp"
