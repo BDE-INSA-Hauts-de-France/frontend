@@ -158,10 +158,13 @@
         "asso_name": "Valrobotik",
         "asso_logo": "/img/assos/logo-valrobotik.png",
         "asso_type": "Asso",
-        "asso_description_short": "Club de Robotique",
-        "asso_description_long": "Club de Robotique - Participation à des challenges",
+        "asso_description_short": "Valrobotik : robotique & drone",
+        "asso_description_long": "Valrobotik est l'association de robotique de l'INSA Hauts-de-France, qui permet aux étudiant·e·s de concevoir des projets technologiques et de participer à des concours dans une ambiance conviviale",
         "asso_page_lien": "valrobotik",
         "asso_lien_instagram": "https://www.instagram.com/valrobotik/",
+        "asso_lien_discord": "https://discord.gg/hSpdPJ4mTU",
+        "asso_lien_linkedin": "https://www.linkedin.com/company/valrobotik/",
+        "asso_lien_mail": "valrobotik@gmail.com",
         "asso_image_fond":"/img/assos/fonds/cover-valrobotik.webp"
 
     },
