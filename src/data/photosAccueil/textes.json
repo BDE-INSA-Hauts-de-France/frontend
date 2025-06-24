@@ -2,7 +2,7 @@
     {
         "id" : 0,
         "titre" : "Vie Etudiante",
-        "description" : "Le BDE est l'association qui anime la vie étudiante à l'INSA. Il organise de nombreux évènements tout au long de l'année comme des voyages, le WEI, le Gala..."    },
+        "description" : "Le BDE est l'association qui anime la vie étudiante à l'INSA ! Il organise de nombreux évènements tout au long de l'année comme des voyages, le WEI, le Gala..."    },
     {
         "id" : 1,
         "titre" : "C'est L'INSA HdF, C'est l'INSA de l'ambiance !",
@@ -40,12 +40,21 @@
         "id" : 7,
         "titre" : "Le High Five ?",
         "description" : "Le High Five est un évènement sportif interINSA incontournable. Il regroupe tous les INSA pour un week-end de folie ! En 2025, il a eu lieu chez nous, à Valenciennes !"
-    }
-    ,
+    },
     {
         "id" : 8,
         "titre" : "INSAerospace",
         "description" : "L'école regorge d'associations techniques comme INSAerospace, qui est l'association d'aérospatiale. Ils conçoivent et lancent leurs propres fusées!"
+    },
+    {
+        "id" : 9,
+        "titre" : "Associations",
+        "description" : "L'INSA HdF compte plus de 30 associations qui bercent la vie étudiante. Tu trouveras forcément une association qui te correspond !"
+    },
+    {
+        "id" : 10,
+        "titre" : "L'international",
+        "description" : "L'INSA et le BDE organisent des évènements de cohésion et de rencontre pour les étudiants internationaux ! "
     }
 
 ]
