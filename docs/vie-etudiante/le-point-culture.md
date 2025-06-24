@@ -1,8 +1,26 @@
 ---
-title: 'Le Point Culture'
-sidebar_label: '🧠 Le Point Culture'
+title: "Le Point Culture"
+sidebar_label: "🧠 Le Point Culture"
 sidebar_position: 5
 ---
+
+## Le Groupe INSA
+
+L'école a d'abord fait partie du réseau de partenaires du Groupe INSA avant de devenir officiellement un établissement labellisé INSA en 2019. Le Groupe INSA est un réseau d'écoles d'ingénieurs françaises, reconnu pour son excellence académique et son engagement envers la formation d'ingénieurs de haut niveau.
+
+Les INSA ne sont pas seulement des établissements individuels ! De nombreux projets soutenus par le Groupe INSA, sa fondation et l'AEI (Asociation des Elèves des INSA) permettent la **création de liens forts entre les écoles et leurs étudiants**. Il existe donc une **dynamique nationale**, chaque insaïen appartient à son INSA mais aussi à un groupe plus large d'étudiants partageant les **mêmes valeurs**.
+
+À chaque INSA sa couleur et sa mascote ! Chez nous, c’est le **rose** 🩷 et notre animal totem, c’est le **Barry, le caribou** 🫎 !
+
+| École                    | Année de création | Couleur   | Animal totem  |
+| ------------------------ | ----------------- | --------- | ------------- |
+| INSA Hauts-de-France     | 2019              | Rose 🩷    | Caribou 🫎     |
+| INSA Centre Val de Loire | 2014              | Violet 💜 | Sanglier 🐗   |
+| INSA Strasbourg          | 2003              | Vert 💚   | Cigogne 🪿     |
+| INSA Rouen Normandie     | 1985              | Bleu 💙   | Requin 🦈     |
+| INSA Rennes              | 1966              | Orange 🧡 | Tigre 🐯      |
+| INSA Toulouse            | 1963              | Rouge ❤️  | Renard 🦊     |
+| INSA Lyon                | 1957              | Jaune 💛  | Rhinocéros 🦏 |
 
 ## L'Histoire de l'INSA HdF
 
@@ -15,6 +33,7 @@ L'ENSIAME a été créée en **2002** par la fusion de trois écoles d'ingénieu
 ### L'INSA Hauts-de-France
 
 Aujourd'hui, l'école propose:
+
 - Un cycle préparatoire ingénieur intégré SHPI (Sciences et Humanités Pour l'Ingénieur)
 - Des formations d'ingénieurs en 3 ans
 - Des licences et master co-acrédités avec l'UPHF
@@ -22,6 +41,7 @@ Aujourd'hui, l'école propose:
 - Des matère spécialisés
 
 ## Le Campus Mont-Houy sous les feux de la Première Guerre Mondiale
+
 ### Bataille du Mont Houy
 
 Le **Campus Mont-Houy**, aujourd'hui cœur vibrant de l'**INSA Hauts-de-France**, a traversé une période sombre et tumultueuse au cours de la **Première Guerre Mondiale**. Situé à Valenciennes, dans le département du Nord, ce campus a été le témoin de la **violence dévastatrice** du conflit mondial. Mais c'est en **1917**, lors de la **Bataille du Mont Houy**, qu'il a connu l'un des épisodes les plus dramatiques de son histoire.
@@ -33,23 +53,3 @@ Le **Mont Houy**, point culminant de la région, était un emplacement stratégi
 Les combats furent violents et acharnés. Les troupes françaises, soutenues par des chars d’assaut et des soldats d'infanterie, affrontèrent une résistance féroce des troupes allemandes. Les pertes humaines furent considérables, et le paysage de la région fut marqué par les **bombardements**, les tranchées et les destructions.
 
 Le **Mont Houy**, aujourd'hui un symbole de modernité et d'innovation scientifique, témoigne de l'une des batailles les plus cruelles de la Première Guerre Mondiale. À travers la mémoire de ces événements, nous saisissons mieux l'importance de la paix et du **souvenir**, essentiels pour éviter que de telles tragédies ne se reproduisent. Le campus, en étant un lieu d'apprentissage et de progrès, demeure un témoignage vivant de l’histoire de la **Grande Guerre**.
-
-
-
-## Le Groupe INSA
-L'école a d'abord fait partie du réseau de partenaires du Groupe INSA avant de devenir officiellement un établissement labellisé INSA en 2019. Le Groupe INSA est un réseau d'écoles d'ingénieurs françaises, reconnu pour son excellence académique et son engagement envers la formation d'ingénieurs de haut niveau.
-
-Les INSA ne sont pas seulement des établissements individuels ! De nombreux projets soutenus par le Groupe INSA, sa fondation et l'AEI (Asociation des Elèves des INSA) permettent la **création de liens forts entre les écoles et leurs étudiants**. Il existe donc une **dynamique nationale**, chaque insaïen appartient à son INSA mais aussi à un groupe plus large d'étudiants partageant les **mêmes valeurs**.
-
-À chaque INSA sa couleur et sa mascote ! Chez nous, c’est le **rose** 🩷 et notre animal totem, c’est le **Barry, le caribou** 🫎 !
-
-| École                  | Année de création | Couleur   | Animal totem   |
-|------------------------|-------------------|-----------|----------------|
-| INSA Hauts-de-France   | 2019              | Rose 🩷   | Caribou 🫎    |
-| INSA Centre Val de Loire | 2014            | Violet 💜 | Sanglier 🐗   |
-| INSA Strasbourg        | 2003              | Vert 💚   | Cigogne 🪿    |
-| INSA Rouen Normandie   | 1985              | Bleu 💙   | Requin 🦈     |
-| INSA Rennes            | 1966              | Orange 🧡 | Tigre 🐯      |
-| INSA Toulouse          | 1963              | Rouge ❤️ | Renard 🦊      |
-| INSA Lyon              | 1957              | Jaune 💛 | Rhinocéros 🦏  |
-

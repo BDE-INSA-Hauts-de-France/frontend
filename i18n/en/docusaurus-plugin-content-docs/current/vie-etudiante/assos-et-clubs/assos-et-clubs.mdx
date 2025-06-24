@@ -1,14 +1,13 @@
 ---
-title: 'Associations and Clubs'
-sidebar_label: '🌳 Associations and Clubs'
+title: "Associations and Clubs"
+sidebar_label: "🌳 Associations and Clubs"
 sidebar_position: 3
 autoCollapseCategories: true
-
 ---
-import React from 'react';
-import AssociationCard from '@site/src/components/AssociationCard';
-import associationsData from '/src/data/associations.json';
 
+import React from "react";
+import AssociationCard from "@site/src/components/AssociationCard";
+import associationsData from "/src/data/associations.json";
 
 # List of INSA HdF Associations
 
@@ -30,27 +29,28 @@ To become a member of a Club or be part of the board of an association or Club, 
 {/* sort associationData alphabetically by their asso_name property*/}
 
 {associationsData
-  .sort((a, b) => a.asso_name.localeCompare(b.asso_name))
-  .map((association, index) => (
-    <AssociationCard
-      key={index}
-      asso_name={association.asso_name}
-      asso_logo={association.asso_logo}
-      asso_type={association.asso_type}
-      asso_description_short={association.asso_description_short}
-      asso_page_lien={association.asso_page_lien}
-      asso_lien_instagram={association.asso_lien_instagram}
-      asso_lien_site={association.asso_lien_site}
-      asso_lien_discord={association.asso_lien_discord}
-      asso_lien_linkedin={association.asso_lien_linkedin}
-      asso_lien_spotify={association.asso_lien_spotify}
-      asso_lien_mail={association.asso_lien_mail}
-    />
-  ))}
+.sort((a, b) => a.asso_name.localeCompare(b.asso_name))
+.map((association, index) => (
+
+<AssociationCard
+  key={index}
+  asso_name={association.asso_name}
+  asso_logo={association.asso_logo}
+  asso_type={association.asso_type}
+  asso_description_short={association.asso_description_short}
+  asso_page_lien={association.asso_page_lien}
+  asso_lien_instagram={association.asso_lien_instagram}
+  asso_lien_site={association.asso_lien_site}
+  asso_lien_discord={association.asso_lien_discord}
+  asso_lien_linkedin={association.asso_lien_linkedin}
+  asso_lien_spotify={association.asso_lien_spotify}
+  asso_lien_mail={association.asso_lien_mail}
+/>
+))}
 
 </div>
 
-<br/>
+<br />
 
 :::info Didn't find an association you like?
 

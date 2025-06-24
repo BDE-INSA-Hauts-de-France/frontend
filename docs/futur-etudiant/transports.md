@@ -1,23 +1,27 @@
 ---
-sidebar_label: '🚆 Transports'
+sidebar_label: "🚆 Transports"
 description: Comment se déplacer sur Valenciennes et ses alentours
 tags:
-- Transports
-- Nouvel étudiant
+  - Transports
+  - Nouvel étudiant
 sidebar_position: 4
 ---
+
 # Transports
+
 <figure>
 
 ![Photo du tram de valenciennes](/img/valenciennes/tram.webp)
+
 <figcaption>Le tram devant la gare de Valenciennes - _source : europe-en-france.gouv.fr_ </figcaption>
 </figure>
 
-
 ## Les lignes de Tram T1 et T2
-Le tram dessert le campus du Mont-Houy. 
+
+Le tram dessert le campus du Mont-Houy.
 
 Les principaux arrêts sont:
+
 - **Université** (terminus) : Résidence du CROUS Jules Matteron, Les 7 Muids
 - **Moriamez Recherche** : Devant les bâtiment CLJ1 et Lottman, BU, Gymnase & Stade
 - **Campus Mont-Houy** : MSE (Maison des Services à l'Etudiant - Centre de Santé - Billetterie)
@@ -26,8 +30,6 @@ Les principaux arrêts sont:
 - **La Briquette** : Lidl, Marly
 - **Hôtel de Ville** : Place d'armes, Restaurants, Commerces, Fnac...
 - **Gare de Valenciennes** : Gare de Valenciennes
-  
-
 
 [Les horaires des trams](https://www.transvilles.com/les-horaires-de-la-rentree-2023/) sont disponibles sur le site de Transvilles.
 
@@ -39,65 +41,74 @@ Attention, les trams ne circulent plus après 21h. Pour rentrer plus tard, il fa
 Attention à ne pas manquer la dernière, cette navette ne fait pas beaucoup de trajets !
 :::
 
-### La carte Pass&Go (-26 ans)
+### La carte Pass&Go (-25 ans)
 
 ![Carte Pass&Go](/img/valenciennes/bandeau-passandgo.webp)
-Les transports sont gratuits dans la zone de valenciennes pour les moins de 26 ans. Pour cela, il faut [faire la demande sur le site de transvilles](https://www.transvilles.com/votre-abonnement-passgo/). La carte coûte 20€/an.
+Les transports sont gratuits dans la zone de valenciennes pour les moins de 25 ans. Pour cela, il faut [faire la demande sur le site de transvilles](https://www.transvilles.com/votre-abonnement-passgo/). La carte coûte 20€/an.
 
-La carte de transport est valable dans les zones Valenciennes Métropole et Porte du Hainault (soit 81 agglomérations) pour :
+La carte de transport est valable dans les zones Valenciennes Métropole et Porte du Hainault (soit 82 agglomérations) pour :
+
 - Les Trams
 - Les BUS
 - Les TER dans une zone limitée autour de Valenciennes
 
 ### Plan du réseau de tram et bus
+
 [Plan du réseau de tram et bus [pdf]](https://www.transvilles.com/plans-du-reseau/)
 
 ## Le vélo 🚲
+
 À Valenciennes on te conseille vivement de te déplacer à vélo ! **À vélo, tout est proche !** Le campus n'est qu'à un quart d'heure du centre-ville !
 
 Sur le campus, vous retrouverez de nombreux **parcs à vélos** devant chaque bâtiment. En plus de cela, de **nouveau parcs à vélo** couverts et sécurisés viennent juste d'être installés. Il est recommandé d'utiliser un antivol solide pour éviter le vol de votre vélo.
 
 Des vélos sont aussi **mis à disposition par la ville de Valenciennes**, il suffit d'installer l'application [**Donkey**](https://www.transvilles.com/nos-services/velos-en-libre-service/) pour en louer un. Les tarifs sont très abordables (**1€ de l'heure**). Vous en trouverez un peu partout sur le campus et en ville, dans des **zones de dépôt dédiées**.
 
-
-
 ## Itinéraires courants
+
 ### Se rendre sur Lille
+
 Temps de trajet : 35 à 45 minutes
 
 - Prendre le **TER** à destination depuis la Gare de Valenciennes de Lille-Flandres (35 min). Il y a des TER presque **toutes les demi-heures**
 
 ### Se rendre à l'aéroport ✈️
+
 Temps de trajet : 1h30 au départ de la Gare de Valenciennes
 
 - Prendre le **tram T1/T2** jusqu'à la gare de Valenciennes
 - Prendre le **TER** à destination de Lille-Flandres
 - Prendre la **[Navette Flibco](https://www.flibco.com/fr/shuttle/navette-bus-aeroport-lille-lesquin)** à destination de l'aéroport de Lille-Lesquin (Toutes les demi-heures en semaine)
 
-
-
 ### Se rendre à Bruxelles
+
 Temps de trajet : 1h40 à 2h
 
 **En train (Gare de Valenciennes → Gare de Bruxelles-Midi)**
+
 - Prendre le **tram T1/T2** jusqu'à la gare de Valenciennes
 - Prendre le **TER** jusqu'à Lille Flandres (35 min)
 - Marcher jusqu'à la gare de Lille Europe (10 min à pied)
 - Prendre un **TGV** ou un **train** de Lille Europe à Bruxelles-Midi (30 min)
 
 **En voiture**
+
 - Prendre l'**A2** direction Bruxelles (environ 1h10)
 - Aucun péage, trajet direct
 
 ### Se rendre à Paris
+
 Temps de trajet : 2h à 3h selon l'itinéraire
 
 **Paris Nord** 🚅
+
 - Prendre **Gare de Valenciennes - Paris Nord** via Douai et Arras (2h)
 
 **Paris Charles de Gaulle** 🚅
-- Prendre un TER **Valenciennes - Lille Flandres** (35-50 min)  
+
+- Prendre un TER **Valenciennes - Lille Flandres** (35-50 min)
 - Prendre un TGV **Lille Flandres ou Lille Europe - Paris CDG** (1h)
 
 **Trajet en Flixbus** 🚌
+
 - Départ **Valenciennes Université**, au bout du campus (2h30)
