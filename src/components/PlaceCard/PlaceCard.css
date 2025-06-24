@@ -1,0 +1,84 @@
+/* Styles pour PlaceCard */
+.place-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background: #8b8b8b28;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  overflow: hidden;
+  /* max-width: 500px; */
+  margin: 16px auto;
+}
+
+.place-card-photo-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: #f5f5f559;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.place-card-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+}
+
+.place-card-content {
+  padding: 20px 20px 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.place-card-title {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0;
+  color: #444;
+}
+
+.place-card-address {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+}
+
+
+.place-card-description {
+  font-size: 1em;
+  color: #333;
+  margin: 8px 0 0 0;
+}
+
+.place-card-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+  justify-content: flex-end;
+}
+
+.place-card-button:last-child {
+  flex: 1;
+}
+
+/* dark mode mais avec docusaurus pas le natif */
+[data-theme='dark'] .place-card-title {
+  color: #dbdbdb;
+}
+[data-theme='dark'] .place-card-address {
+  color: #9f9f9f;
+}
+[data-theme='dark'] .place-card-description {
+  color: #c9c9c9;
+}
+[data-theme='dark'] .place-card {
+  background: #232323;
+}
+
