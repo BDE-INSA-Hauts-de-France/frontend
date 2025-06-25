@@ -4,7 +4,189 @@ sidebar_label: 🏛️ What to do in VA?
 sidebar_position: 5
 
 ---
-import FuturEtudiantCards from '@site/src/components/ClickableCardList/FuturEtudiantCards';
+
+> Welcome to our dear **Valenciennes**! Looking for things to do in Valenciennes? Need some inspiration? No worries! We've prepared a list of the best activities, outings, and places to discover in the city. **Cinema, sports, nature, or culture**, there's something for everyone!
 
 
+## 🎬 Culture & Entertainment
 
+import PlaceCardGrid from '@site/src/components/PlaceCardGrid';
+
+export const cultureEntertainmentPlaces = [
+    {
+        id: 1,
+        place_name: "Cinéma Pathé Valenciennes",
+        place_city: "Valenciennes",
+        place_description: "The cinema is located right in front of the Vosges tram stop. Student tickets start at €10.50 or €5 if booked via the UPHF Ticket Office!",
+        place_photo_link: "/img/valenciennes/lieux/pathe_valenciennes.webp",
+        place_website_link: "https://www.pathe.fr/cinemas/cinema-pathe-valenciennes/",
+        place_maps_link: "https://maps.app.goo.gl/AKpo6x4QnwQzTa5a8",
+        place_price_range: "5-11 €"
+    },
+    {
+        id: 2,
+        place_name: "Musée des Beaux-Arts",
+        place_city: "Valenciennes",
+        place_description: "Collections and temporary exhibitions",
+        place_photo_link: "/img/valenciennes/lieux/musee.webp",
+        place_website_link: "https://musee.valenciennes.fr/",
+        place_maps_link: "https://maps.app.goo.gl/Xv5AeqZgkYE1pR5Z9",
+        place_price_range: "Closed for renovation"
+    },
+    {
+        id: 3,
+        place_name: "Le Phénix - Scène Nationale",
+        place_city: "Valenciennes",
+        place_description: "Theater, dance, music, opera, and live performances.",
+        place_photo_link: "/img/valenciennes/lieux/phenix.webp",
+        place_website_link: "https://www.lephenix.fr/",
+        place_maps_link: "https://maps.app.goo.gl/ESkCat2DJy56dfV48",
+        place_price_range: "8 € and up"
+    }
+];
+
+<PlaceCardGrid places={cultureEntertainmentPlaces} />
+
+## 🏒 Sports & Leisure
+
+export const sportsPlaces = [
+    {
+        id: 1,
+        place_name: "Patinoire Valigloo",
+        place_city: "Marly",
+        place_description: "Public skating, hockey, skating lessons... Student rate: €4.90 (without skates), €8.30 (with skates) - €4 (including skates) via the UPHF Ticket Office.",
+        place_photo_link: "/img/valenciennes/lieux/patinoire-valigloo.webp",
+        place_website_link: "https://www.patinoire-valigloo.fr/",
+        place_maps_link: "https://maps.app.goo.gl/Bkh37DxVRLaJmSMP8",
+        place_price_range: "4-8.30 €"
+    },
+    {
+        id: 2,
+        place_name: "Stade du Hainaut - VAFC",
+        place_city: "59300 Valenciennes",
+        place_description: "25,000-seat stadium, home to Valenciennes FC (N1). Discounted tickets for certain matches with the BDE.",
+        place_photo_link: "/img/valenciennes/lieux/stade-du-hainaut.webp",
+        place_website_link: "https://www.va-fc.com/",
+        place_maps_link: "https://maps.app.goo.gl/epWmRiDoNutTfANz9",
+        place_price_range: "8 € and up"
+    },
+    {
+        id: 3,
+        place_name: "Centre Aquatique Nungesser",
+        place_city: "Valenciennes",
+        place_description: "Pools, slides, wellness area, and aquatic activities. Student rates available with UPHF.",
+        place_photo_link: "/img/valenciennes/lieux/piscine-nungesser.webp",
+        place_website_link: "https://centreaquatiquenungesser.fr/",
+        place_maps_link: "https://maps.app.goo.gl/tVXefPzW8pJhpoWeA",
+        place_price_range: "5-15 €"
+    },
+    {
+        id: 4,
+        place_name: "Le Five",
+        place_city: "Valenciennes",
+        place_description: "Indoor 5-a-side football fields. Bookable fields, bubble football, tournaments...",
+        place_photo_link: "/img/valenciennes/lieux/le-five.webp",
+        place_website_link: "https://www.lefive.fr/valenciennes/",
+        place_maps_link: "https://maps.app.goo.gl/AEeMyPpmSENycZAz6",
+    }
+];
+
+<PlaceCardGrid places={sportsPlaces} />
+
+## 🌳 Nature & Relaxation
+
+export const naturePlaces = [
+    {
+        id: 1,
+        place_name: "Étang du Vignoble",
+        place_city: "Valenciennes",
+        place_description: "40 hectares of green spaces and water bodies. Activities: jogging, picnicking, pedal boating, fishing. Free access all year round. 3 trails ranging from 1 to 5 km. Daily fishing permits available on-site.",
+        place_photo_link: "/img/valenciennes/lieux/etang-du-vignoble.webp",
+        place_maps_link: "https://maps.app.goo.gl/1hbWiPK6fXdC8Jpt6"
+    },
+    {
+        id: 2,
+        place_name: "Parc de la Rhônelle",
+        place_city: "Valenciennes",
+        place_description: "12 hectares, remnants of fortifications, contemporary sculptures, French gardens, playgrounds, and sports fields. Attractions: nearby Museum of Fine Arts, outdoor sculptures, French gardens, playgrounds, and sports fields.",
+        place_photo_link: "/img/valenciennes/lieux/parc-de-la-rhonelle.webp",
+        place_maps_link: "https://maps.app.goo.gl/YC6FzXvkg3wEY8T79"
+    },
+    {
+        id: 3,
+        place_name: "Parc de la Citadelle",
+        place_city: "Valenciennes",
+        place_description: "Former 17th-century citadel. Historical walk, sports, relaxation. Sports facilities: football and basketball fields, running track, outdoor fitness areas, skate park.",
+        place_photo_link: "/img/valenciennes/lieux/parc-citadelle-valenciennes.webp",
+        place_maps_link: "https://maps.app.goo.gl/Ab1Mba76DY48LwZ49"
+    }
+];
+
+<PlaceCardGrid places={naturePlaces} />
+
+## 🎮 Other Leisure Activities
+
+export const otherLeisurePlaces = [
+    {
+        id: 1,
+        place_name: "Bowling de l'Arsenal",
+        place_city: "Valenciennes",
+        place_description: "Bowling with bar and restaurant, billiards. Student rates available.",
+        place_photo_link: "/img/valenciennes/lieux/bowling-arsenal.webp",
+        place_website_link: "https://bowling-arsenal.com/",
+        place_maps_link: "https://maps.app.goo.gl/TcW4kHda5o29beB3A",
+        place_price_range: "5-9 €"
+    },
+    {
+        id: 2,
+        place_name: "Le Satellium",
+        place_city: "Valenciennes",
+        place_description: "Discover our worlds. Le Satellium is a multi-activity venue where you can play bowling, billiards, or challenge your friends in virtual reality...",
+        place_photo_link: "/img/valenciennes/lieux/satellium.webp",
+        place_website_link: "https://www.satellium.fr/",
+        place_maps_link: "https://maps.app.goo.gl/xy2u2o5Mddk2g8Up8",
+        place_price_range: "6-10 €"
+    },
+    {
+        id: 3,
+        place_name: "DivertyBox",
+        place_city: "Valenciennes",
+        place_description: "Darts tournaments, karaoke, parties, blind tests, located opposite the Bowling at Arsenal.",
+        place_photo_link: "/img/valenciennes/lieux/divertybox.webp",
+        place_website_link: "https://www.divertybox.fr/",
+        place_maps_link: "https://maps.app.goo.gl/29kZJKU7abTvf5Sz6",
+        place_price_range: "12-25 €"
+    },
+    {
+        id: 4,
+        place_name: "Escape Game Les frères Pillards",
+        place_city: "Valenciennes",
+        place_description: "Escape Game named the best room in Hauts-de-France in 2024.",
+        place_photo_link: "/img/valenciennes/lieux/les-freres-pillards.webp",
+        place_website_link: "https://www.lesfrerespillard.fr/",
+        place_maps_link: "https://maps.app.goo.gl/NKMR9JG2uKXZBxfP6",
+        place_price_range: "20-30 €"
+    }
+];
+
+<PlaceCardGrid places={otherLeisurePlaces} />
+
+## 🚶‍➡️ Walking Trails
+
+Valenciennes has a major advantage: Everything is within walking distance!
+
+Additionally, you can also enjoy beautiful hikes around Valenciennes. Here are some examples of trails you can explore on foot:
+
+<iframe width="100%" height="400px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/sentiers-de-randonnees-autour-de-valenciennes_1245716?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=false&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true&fullscreenControl=false#12/50.2973/3.5263"></iframe><p><a href="//umap.openstreetmap.fr/en/map/sentiers-de-randonnees-autour-de-valenciennes_1245716?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=false&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true&fullscreenControl=false#12/50.2973/3.5263">View Fullscreen</a></p>
+
+:::info[Missing trails?]
+
+        If you know other great hiking trails, feel free to let us know so we can add them!
+:::
+
+## 🚲 Cycling Trails
+
+You can also enjoy numerous bike rides in and around Valenciennes.
+
+- A bike path has been built along the Escaut from Anzin to Condet-sur-l'Escaut.
+- A bike path is under construction up to Maing.

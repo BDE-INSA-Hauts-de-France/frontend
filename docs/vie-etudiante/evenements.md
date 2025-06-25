@@ -17,7 +17,7 @@ sidebar_position: 4
 
 ### Le Gala de l’INSA
 
-![Gala](/img/bde/events/gala-insa-22-23.webp)
+![Gala](/img/insa/gala2.webp)
 
 Le Gala de l’INSA Hauts-de-France est LA soirée chic de l’année, où l’élégance et l’excellence sont à l’honneur. Rendez-vous à la Cité des Congrès de Valenciennes le 22 mars 2025 pour une soirée prestigieuse qui réunira étudiants, diplômés et enseignants dans un cadre exceptionnel. Tenues de soirée, animations haut de gamme et ambiance inoubliable garantis !
 

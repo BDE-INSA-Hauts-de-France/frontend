@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "src": "img/insa/photos_accueil/etudiants-insa-credit-photo-manon-van-roekeghem.webp",
+        "src": "img/insa/photos_accueil/pageaccueil-2.webp",
         "idTexte": 1
     },
     {
         "id": 2,
-        "src": "img/insa/photos_accueil/match_vafc_florian.jpg",
+        "src": "img/insa/photos_accueil/match_vafc_florian.webp",
         "idTexte": 2
     },
     {
         "id": 3,
-        "src": "img/insa/photos_accueil/gala-insa-22-23.webp",
+        "src": "img/insa/photos_accueil/gala1.webp",
         "idTexte": 3
     },
     {
@@ -22,31 +22,46 @@
     ,
     {
         "id": 5,
-        "src": "img/insa/photos_accueil/cheerinsahdf_lesdiables2.png",
+        "src": "img/insa/photos_accueil/cheerinsahdf_lesdiables2.webp",
         "idTexte": 5
     }
     ,
     {
         "id": 6,
-        "src": "img/insa/photos_accueil/fanfare_h5_2025.png",
+        "src": "img/insa/photos_accueil/fanfare_h5_2025.webp",
         "idTexte": 6
     }
     ,
     {
         "id": 7,
-        "src": "img/insa/photos_accueil/mascotte_barry.png",
+        "src": "img/insa/photos_accueil/mascotte_barry.webp",
         "idTexte": 7
     }
     ,
     {
         "id": 8,
-        "src": "img/insa/photos_accueil/mascottes_des_insa_h5_2025.png",
+        "src": "img/insa/photos_accueil/mascottes_des_insa_h5_2025.webp",
         "idTexte": 8
     },
     {
         "id": 9,
-        "src": "img/insa/photos_accueil/insaerospace2-23-24.png",
+        "src": "img/insa/photos_accueil/insaerospace2-23-24.webp",
         "idTexte": 9
+    },
+        {
+        "id": 10,
+        "src": "img/insa/photos_accueil/gala2.webp",
+        "idTexte": 3
+    },
+    {
+        "id": 9,
+        "src": "img/insa/photos_accueil/forumasso-vieasso.webp",
+        "idTexte": 10
+    },
+    {
+        "id": 12,
+        "src": "img/insa/photos_accueil/filiere-internationale.webp",
+        "idTexte": 11
     }
 
 ]

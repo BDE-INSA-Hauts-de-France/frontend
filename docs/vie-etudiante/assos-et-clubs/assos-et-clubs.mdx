@@ -1,30 +1,26 @@
 ---
-title: 'Associations et Clubs'
-sidebar_label: '🌳 Assos et Clubs'
+title: "Associations et Clubs"
+sidebar_label: "🌳 Assos et Clubs"
 sidebar_position: 3
 autoCollapseCategories: true
-
 ---
-import React from 'react';
-import AssociationCard from '@site/src/components/AssociationCard';
-import associationsData from '/src/data/associations.json';
 
+import React from "react";
+import AssociationCard from "@site/src/components/AssociationCard";
+import associationsData from "/src/data/associations.json";
 
-# Liste des associations de l'INSA HdF
+L'école accorde beaucoup d'importance à l'engagement de ses étudiants dans la vie associative. Pour permettre aux étudiants de s'y investir, **aucun enseignement n'est dispensé le jeudi après-midi**. Donc place aux assos, au sport, à la culture et au bon temps !
 
-Retrouvez ici la liste des associations et des clubs de l'INSA Hauts-de-France. 
+L'INSA Hauts-de-France regorge d'associations étudiantes pour plaire à toutes et à tous. Que vous soyez sportifs, artistes, geeks, fêtards, engagés, ou tout ça à la fois, vous trouverez forcément chaussure à vos pieds!
+
+## Liste des associations de l'INSA HdF
+
+Retrouvez ici la liste des associations et des clubs de l'INSA Hauts-de-France.
 
 :::info
 
 Pour devenir membre d'un Club ou faire partie du bureau d'une association ou d'un Club, il est nécessaire d'avoir payé la cotisation au BDE. C'est ce qui nous permet de financer la vie associative et de nombreux évènements !
 :::
-
-{/* Liens des réseaux */}
-
-
-
-
-
 
 <div style={{
     display: 'flex',
@@ -33,50 +29,30 @@ Pour devenir membre d'un Club ou faire partie du bureau d'une association ou d'u
     flexWrap: 'wrap',
     gap: '20px',
   }}>
-{/* ordonne associationData par ordre alphabétique de leur asso_name property*/}
-
 
 {associationsData
-  .sort((a, b) => a.asso_name.localeCompare(b.asso_name))
-  .map((association, index) => (
-    <AssociationCard
-      key={index}
-      asso_name={association.asso_name}
-      asso_logo={association.asso_logo}
-      asso_type={association.asso_type}
-      asso_description_short={association.asso_description_short}
-      asso_page_lien={association.asso_page_lien}
-      asso_lien_instagram={association.asso_lien_instagram}
-      asso_lien_site={association.asso_lien_site}
-      asso_lien_discord={association.asso_lien_discord}
-      asso_lien_linkedin={association.asso_lien_linkedin}
-      asso_lien_spotify={association.asso_lien_spotify}
-      asso_lien_mail={association.asso_lien_mail}
-    />
-  ))}
+.sort((a, b) => a.asso_name.localeCompare(b.asso_name))
+.map((association, index) => (
 
-
-{/* ancienne version non triée */}
-{/* {associationsData.map((association, index) => (
-    <AssociationCard
-      key={index}
-      asso_name={association.asso_name}
-      asso_logo={association.asso_logo}
-      asso_type={association.asso_type}
-      asso_description_short={association.asso_description_short}
-      asso_page_lien={association.asso_page_lien}
-      asso_lien_instagram={association.asso_lien_instagram}
-      asso_lien_site={association.asso_lien_site}
-      asso_lien_discord={association.asso_lien_discord}
-      asso_lien_linkedin={association.asso_lien_linkedin}
-      asso_lien_spotify={association.asso_lien_spotify}
-    />
-  ))} */}
+<AssociationCard
+  key={index}
+  asso_name={association.asso_name}
+  asso_logo={association.asso_logo}
+  asso_type={association.asso_type}
+  asso_description_short={association.asso_description_short}
+  asso_page_lien={association.asso_page_lien}
+  asso_lien_instagram={association.asso_lien_instagram}
+  asso_lien_site={association.asso_lien_site}
+  asso_lien_discord={association.asso_lien_discord}
+  asso_lien_linkedin={association.asso_lien_linkedin}
+  asso_lien_spotify={association.asso_lien_spotify}
+  asso_lien_mail={association.asso_lien_mail}
+/>
+))}
 
 </div>
 
-
-<br/>
+<br />
 
 :::info Tu n'as pas trouvé d'asso à ton goût ?
 

@@ -32,7 +32,7 @@ function HomepageHeader() {
       </div>
       <div id={styles.bdePhotoBox}>
         <PhotoBoxAccueil
-          imagePath="img/insa/photos_accueil/etudiants-insa-credit-photo-manon-van-roekeghem.webp"
+          imagePath="img/insa/photos_accueil/pageaccueil-2.webp"
           titre="Vie étudiante"
           description="Le BDE est l'association qui anime la vie étudiante à l'INSA. Il organise de nombreux évènements tout au long de l'année comme des voyages, le WEI, le Gala..."
         />

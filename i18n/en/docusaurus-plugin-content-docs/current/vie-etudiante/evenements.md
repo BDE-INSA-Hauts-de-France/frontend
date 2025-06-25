@@ -12,7 +12,7 @@ sidebar_position: 4
 
 ### INSA Gala
 
-![Gala](/img/bde/events/gala-insa-22-23.webp)
+![Gala](/img/insa/gala2.webp)
 
 The INSA Hauts-de-France Gala is THE chic evening of the year, where elegance and excellence are in the spotlight. Meet at the Cité des Congrès de Valenciennes on March 22, 2025, for a prestigious evening bringing together students, graduates, and teachers in an exceptional setting. Evening attire, top-notch entertainment, and an unforgettable atmosphere guaranteed!
 
