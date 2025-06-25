@@ -1,0 +1,67 @@
+/* Styles pour PlaceCardGrid */
+.place-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: stretch; /* Force toutes les cartes à avoir la même hauteur */
+}
+
+.place-card-grid-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  color: #666;
+  font-size: 16px;
+}
+
+/* Responsive design */
+@media (min-width: 1200px) {
+  .place-card-grid .place-card {
+    flex: 1 1 calc(33.333% - 16px); /* 3 colonnes */
+    min-width: 300px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .place-card-grid .place-card {
+    flex: 1 1 calc(50% - 12px); /* 2 colonnes */
+    min-width: 280px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .place-card-grid {
+    gap: 20px;
+  }
+  
+  .place-card-grid .place-card {
+    flex: 1 1 calc(50% - 10px); /* 2 colonnes */
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 599px) {
+  .place-card-grid {
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .place-card-grid .place-card {
+    flex: none;
+    width: 100%;
+  }
+}
+
+/* Ajustements pour les PlaceCard dans la grille */
+.place-card-grid .place-card {
+  margin: 0; /* Retire la marge auto des PlaceCard individuelles */
+  height: auto; /* Permet à flexbox de gérer la hauteur */
+  max-width: none;
+  display: flex;
+  flex-direction: column; /* Assure que le contenu interne s'étende verticalement */
+}

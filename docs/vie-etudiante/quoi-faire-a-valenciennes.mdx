@@ -10,97 +10,112 @@ sidebar_position: 5
 
 ## 🎬 Culture & Divertissement
 
-import PlaceCard from '@site/src/components/PlaceCard';
+import PlaceCardGrid from '@site/src/components/PlaceCardGrid';
 
-<PlaceCard
-  place_name="Cinéma Pathé Valenciennes"
-  place_city="Valenciennes"
-  place_description="Le cinéma se trouve juste en face de l'arrêt de tram Vosges. Séances en tarif étudiant à partir de 10,50€ ou 5€ si les places sont réservées via la Billetterie de l'UPHF !"
-  place_photo_link="/img/valenciennes/lieux/pathe_valenciennes.webp"
-  place_website_link="https://www.pathe.fr/cinemas/cinema-pathe-valenciennes/"
-  place_maps_link="https://maps.app.goo.gl/AKpo6x4QnwQzTa5a8"
-  place_price_range="5-11 €"
-/>
+export const cultureEntertainmentPlaces = [
+  {
+    id: 1,
+    place_name: "Cinéma Pathé Valenciennes",
+    place_city: "Valenciennes",
+    place_description: "Le cinéma se trouve juste en face de l'arrêt de tram Vosges. Séances en tarif étudiant à partir de 10,50€ ou 5€ si les places sont réservées via la Billetterie de l'UPHF !",
+    place_photo_link: "/img/valenciennes/lieux/pathe_valenciennes.webp",
+    place_website_link: "https://www.pathe.fr/cinemas/cinema-pathe-valenciennes/",
+    place_maps_link: "https://maps.app.goo.gl/AKpo6x4QnwQzTa5a8",
+    place_price_range: "5-11 €"
+  },
+  {
+    id: 2,
+    place_name: "Musée des Beaux-Arts",
+    place_city: "Valenciennes",
+    place_description: "Collections et expositions temporaires",
+    place_photo_link: "/img/valenciennes/lieux/musee.webp",
+    place_website_link: "https://musee.valenciennes.fr/",
+    place_maps_link: "https://maps.app.goo.gl/Xv5AeqZgkYE1pR5Z9",
+    place_price_range: "Fermé pour rénovation"
+  },
+  {
+    id: 3,
+    place_name: "Le Phénix - Scène Nationale",
+    place_city: "Valenciennes",
+    place_description: "Théâtre, danse, musique, opéra et spectacles vivants.",
+    place_photo_link: "/img/valenciennes/lieux/phenix.webp",
+    place_website_link: "https://www.lephenix.fr/",
+    place_maps_link: "https://maps.app.goo.gl/ESkCat2DJy56dfV48",
+    place_price_range: "8 € et +"
+  }
+];
 
-<PlaceCard
-    place_name="Musée des Beaux-Arts"
-    place_city="Valenciennes"
-    place_description="Collections et expositions temporaires"
-    place_photo_link="/img/valenciennes/lieux/musee.webp"
-    place_website_link="https://musee.valenciennes.fr/"
-    place_maps_link="https://maps.app.goo.gl/Xv5AeqZgkYE1pR5Z9"
-    place_price_range="Fermé pour rénovation"
-/>
-
-<PlaceCard
-    place_name="Le Phénix - Scène Nationale"
-    place_city="Valenciennes"
-    place_description="Théâtre, danse, musique, opéra et spectacles vivants."
-    place_photo_link="/img/valenciennes/lieux/phenix.webp"
-    place_website_link="https://www.lephenix.fr/"
-    place_maps_link="https://maps.app.goo.gl/ESkCat2DJy56dfV48"
-    place_price_range="8 € et +"
-/>
+<PlaceCardGrid places={cultureEntertainmentPlaces} />
 
 
 
 ## 🏒 Sports & Loisirs
-<PlaceCard
-  place_name="Patinoire Valigloo"
-  place_city="Marly"
-  place_description="Patinage libre, hockey, cours de patinage... Tarif étudiant : 4,90€ (sans patins), 8,30€ (avec patins) - 4€ (patins compris) en passant par la Billetterie UPHF."
-  place_photo_link="/img/valenciennes/lieux/patinoire-valigloo.webp"
-  place_website_link="https://www.patinoire-valigloo.fr/"
-  place_maps_link="https://maps.app.goo.gl/Bkh37DxVRLaJmSMP8"
-  place_price_range="4-8,30 €"
-/>
 
-<PlaceCard
-  place_name="Stade du Hainaut - VAFC"
-  place_address="Avenue des Sports"
-  place_city="59300 Valenciennes"
-  place_description="Stade de 25 000 places, équipe Valenciennes FC (N1). Tarifs réduits sur certains matchs avec le BDE"
-  place_photo_link="/img/valenciennes/lieux/stade-du-hainaut.webp"
-  place_website_link="https://www.va-fc.com/"
-  place_maps_link="https://maps.app.goo.gl/epWmRiDoNutTfANz9"
-  place_price_range="8 € et +"
-/>
+export const sportsPlaces = [
+  {
+    id: 1,
+    place_name: "Patinoire Valigloo",
+    place_city: "Marly",
+    place_description: "Patinage libre, hockey, cours de patinage... Tarif étudiant : 4,90€ (sans patins), 8,30€ (avec patins) - 4€ (patins compris) en passant par la Billetterie UPHF.",
+    place_photo_link: "/img/valenciennes/lieux/patinoire-valigloo.webp",
+    place_website_link: "https://www.patinoire-valigloo.fr/",
+    place_maps_link: "https://maps.app.goo.gl/Bkh37DxVRLaJmSMP8",
+    place_price_range: "4-8,30 €"
+  },
+  {
+    id: 2,
+    place_name: "Stade du Hainaut - VAFC",
+    place_city: "59300 Valenciennes",
+    place_description: "Stade de 25 000 places, équipe Valenciennes FC (N1). Tarifs réduits sur certains matchs avec le BDE",
+    place_photo_link: "/img/valenciennes/lieux/stade-du-hainaut.webp",
+    place_website_link: "https://www.va-fc.com/",
+    place_maps_link: "https://maps.app.goo.gl/epWmRiDoNutTfANz9",
+    place_price_range: "8 € et +"
+  },
+  {
+    id: 3,
+    place_name: "Centre Aquatique Nungesser",
+    place_city: "Valenciennes",
+    place_description: "Piscines, toboggans, espace bien-être et activités aquatiques. Tarif étudiant disponible avec l'UPHF",
+    place_photo_link: "/img/valenciennes/lieux/piscine-nungesser.webp",
+    place_website_link: "https://centreaquatiquenungesser.fr/",
+    place_maps_link: "https://maps.app.goo.gl/tVXefPzW8pJhpoWeA",
+    place_price_range: "5-15 €"
+  }
+];
 
-<PlaceCard
-    place_name="Centre Aquatique Nungesser"
-    place_city="Valenciennes"
-    place_description="Piscines, toboggans, espace bien-être et activités aquatiques. Tarif étudiant disponible avec l'UPHF"
-    place_photo_link="/img/valenciennes/lieux/piscine-nungesser.webp"
-    place_website_link="https://centreaquatiquenungesser.fr/"
-    place_maps_link="https://maps.app.goo.gl/tVXefPzW8pJhpoWeA"
-    place_price_range="5-15 €"
-/>
+<PlaceCardGrid places={sportsPlaces} />
 
 ## 🌳 Nature & Détente
 
-<PlaceCard
-  place_name="Étang du Vignoble"
-  place_city="Valenciennes"
-  place_description="40 hectares d'espaces verts et plans d'eau. Activités : jogging, pique-nique, pédalo, pêche. Accès gratuit toute l'année. 3 circuits de 1 à 5 km. Permis de pêche journalier disponible sur site."
-  place_photo_link="/img/valenciennes/lieux/etang-du-vignoble.webp"
-  place_maps_link="https://maps.app.goo.gl/1hbWiPK6fXdC8Jpt6"
-/>
+export const naturePlaces = [
+  {
+    id: 1,
+    place_name: "Étang du Vignoble",
+    place_city: "Valenciennes",
+    place_description: "40 hectares d'espaces verts et plans d'eau. Activités : jogging, pique-nique, pédalo, pêche. Accès gratuit toute l'année. 3 circuits de 1 à 5 km. Permis de pêche journalier disponible sur site.",
+    place_photo_link: "/img/valenciennes/lieux/etang-du-vignoble.webp",
+    place_maps_link: "https://maps.app.goo.gl/1hbWiPK6fXdC8Jpt6"
+  },
+  {
+    id: 2,
+    place_name: "Parc de la Rhônelle",
+    place_city: "Valenciennes",
+    place_description: "12 hectares, vestiges des remparts, sculptures contemporaines, jardins à la française, aires de jeux et terrains de sport. Attractions : Musée des Beaux-Arts à proximité, sculptures en plein air, jardins à la française, aire de jeux et terrains de sport.",
+    place_photo_link: "/img/valenciennes/lieux/parc-de-la-rhonelle.webp",
+    place_maps_link: "https://maps.app.goo.gl/YC6FzXvkg3wEY8T79"
+  },
+  {
+    id: 3,
+    place_name: "Parc de la Citadelle",
+    place_city: "Valenciennes",
+    place_description: "Ancienne citadelle du 17e siècle. Promenade historique, sport, détente. Équipements sportifs : terrains de football et basketball, piste de course à pied, aires de fitness en plein air, skate park.",
+    place_photo_link: "/img/valenciennes/lieux/parc-citadelle-valenciennes.webp",
+    place_maps_link: "https://maps.app.goo.gl/Ab1Mba76DY48LwZ49"
+  }
+];
 
-<PlaceCard
-  place_name="Parc de la Rhônelle"
-  place_city="Valenciennes"
-  place_description="12 hectares, vestiges des remparts, sculptures contemporaines, jardins à la française, aires de jeux et terrains de sport. Attractions : Musée des Beaux-Arts à proximité, sculptures en plein air, jardins à la française, aire de jeux et terrains de sport."
-  place_photo_link="/img/valenciennes/lieux/parc-de-la-rhonelle.webp"
-  place_maps_link="https://maps.app.goo.gl/YC6FzXvkg3wEY8T79"
-/>
-
-<PlaceCard
-  place_name="Parc de la Citadelle"
-  place_city="Valenciennes"
-  place_description="Ancienne citadelle du 17e siècle. Promenade historique, sport, détente. Équipements sportifs : terrains de football et basketball, piste de course à pied, aires de fitness en plein air, skate park."
-  place_photo_link="/img/valenciennes/lieux/parc-citadelle-valenciennes.webp"
-  place_maps_link="https://maps.app.goo.gl/Ab1Mba76DY48LwZ49"
-/>
+<PlaceCardGrid places={naturePlaces} />
 
 
 

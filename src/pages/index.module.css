@@ -41,7 +41,7 @@ div.buttonBox {
 
 @media screen and (max-width: 996px) {
   header {
-    padding: 2rem;
+    /* padding: 2rem; */
   }
 }
 
