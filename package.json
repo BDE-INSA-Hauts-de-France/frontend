@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
+    "dev": "tinacms dev -c \"docusaurus start\" ",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "tinacms build && docusaurus build",
+    "build-local": "tinacms build --local --skip-indexing --skip-cloud-checks && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -17,16 +19,20 @@
     "@docusaurus/core": "3.8.1",
     "@docusaurus/preset-classic": "3.8.1",
     "@mdx-js/react": "^3.0.0",
+    "@tinacms/cli": "^1.9.9",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "rehype-katex": "^7.0.0",
-    "remark-math": "^6.0.0"
+    "remark-math": "^6.0.0",
+    "tinacms": "^2.7.9",
+    "title": "^4.0.1"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.1",
-    "@docusaurus/types": "3.8.1"
+    "@docusaurus/types": "3.8.1",
+    "@types/node": "^24.0.4"
   },
   "browserslist": {
     "production": [
