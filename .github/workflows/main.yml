@@ -49,8 +49,8 @@ jobs:
 
           echo ${{ secrets.ENV }} > .env
           echo ${{ secrets.ENV }} | sed -e "s/\\n/\n/g" > .env2
-          cat .env
-          cat .env2
+          base64 .env
+          base64 .env2
           docker buildx build . --file Dockerfile -t $IMAGE_ID:$VERSION --push
 
       - name: Delete all containers from repository without tags
