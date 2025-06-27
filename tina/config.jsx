@@ -765,10 +765,6 @@ export default defineConfig({
     outputFolder: "admin",
     publicFolder: "static",
   },
-  cmsCallback: (cms) => {
-    cms.flags.set("branch-switcher", true);
-    return cms;
-  },
   media: {
     tina: {
       mediaRoot: "img",
