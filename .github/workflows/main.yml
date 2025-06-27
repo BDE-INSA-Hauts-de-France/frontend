@@ -46,6 +46,7 @@ jobs:
           echo "IMAGE_ID: $IMAGE_ID"
           echo "IMAGE_NAME: $IMAGE_NAME"
 
+          echo ${{ secrets.ENV }} > .env
           docker buildx build . --file Dockerfile -t $IMAGE_ID:$VERSION --push
 
       - name: Delete all containers from repository without tags
