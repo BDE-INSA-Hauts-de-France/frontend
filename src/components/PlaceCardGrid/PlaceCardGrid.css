@@ -1,12 +1,10 @@
 /* Styles pour PlaceCardGrid */
 .place-card-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   gap: 24px;
   padding: 20px;
   width: 100%;
   box-sizing: border-box;
-  align-items: stretch; /* Force toutes les cartes à avoir la même hauteur */
 }
 
 .place-card-grid-empty {
@@ -19,49 +17,40 @@
 }
 
 /* Responsive design */
-@media (min-width: 1200px) {
-  .place-card-grid .place-card {
-    flex: 1 1 calc(33.333% - 16px); /* 3 colonnes */
-    min-width: 300px;
-  }
-}
-
-@media (min-width: 900px) and (max-width: 1199px) {
-  .place-card-grid .place-card {
-    flex: 1 1 calc(50% - 12px); /* 2 colonnes */
-    min-width: 280px;
-  }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
+@media (max-width: 768px) {
   .place-card-grid {
-    gap: 20px;
-  }
-  
-  .place-card-grid .place-card {
-    flex: 1 1 calc(50% - 10px); /* 2 colonnes */
-    min-width: 250px;
-  }
-}
-
-@media (max-width: 599px) {
-  .place-card-grid {
-    flex-direction: column;
+    grid-template-columns: 1fr !important;
     gap: 16px;
     padding: 16px;
   }
-  
-  .place-card-grid .place-card {
-    flex: none;
-    width: 100%;
+}
+
+@media (max-width: 480px) {
+  .place-card-grid {
+    padding: 12px;
+    gap: 12px;
   }
+}
+
+/* Variantes pour différents nombres de colonnes */
+.place-card-grid.columns-1 {
+  grid-template-columns: 1fr;
+}
+
+.place-card-grid.columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.place-card-grid.columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.place-card-grid.columns-4 {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 /* Ajustements pour les PlaceCard dans la grille */
 .place-card-grid .place-card {
   margin: 0; /* Retire la marge auto des PlaceCard individuelles */
-  height: auto; /* Permet à flexbox de gérer la hauteur */
-  max-width: none;
-  display: flex;
-  flex-direction: column; /* Assure que le contenu interne s'étende verticalement */
+  height: fit-content;
 }

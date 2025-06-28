@@ -34,7 +34,6 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
-  flex: 1; /* Prend tout l'espace disponible dans la carte */
 }
 
 .place-card-title {
@@ -55,14 +54,13 @@
   font-size: 1em;
   color: #333;
   margin: 8px 0 0 0;
-  flex: 1; /* Prend tout l'espace disponible, poussant les boutons vers le bas */
 }
 
 .place-card-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: auto; /* Pousse les boutons vers le bas */
+  margin-top: 8px;
   justify-content: flex-end;
 }
 

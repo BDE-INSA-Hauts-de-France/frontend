@@ -8,8 +8,17 @@ export default function PlaceCardGrid({ places, columns = "auto-fill" }) {
                 <p>Aucun lieu à afficher</p>
             </div>
         );
-    }    return (
-        <div className="place-card-grid">
+    }
+
+    return (
+        <div 
+            className="place-card-grid"
+            style={{ 
+                gridTemplateColumns: columns === "auto-fill" 
+                    ? "repeat(auto-fill, minmax(350px, 1fr))" 
+                    : `repeat(${columns}, 1fr)` 
+            }}
+        >
             {places.map((place, index) => (
                 <PlaceCard
                     key={place.id || index}

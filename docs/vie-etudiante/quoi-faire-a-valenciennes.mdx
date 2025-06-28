@@ -50,142 +50,72 @@ export const cultureEntertainmentPlaces = [
 
 
 ## 🏒 Sports & Loisirs
+<PlaceCard
+  place_name="Patinoire Valigloo"
+  place_city="Marly"
+  place_description="Patinage libre, hockey, cours de patinage... Tarif étudiant : 4,90€ (sans patins), 8,30€ (avec patins) - 4€ (patins compris) en passant par la Billetterie UPHF."
+  place_photo_link="/img/valenciennes/lieux/patinoire-valigloo.webp"
+  place_website_link="https://www.patinoire-valigloo.fr/"
+  place_maps_link="https://maps.app.goo.gl/Bkh37DxVRLaJmSMP8"
+  place_price_range="4-8,30 €"
+/>
 
-export const sportsPlaces = [
-  {
-    id: 1,
-    place_name: "Patinoire Valigloo",
-    place_city: "Marly",
-    place_description: "Patinage libre, hockey, cours de patinage... Tarif étudiant : 4,90€ (sans patins), 8,30€ (avec patins) - 4€ (patins compris) en passant par la Billetterie UPHF.",
-    place_photo_link: "/img/valenciennes/lieux/patinoire-valigloo.webp",
-    place_website_link: "https://www.patinoire-valigloo.fr/",
-    place_maps_link: "https://maps.app.goo.gl/Bkh37DxVRLaJmSMP8",
-    place_price_range: "4-8,30 €"
-  },
-  {
-    id: 2,
-    place_name: "Stade du Hainaut - VAFC",
-    place_city: "59300 Valenciennes",
-    place_description: "Stade de 25 000 places, équipe Valenciennes FC (N1). Tarifs réduits sur certains matchs avec le BDE",
-    place_photo_link: "/img/valenciennes/lieux/stade-du-hainaut.webp",
-    place_website_link: "https://www.va-fc.com/",
-    place_maps_link: "https://maps.app.goo.gl/epWmRiDoNutTfANz9",
-    place_price_range: "8 € et +"
-  },
-  {
-    id: 3,
-    place_name: "Centre Aquatique Nungesser",
-    place_city: "Valenciennes",
-    place_description: "Piscines, toboggans, espace bien-être et activités aquatiques. Tarif étudiant disponible avec l'UPHF",
-    place_photo_link: "/img/valenciennes/lieux/piscine-nungesser.webp",
-    place_website_link: "https://centreaquatiquenungesser.fr/",
-    place_maps_link: "https://maps.app.goo.gl/tVXefPzW8pJhpoWeA",
-    place_price_range: "5-15 €"
-  },
-  {
-    id: 4,
-    place_name: "Le Five",
-    place_city: "Valenciennes",
-    place_description: "Terrains de football à 5 en salle. Terrains réservables, foot, bubble, tournois...",
-    place_photo_link: "/img/valenciennes/lieux/le-five.webp",
-    place_website_link: "https://www.lefive.fr/valenciennes/",
-    place_maps_link: "https://maps.app.goo.gl/AEeMyPpmSENycZAz6",
-  }
-];
+<PlaceCard
+  place_name="Stade du Hainaut - VAFC"
+  place_address="Avenue des Sports"
+  place_city="59300 Valenciennes"
+  place_description="Stade de 25 000 places, équipe Valenciennes FC (N1). Tarifs réduits sur certains matchs avec le BDE"
+  place_photo_link="/img/valenciennes/lieux/stade-du-hainaut.webp"
+  place_website_link="https://www.va-fc.com/"
+  place_maps_link="https://maps.app.goo.gl/epWmRiDoNutTfANz9"
+  place_price_range="8 € et +"
+/>
 
-<PlaceCardGrid places={sportsPlaces} />
+<PlaceCard
+    place_name="Centre Aquatique Nungesser"
+    place_city="Valenciennes"
+    place_description="Piscines, toboggans, espace bien-être et activités aquatiques. Tarif étudiant disponible avec l'UPHF"
+    place_photo_link="/img/valenciennes/lieux/piscine-nungesser.webp"
+    place_website_link="https://centreaquatiquenungesser.fr/"
+    place_maps_link="https://maps.app.goo.gl/tVXefPzW8pJhpoWeA"
+    place_price_range="5-15 €"
+/>
 
 ## 🌳 Nature & Détente
 
-export const naturePlaces = [
-  {
-    id: 1,
-    place_name: "Étang du Vignoble",
-    place_city: "Valenciennes",
-    place_description: "40 hectares d'espaces verts et plans d'eau. Activités : jogging, pique-nique, pédalo, pêche. Accès gratuit toute l'année. 3 circuits de 1 à 5 km. Permis de pêche journalier disponible sur site.",
-    place_photo_link: "/img/valenciennes/lieux/etang-du-vignoble.webp",
-    place_maps_link: "https://maps.app.goo.gl/1hbWiPK6fXdC8Jpt6"
-  },
-  {
-    id: 2,
-    place_name: "Parc de la Rhônelle",
-    place_city: "Valenciennes",
-    place_description: "12 hectares, vestiges des remparts, sculptures contemporaines, jardins à la française, aires de jeux et terrains de sport. Attractions : Musée des Beaux-Arts à proximité, sculptures en plein air, jardins à la française, aire de jeux et terrains de sport.",
-    place_photo_link: "/img/valenciennes/lieux/parc-de-la-rhonelle.webp",
-    place_maps_link: "https://maps.app.goo.gl/YC6FzXvkg3wEY8T79"
-  },
-  {
-    id: 3,
-    place_name: "Parc de la Citadelle",
-    place_city: "Valenciennes",
-    place_description: "Ancienne citadelle du 17e siècle. Promenade historique, sport, détente. Équipements sportifs : terrains de football et basketball, piste de course à pied, aires de fitness en plein air, skate park.",
-    place_photo_link: "/img/valenciennes/lieux/parc-citadelle-valenciennes.webp",
-    place_maps_link: "https://maps.app.goo.gl/Ab1Mba76DY48LwZ49"
-  }
-];
+<PlaceCard
+  place_name="Étang du Vignoble"
+  place_city="Valenciennes"
+  place_description="40 hectares d'espaces verts et plans d'eau. Activités : jogging, pique-nique, pédalo, pêche. Accès gratuit toute l'année. 3 circuits de 1 à 5 km. Permis de pêche journalier disponible sur site."
+  place_photo_link="/img/valenciennes/lieux/etang-du-vignoble.webp"
+  place_maps_link="https://maps.app.goo.gl/1hbWiPK6fXdC8Jpt6"
+/>
 
-<PlaceCardGrid places={naturePlaces} />
+<PlaceCard
+  place_name="Parc de la Rhônelle"
+  place_city="Valenciennes"
+  place_description="12 hectares, vestiges des remparts, sculptures contemporaines, jardins à la française, aires de jeux et terrains de sport. Attractions : Musée des Beaux-Arts à proximité, sculptures en plein air, jardins à la française, aire de jeux et terrains de sport."
+  place_photo_link="/img/valenciennes/lieux/parc-de-la-rhonelle.webp"
+  place_maps_link="https://maps.app.goo.gl/YC6FzXvkg3wEY8T79"
+/>
 
-## 🎮 Autres loisirs
+<PlaceCard
+  place_name="Parc de la Citadelle"
+  place_city="Valenciennes"
+  place_description="Ancienne citadelle du 17e siècle. Promenade historique, sport, détente. Équipements sportifs : terrains de football et basketball, piste de course à pied, aires de fitness en plein air, skate park."
+  place_photo_link="/img/valenciennes/lieux/parc-citadelle-valenciennes.webp"
+  place_maps_link="https://maps.app.goo.gl/Ab1Mba76DY48LwZ49"
+/>
 
-export const otherLeisurePlaces = [
-  {
-    id: 1,
-    place_name: "Bowling de l'Arsenal",
-    place_city: "Valenciennes",
-    place_description: "Bowling avec bar et restauration  billard. Tarifs étudiants disponibles.",
-    place_photo_link: "/img/valenciennes/lieux/bowling-arsenal.webp",
-    place_website_link: "https://bowling-arsenal.com/",
-    place_maps_link: "https://maps.app.goo.gl/TcW4kHda5o29beB3A",
-    place_price_range: "5-9 €"
-  },
-  {
-    id: 2,
-    place_name: "Le Satellium",
-    place_city: "Valenciennes",
-    place_description: "Decouvrez nos univers. Le Satellium est un lieu de pluriactivité où vous pouvez venir jouer au bowling, au billard ou affronter vos amis en réalité virtuelle ...",
-    place_photo_link: "/img/valenciennes/lieux/satellium.webp",
-    place_website_link: "https://www.satellium.fr/",
-    place_maps_link: "https://maps.app.goo.gl/xy2u2o5Mddk2g8Up8",
-    place_price_range: "6-10 €"
-  },
-  {
-    id: 3,
-    place_name: "DivertyBox",
-    place_city: "Valenciennes",
-    place_description: "Tournois de fléchettes, karaoké, soirées, Blinds tests, en face du Bowling, à l'Arsenal",
-    place_photo_link: "/img/valenciennes/lieux/divertybox.webp",
-    place_website_link: "https://www.divertybox.fr/",
-    place_maps_link: "https://maps.app.goo.gl/29kZJKU7abTvf5Sz6",
-    place_price_range: "12-25 €"
-  },
-  {
-    id: 4,
-    place_name: "Escape Game Les frères Pillards",
-    place_city: "Valenciennes",
-    place_description: "Escape Game nommé meilleure salle des Hauts-de-France en 2024.",
-    place_photo_link: "/img/valenciennes/lieux/les-freres-pillards.webp",
-    place_website_link: "https://www.lesfrerespillard.fr/",
-    place_maps_link: "https://maps.app.goo.gl/NKMR9JG2uKXZBxfP6",
-    place_price_range: "20-30 €"
-  }
-];
 
-<PlaceCardGrid places={otherLeisurePlaces} />
 
-## 🚶‍➡️ Balades à pied
+## 🚶‍➡️ Balades à pieds
 
 Valenciennes a un avantage de taille : Tout est faisable à pied !
 
 En plus de cela, vous pouvez aussi faire de belles randonnées autour de Valenciennes. Voici quelques exemples de sentiers empruntables à pied :
 
-<iframe width="100%" height="400px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/sentiers-de-randonnees-autour-de-valenciennes_1245716?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=false&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true&fullscreenControl=false#12/50.2973/3.5263"></iframe><p><a href="//umap.openstreetmap.fr/en/map/sentiers-de-randonnees-autour-de-valenciennes_1245716?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=false&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true&fullscreenControl=false#12/50.2973/3.5263">Afficher en plein écran</a></p>
-
-:::info[Il manque des sentiers ?]
-
-    Si tu connais d'autres sentiers de randonnée sympas, n'hésite pas à nous en faire part pour qu'on les rajoute !
-:::
-
+<iframe width="100%" height="400px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/sentiers-de-randonnees_1245716?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true&fullscreenControl=false"></iframe><p><a href="//umap.openstreetmap.fr/en/map/sentiers-de-randonnees_1245716?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true&fullscreenControl=false">Ouvrir dans un nouvel onglet</a></p>
 
 
 ## 🚲 Balades à vélo
