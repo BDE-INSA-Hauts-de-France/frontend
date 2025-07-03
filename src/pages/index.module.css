@@ -8,7 +8,7 @@ header#homePageHeader {
   text-align: left;
   position: relative;
   /* background: linear-gradient(45deg, #f64e70, #ed99a9); */
-  background-color: rgba(142, 142, 142, 0.1);
+  /* background-color: rgba(142, 142, 142, 0.1); */
   height: calc(100vh - 60px);
   max-height: 700px;
   display: flex;

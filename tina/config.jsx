@@ -5,7 +5,7 @@ import { docusaurusDate, titleFromSlug } from "../utils";
 import title from "title";
 
 // Your hosting provider likely exposes this as an environment variable
-const branch = process.env.HEAD || "main";
+const branch = process.env.HEAD || "dev";
 
 const WarningIcon = (props) => {
   return (
@@ -765,10 +765,6 @@ export default defineConfig({
     outputFolder: "admin",
     publicFolder: "static",
   },
-  cmsCallback: (cms) => {
-    cms.flags.set("branch-switcher", true);
-    return cms;
-  },
   media: {
     tina: {
       mediaRoot: "img",
@@ -776,13 +772,7 @@ export default defineConfig({
     },
   },
   schema: {
-    collections: [
-      DocsCollection,
-      PostCollection,
-      PagesCollection,
-      SidebarCollection,
-      SettingsCollection,
-    ],
+    collections: [DocsCollection, PagesCollection],
   },
   webpack: {
     resolve: {
