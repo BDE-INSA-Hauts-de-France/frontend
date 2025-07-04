@@ -161,6 +161,42 @@ const DocsCollection = {
   ],
 };
 
+const EnDocsCollection = {
+  name: "en_docs",
+  label: "English Docs",
+  path: "i18n/en/docusaurus-plugin-content-docs/current",
+  format: "mdx",
+  fields: [
+    {
+      type: "string",
+      name: "title",
+      label: "Title",
+      isTitle: true,
+      required: true,
+    },
+    {
+      type: "string",
+      name: "description",
+      label: "Description",
+    },
+    {
+      label: "Tags",
+      name: "tags",
+      type: "string",
+      list: true,
+      ui: {
+        component: "tags",
+      },
+    },
+    {
+      type: "rich-text",
+      name: "body",
+      label: "Body",
+      isBody: true,
+    },
+  ],
+};
+
 const DocLinkTemplate = {
   name: "doc",
   label: "Doc Link",
@@ -772,7 +808,7 @@ export default defineConfig({
     },
   },
   schema: {
-    collections: [DocsCollection, PagesCollection],
+    collections: [DocsCollection, EnDocsCollection, PagesCollection],
   },
   webpack: {
     resolve: {
