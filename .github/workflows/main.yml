@@ -11,7 +11,7 @@ env:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
@@ -50,7 +50,7 @@ jobs:
           echo "TINA_TOKEN=${{ secrets.TINA_TOKEN }}" >> .env
           echo "HEAD=${{ secrets.HEAD }}" >> .env
 
-          docker buildx build . --file Dockerfile -t $IMAGE_ID:$VERSION --push
+          docker buildx build . --file Dockerfile -t $IMAGE_ID:$VERSION --platform linux/arm64 --push
 
       - name: Delete all containers from repository without tags
         uses: pcasteran/ghcr-cleaning-action@v1
