@@ -35,10 +35,10 @@ L'ENSIAME a été créée en **2002** par la fusion de trois écoles d'ingénieu
 Aujourd'hui, l'école propose:
 
 - Un cycle préparatoire ingénieur intégré SHPI (Sciences et Humanités Pour l'Ingénieur)
-- Des formations d'ingénieurs en 3 ans
+- Des formations d'ingénieurs en 3 ans sous statut étudiant ou en apprentissage
 - Des licences et master co-acrédités avec l'UPHF
 - Des DEUST
-- Des matère spécialisés
+- Des mastères spécialisés
 
 ## Le Campus Mont-Houy sous les feux de la Première Guerre Mondiale
 
