@@ -350,6 +350,7 @@ const config = {
       },
       metadata: [
       {name: 'keywords', content: 'BDE, INSA,INSA HdF, INSA Hauts-de-France, Nouvel étudiant, Bureau des étudiants, rentrée, Vie étudiante, Vie associative, partenariat'},
+      {name: 'og:image', content: 'https://bde.insahdf.fr/img/shared-preview.png'},
     ]
 
 
