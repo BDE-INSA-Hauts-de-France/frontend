@@ -15,7 +15,7 @@ import rehypeKatex from 'rehype-katex';
 const config = {
   title: 'BDE INSA HdF',
   tagline: 'Le site pour les étudiants ingénieurs de l\'INSA Hauts-de-France',
-  favicon: 'img/favicon.svg',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://bde.insahdf.fr',
