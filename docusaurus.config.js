@@ -49,6 +49,7 @@ const config = {
           sidebarPath: './sidebars.js',
           remarkPlugins: [remarkMath], // ajout des modules pour le latex aux fichiers docs
           rehypePlugins: [rehypeKatex], // ajout des modules pour le latex aux fichiers docs
+          
 
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -347,6 +348,9 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
+      metadata: [
+      {name: 'keywords', content: 'BDE, INSA,INSA HdF, INSA Hauts-de-France, Nouvel étudiant, Bureau des étudiants, rentrée, Vie étudiante, Vie associative, partenariat'},
+    ]
 
 
     }),
@@ -379,6 +383,8 @@ const config = {
           href: '/img/app-icon.png', // chemin absolu pour être toujours correct
         },
       },
+
+      
     ],
 };
 
