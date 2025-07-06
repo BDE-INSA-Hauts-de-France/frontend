@@ -259,6 +259,10 @@ const config = {
                 label: 'Le Calendrier',
                 to: '/vie-etudiante/evenements',
               },
+              {
+                label: 'Nos réseaux',
+                to: '/reseaux',
+              }
 
             ],
           },
