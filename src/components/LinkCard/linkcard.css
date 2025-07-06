@@ -1,0 +1,51 @@
+.link-card {
+  background: var(--contact-card-background);
+  border: 1.5px solid var(--contact-card-border);
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 18px 24px;
+  margin: 18px 0;
+  display: flex;
+  align-items: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+  cursor: pointer;
+}
+
+.link-card:hover {
+  box-shadow: 0 4px 16px rgba(199,114,131,0.15);
+  transform: translateY(-2px) scale(1.02);
+  border-color: var(--ifm-color-primary);
+}
+
+.link-card-image {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-right: 20px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.link-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin: 0;
+}
+
+.social-icon {
+  width: 48px;
+  height: 48px;
+  display: block;
+  color: var(--ifm-color-primary-darkest);
+  transition: color 0.2s;
+}
+
+[data-theme='dark'] .social-icon {
+  color: var(--ifm-color-primary-lightest);
+}
+
+.link-card:hover .social-icon {
+  color: var(--rouge-bde);
+}
