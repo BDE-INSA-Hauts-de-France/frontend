@@ -1,19 +1,25 @@
-.link-card {
+.link-card {}
+
+.link-card>a {
   background: var(--contact-card-background);
   border: 1.5px solid var(--contact-card-border);
   border-radius: 16px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-  padding: 18px 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   margin: 18px 0;
-  display: flex;
-  align-items: center;
   transition: box-shadow 0.2s, transform 0.2s;
-  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+
+  padding: 18px 24px;
+
 }
 
-.link-card:hover {
-  box-shadow: 0 4px 16px rgba(199,114,131,0.15);
-  transform: translateY(-2px) scale(1.02);
+.link-card>a:hover {
+  box-shadow: 0 4px 16px rgba(199, 114, 131, 0.15);
+  transform: translateY(-2px) scale(1.01);
   border-color: var(--ifm-color-primary);
 }
 
@@ -21,10 +27,8 @@
   width: 48px;
   height: 48px;
   object-fit: contain;
-  margin-right: 20px;
-  border-radius: 12px;
-  background: #fff;
-  border: 1px solid #eee;
+  aspect-ratio: 1 / 1;
+  border-radius: 0px;
 }
 
 .link-card-title {
