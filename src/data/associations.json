@@ -392,10 +392,11 @@
         "asso_name": "CariMix",
         "asso_logo": "/img/assos/logo-carimix.png",
         "asso_type": "Club",
-        "asso_description_short": "",
-        "asso_description_long": "",
+        "asso_description_short": "Soirées, Club de DJ",
+        "asso_description_long": "CariMix est le club de DJ de l'INSA Hauts-de-France, présente à la plupart des soirées étudiantes de l'école ! ",
         "asso_page_lien": "carimix",
-        "asso_image_fond": ""
+        "asso_image_fond": "/img/assos/fonds/cover-carimix.webp",
+        "asso_lien_instagram": "https://www.instagram.com/carimix_insa_hdf/"
     },
     {
         "asso_name": "INSWIM",
