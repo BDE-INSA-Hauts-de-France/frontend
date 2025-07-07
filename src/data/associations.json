@@ -401,9 +401,10 @@
         "asso_name": "INSWIM",
         "asso_logo": "/img/assos/logo-inswim.png",
         "asso_type": "Club",
-        "asso_description_short": "",
-        "asso_description_long": "",
+        "asso_description_short": "Natation",
+        "asso_description_long": "Notre Club a pour objet de promouvoir la pratique de la natation sous toutes ses formes parmi les étudiants, dans un cadre convivial et inclusif",
         "asso_page_lien": "inswim",
-        "asso_image_fond": ""
+        "asso_image_fond": "/img/assos/fonds/cover-inswim.webp",
+        "asso_lien_instagram": "https://www.instagram.com/inswim_hdf/"
     }
 ]
