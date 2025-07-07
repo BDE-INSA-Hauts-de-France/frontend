@@ -1,5 +1,3 @@
-.link-card {}
-
 .link-card>a {
   background: var(--contact-card-background);
   border: 1.5px solid var(--contact-card-border);
