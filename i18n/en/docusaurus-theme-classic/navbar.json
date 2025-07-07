@@ -28,7 +28,7 @@
     "description": "Navbar item with label Calendrier"
   },
   "item.label.🗺️ Plan du campus & Repères": {
-    "message": "🗺️ Campus map",
+    "message": "🗺️ Campus map and landmarks",
     "description": "Navbar item with label 🗺️ Plan du campus & Repères"
   },
   "item.label.🏠 Logement": {
@@ -40,7 +40,7 @@
     "description": "Navbar item with label 🚍 Transports"
   },
   "item.label.😎 Ton Futur camarade de promo": {
-    "message": "😎 Find your future classmates",
+    "message": "😎 Find your future classmate",
     "description": "Navbar item with label 😎 Ton Futur camarade de promo"
   },
   "item.label.📚 Starter Packs": {
@@ -94,5 +94,9 @@
   "item.label.🗺️ Réseau de l'INSA HdF et ses alumni": {
     "message": "🗺️ INSA HdF network and its alumni",
     "description": "Navbar item with label 🗺️ Réseau de l'INSA HdF et ses alumni"
+  },
+  "item.label.🏛️ Quoi faire à VA ?": {
+    "message": "🏛️ What to do in VA?",
+    "description": "Navbar item with label 🏛️ Quoi faire à VA ?"
   }
 }
