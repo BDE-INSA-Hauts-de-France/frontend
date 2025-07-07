@@ -61,6 +61,8 @@ Le site est disponible en deux langues: le français (principale) et l'anglais. 
 
 - Attention aux liens des images et des liens inter-pages. Les liens des fichiers markdown sont automatiquement traduits en fonction de la langue du site. Les liens contenus dans les composants React doivent parfois être traduits manuellement en utilisant `useBaseUrl()`.
 
+- Les traductions des **menus de navigation** (navbar et footer) sont gérées dans des fichiers json dans le dossier `i18n/<langue>/docusaurus-theme-classic/`. Il est possible de modifier les traductions directement dans ces fichiers. Lorsque des éléments sont rajoutés dans ces menus, il faut relancer la commande suivante poour les ajouter au fichier de traduction, **et les traduire manuellement**: `npm run write-translations -- --locale fr`.
+
 ## Pour déployer le projet
 
 -> Lancer la commande `npm run build`
