@@ -1,0 +1,55 @@
+.link-card {}
+
+.link-card>a {
+  background: var(--contact-card-background);
+  border: 1.5px solid var(--contact-card-border);
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin: 18px 0;
+  transition: box-shadow 0.2s, transform 0.2s;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+
+  padding: 18px 24px;
+
+}
+
+.link-card>a:hover {
+  box-shadow: 0 4px 16px rgba(199, 114, 131, 0.15);
+  transform: translateY(-2px) scale(1.01);
+  border-color: var(--ifm-color-primary);
+}
+
+.link-card-image {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  aspect-ratio: 1 / 1;
+  border-radius: 0px;
+}
+
+.link-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin: 0;
+}
+
+.social-icon {
+  width: 48px;
+  height: 48px;
+  display: block;
+  color: var(--ifm-color-primary-darkest);
+  transition: color 0.2s;
+}
+
+[data-theme='dark'] .social-icon {
+  color: var(--ifm-color-primary-lightest);
+}
+
+.link-card:hover .social-icon {
+  color: var(--rouge-bde);
+}
