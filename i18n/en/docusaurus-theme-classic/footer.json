@@ -1,6 +1,6 @@
 {
   "link.title.Liens rapides": {
-    "message": "Quick rapides",
+    "message": "Quick links",
     "description": "The title of the footer links column with title=Liens rapides in the footer"
   },
   "link.title.Le BDE": {
@@ -8,7 +8,7 @@
     "description": "The title of the footer links column with title=Le BDE in the footer"
   },
   "link.title.A propos de ce site": {
-    "message": "A propos de ce site",
+    "message": "About this site",
     "description": "The title of the footer links column with title=A propos de ce site in the footer"
   },
   "link.title.L'école": {
@@ -31,28 +31,12 @@
     "message": "Administrative",
     "description": "The label of footer link with label=Administratif linking to administratif/administration"
   },
-  "link.item.label.Actus": {
-    "message": "News",
-    "description": "The label of footer link with label=Actus linking to /"
-  },
-  "link.item.label.La Newsletter": {
-    "message": "Newsletter",
-    "description": "The label of footer link with label=La Newsletter linking to /"
-  },
   "link.item.label.Le Calendrier": {
     "message": "Calendar",
     "description": "The label of footer link with label=Le Calendrier linking to /vie-etudiante/evenements"
   },
-  "link.item.label.Nous rejoindre": {
-    "message": "Join us",
-    "description": "The label of footer link with label=Nous rejoindre linking to /"
-  },
-  "link.item.label.Partenariats": {
-    "message": "Partnerships",
-    "description": "The label of footer link with label=Partenariats linking to /"
-  },
   "link.item.label.AG & documents officiels": {
-    "message": "GA & official documents",
+    "message": "AGM & official documents",
     "description": "The label of footer link with label=AG & documents officiels linking to /"
   },
   "link.item.label.CLUB INFO - ./insa.sh": {
@@ -64,11 +48,11 @@
     "description": "The label of footer link with label=Suggérer une fonctionnalité ou modification linking to https://github.com/BDE-INSA-Hauts-de-France/frontend/issues/new"
   },
   "link.item.label.Repo GitHub": {
-    "message": "Repo GitHub",
+    "message": "GitHub Repository",
     "description": "The label of footer link with label=Repo GitHub linking to https://github.com/BDE-INSA-Hauts-de-France/frontend"
   },
   "link.item.label.Crédits & Remerciements": {
-    "message": "Credits & Thanks",
+    "message": "Credits & Acknowledgments",
     "description": "The label of footer link with label=Crédits & Remerciements linking to /credits"
   },
   "link.item.label.Mentions Légales": {
@@ -102,5 +86,13 @@
   "copyright": {
     "message": "Developed and maintained with ❤️ by <b><a href='https://insash.org' target='_blank'>./insa.sh</a></b> – BDE INSA Hauts-de-France © 2024 ",
     "description": "The footer copyright"
+  },
+  "link.item.label.Qui sommes-nous ?": {
+    "message": "Who are we ?",
+    "description": "The label of footer link with label=Qui sommes-nous ? linking to /vie-etudiante/bde"
+  },
+  "link.item.label.Nos réseaux": {
+    "message": "Our networks",
+    "description": "The label of footer link with label=Nos réseaux linking to /reseaux"
   }
 }

@@ -1,0 +1,19 @@
+---
+title: Social Networks
+description: All important links for the BDE and INSA Hauts-de-France
+---
+
+import LinkCard from "@site/src/components/LinkCard";
+import { socialsLinks } from "@site/src/data/socialsLinks";
+
+<div style={{ maxWidth: 480, margin: "0 auto", padding: "32px 0" }}>
+  <h1 style={{ textAlign: "center", color: "var(--ifm-color-primary)" }}>
+    Social Networks
+  </h1>
+  <p style={{ textAlign: "center", marginBottom: 32 }}>
+    Find all the important links for the BDE and INSA here:
+  </p>
+  {socialsLinks.map((item, idx) => (
+    <LinkCard key={idx} {...item} />
+  ))}
+</div>

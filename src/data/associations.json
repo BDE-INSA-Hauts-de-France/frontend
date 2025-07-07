@@ -29,11 +29,12 @@
         "asso_name": "Kawa",
         "asso_logo": "/img/assos/logo-kawa.png",
         "asso_type": "Asso",
-        "asso_description_short": "Le café de l'INSA",
-        "asso_description_long": "Le kawa c’est un espace de détente et de convivialité où les étudiants peuvent se retrouver autour d’un bon café ☕️",
+        "asso_description_short": "Cafétéria",
+        "asso_description_long": "Le KAWA est la cafétéria de l'école. Situé en CLJ-1 , viens profiter autour d'une boisson ou d'un snack",
         "asso_page_lien": "kawa",
         "asso_lien_instagram": "https://www.instagram.com/kawa_insahdf/",
-        "asso_image_fond":"/img/assos/fonds/cover-kawa.webp"
+        "asso_image_fond":"/img/assos/fonds/cover-kawa.webp",
+        "asso_lien_mail": "kawa@bde_insa_hdf.fr"
 
     },
     {
@@ -125,8 +126,8 @@
         "asso_name": "BDA - Bureau des Arts",
         "asso_logo": "/img/assos/logo-bda.png",
         "asso_type": "Asso",
-        "asso_description_short": "Bureau des Arts - Musique, Théatre, Cinéma...",
-        "asso_description_long": "Bureau des Arts - Musique, Théatre, Cinéma, Danse...",
+        "asso_description_short": "Bureau des arts - concerts et arts créatifs",
+        "asso_description_long": "Le BDA est une association qui met en avant la créativité et les talents de chacun dans la sphère artistique",
         "asso_page_lien": "bda",
         "asso_lien_instagram": "https://www.instagram.com/bda_insa_hdf/",
         "asso_image_fond":"/img/assos/fonds/cover-bda.webp"
@@ -147,8 +148,8 @@
         "asso_name": "BDS - Bureau des Sports",
         "asso_logo": "/img/assos/logo-bds.png",
         "asso_type": "Club",
-        "asso_description_short": "Volley, Rugby, Escalade, Piscine...",
-        "asso_description_long": "Volley, Rugby, Escalade, Piscine...",
+        "asso_description_short": "Sports & Events",
+        "asso_description_long": "Bureau des Sports : Le BDS a pour vocation de faire vivre la vie sportive des étudiants (loisir, weekend, compétitions, semaine au ski et bien plus encore)",
         "asso_page_lien": "bds",
         "asso_lien_instagram": "https://www.instagram.com/bds_insa_hdf/",
         "asso_image_fond":"/img/assos/fonds/cover-bds.webp"
@@ -392,18 +393,20 @@
         "asso_name": "CariMix",
         "asso_logo": "/img/assos/logo-carimix.png",
         "asso_type": "Club",
-        "asso_description_short": "",
-        "asso_description_long": "",
+        "asso_description_short": "Soirées, Club de DJ",
+        "asso_description_long": "CariMix est le club de DJ de l'INSA Hauts-de-France, présente à la plupart des soirées étudiantes de l'école ! ",
         "asso_page_lien": "carimix",
-        "asso_image_fond": ""
+        "asso_image_fond": "/img/assos/fonds/cover-carimix.webp",
+        "asso_lien_instagram": "https://www.instagram.com/carimix_insa_hdf/"
     },
     {
         "asso_name": "INSWIM",
         "asso_logo": "/img/assos/logo-inswim.png",
         "asso_type": "Club",
-        "asso_description_short": "",
-        "asso_description_long": "",
+        "asso_description_short": "Natation",
+        "asso_description_long": "Notre Club a pour objet de promouvoir la pratique de la natation sous toutes ses formes parmi les étudiants, dans un cadre convivial et inclusif",
         "asso_page_lien": "inswim",
-        "asso_image_fond": ""
+        "asso_image_fond": "/img/assos/fonds/cover-inswim.webp",
+        "asso_lien_instagram": "https://www.instagram.com/inswim_hdf/"
     }
 ]
