@@ -1,3 +1,8 @@
 User-agent: *
-Disallow: /admin
+# French
+Disallow: /admin/
+Disallow: /tags/
+# English
+Disallow: /en/admin/
+Disallow: /en/tags/
 Sitemap: https://bde.insahdf.fr/sitemap.xml
