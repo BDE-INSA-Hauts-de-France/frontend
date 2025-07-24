@@ -189,14 +189,11 @@ const config = {
               },
             ],
           },
-
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: "reseaux",
+            label: "Nos réseaux",
+            position: "right",
+          },
           {
             to: "vie-etudiante/evenements",
             label: "Calendrier",
