@@ -793,6 +793,33 @@ const PagesCollection = {
   ],
 };
 
+const EnglishPagesCollection = {
+  name: "en_pages",
+  label: "English Pages",
+  path: "i18n/en/docusaurus-plugin-content-pages",
+  format: "mdx",
+  fields: [
+    {
+      type: "string",
+      name: "title",
+      label: "Title",
+      isTitle: true,
+      required: true,
+    },
+    {
+      type: "string",
+      name: "description",
+      label: "Description",
+    },
+    {
+      type: "rich-text",
+      name: "body",
+      label: "Body",
+      isBody: true,
+    },
+  ],
+};
+
 export default defineConfig({
   branch,
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID, // Get this from tina.io
@@ -808,7 +835,12 @@ export default defineConfig({
     },
   },
   schema: {
-    collections: [DocsCollection, EnDocsCollection, PagesCollection],
+    collections: [
+      DocsCollection,
+      EnDocsCollection,
+      PagesCollection,
+      EnglishPagesCollection,
+    ],
   },
   webpack: {
     resolve: {
