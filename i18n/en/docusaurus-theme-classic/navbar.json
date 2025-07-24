@@ -23,6 +23,10 @@
     "message": "International",
     "description": "Navbar item with label International"
   },
+  "item.label.Nos réseaux": {
+    "message": "Our socials",
+    "description": "Navbar item with label Nos réseaux"
+  },
   "item.label.Calendrier": {
     "message": "Calendar",
     "description": "Navbar item with label Calendrier"
