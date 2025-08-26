@@ -28,6 +28,7 @@
     - [Ajouter du contenu à la page de mon asso](#ajouter-du-contenu-à-la-page-de-mon-asso)
     - [Modifier la page de mon asso](#modifier-la-page-de-mon-asso)
 - [Développement](#développement)
+  - [License](#license)
 
 # Accès au site
 
@@ -159,4 +160,4 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 >
 > - [WikiEtud INSA Toulouse](https://wiki.etud.insa-toulouse.fr/)
 > - [Club Info INSA HdF](https://insash.org/)
-> - [Site de l'INSA HdF](https://www.insa-hdf.fr/)
+> - [Site de l'INSA HdF](https://www.insa-hautsdefrance.fr/)
