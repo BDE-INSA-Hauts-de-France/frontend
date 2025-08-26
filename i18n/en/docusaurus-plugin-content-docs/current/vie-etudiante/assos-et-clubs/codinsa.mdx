@@ -1,0 +1,14 @@
+---
+title: Cod'INSA
+hide_title: true
+description: The inter-INSA association that organizes the annual inter-INSA computer science competition!
+--- 
+import AssociationHeader from '@site/src/components/AssociationHeader';
+import associationsData from '/src/data/associations.json';
+
+export const associationId = "codinsa";
+export const association = associationsData.find(assoc => assoc.asso_page_lien === associationId);
+
+<AssociationHeader {...association}/>
+
+

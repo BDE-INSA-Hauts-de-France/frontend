@@ -1,0 +1,10 @@
+.asso-header-description {
+    text-shadow: 4px 2px 16px white;
+}
+
+
+/* en thème sombre */
+
+[data-theme='dark'] .asso-header-description {
+    text-shadow: 4px 2px 16px black;
+}

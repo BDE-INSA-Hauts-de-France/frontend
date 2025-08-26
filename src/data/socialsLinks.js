@@ -7,7 +7,7 @@ export const socialsLinks = [
   {
     title: "LinkedIn",
     image: "/img/icons/socials/linkedin.svg",
-    link: "https://linkedin.com/school/insa-hauts-de-france",
+    link: "https://linkedin.com/company/bde-insa-hdf",
   },
   {
     title: "Discord",
