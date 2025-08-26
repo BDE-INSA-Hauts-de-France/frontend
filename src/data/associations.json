@@ -408,5 +408,19 @@
         "asso_page_lien": "inswim",
         "asso_image_fond": "/img/assos/fonds/cover-inswim.webp",
         "asso_lien_instagram": "https://www.instagram.com/inswim_hdf/"
+    },
+        {
+        "asso_name": "Cod'INSA",
+        "asso_logo": "/img/assos/logo-codinsa.svg",
+        "asso_type": "Asso inter-INSA",
+        "asso_description_short": "Concours d'informatique interINSA",
+        "asso_description_long": "Cod'INSA c'est l'association interINSA qui organise chaque année, depuis 2007, le concours d'informatique interINSA! ",
+        "asso_page_lien": "codinsa",
+        "asso_image_fond": "/img/assos/fonds/cover-codinsa.webp",
+        "asso_lien_instagram": "https://www.instagram.com/cod.insa/",
+        "asso_lien_discord":"https://discord.codinsa.org",
+        "asso_lien_linkedin": "https://www.linkedin.com/company/cod-insa/",
+        "asso_lien_site": "https://codinsa.org",
+        "asso_lien_facebook": "https://www.facebook.com/codinsa/"
     }
 ]
