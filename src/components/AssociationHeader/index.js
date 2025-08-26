@@ -1,5 +1,7 @@
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import './../AssociationCard/AssociationCard.css';
+import "./AssociationHeader.css"
+
 
 // Bouton qui point vers les réseaux sociaux
 export const BoutonReseauHeader = ({ titre, lien, nom_icon, }) => (
@@ -86,7 +88,8 @@ const AssociationHeader = ({ asso_name, asso_logo, asso_type, asso_description_l
                     class={"markdown"}
                 >{asso_name}</h1>
 
-                <p style={{
+                <p className="asso-header-description"
+                style={{
                     fontSize: '1em',
 
                     padding: '0',
