@@ -63,3 +63,15 @@
 .better-contact-card-links a:hover {
     color: var(--ifm-color-primary-dark, #0056b3);
 }
+
+
+
+/* dark theme docusaurus */
+[data-theme='dark'] .better-contact-card-info h3 {
+  color: #ffffff;
+}
+
+[data-theme='dark'] .better-contact-card-info .role {
+  color: #b0b0b0;
+}
+
