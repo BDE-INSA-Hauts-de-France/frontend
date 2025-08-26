@@ -90,6 +90,17 @@ iframe {
 /* images */
 img {
   border-radius:8px;
+
+}
+article img {
+  max-height: 80vh;
+  /* ne pas déformer */
+  object-fit: contain;
+  /* largeur */
+  width: fit-content;
+}
+p:has(img) {
+  text-align: center;
 }
 
 /* exceptions pour certaines images */
