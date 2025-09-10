@@ -422,5 +422,15 @@
         "asso_lien_linkedin": "https://www.linkedin.com/company/cod-insa/",
         "asso_lien_site": "https://codinsa.org",
         "asso_lien_facebook": "https://www.facebook.com/codinsa/"
+    },
+        {
+        "asso_name": "KART'INSA",
+        "asso_logo": "/img/assos/logo-kartinsa.webp",
+        "asso_type": "Club",
+        "asso_description_short": "Pilotage & Sports auto",
+        "asso_description_long": "KART'INSA met en lumière le karting universitaire et le pilotage dans notre école.",
+        "asso_page_lien": "kartinsa",
+        "asso_lien_instagram": "https://www.instagram.com/kart_insa/",
+        "asso_image_fond": ""
     }
 ]
