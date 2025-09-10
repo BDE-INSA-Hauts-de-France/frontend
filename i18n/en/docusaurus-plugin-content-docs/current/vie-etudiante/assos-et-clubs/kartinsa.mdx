@@ -1,0 +1,19 @@
+---
+title: KART'INSA
+hide_title: true
+--- 
+import AssociationHeader from '@site/src/components/AssociationHeader';
+import associationsData from '/src/data/associations.json';
+
+export const associationId = "kartinsa";
+export const association = associationsData.find(assoc => assoc.asso_page_lien === associationId);
+
+<AssociationHeader {...association}/>
+
+Hi, at **KART'INSA** we are passionate about **motorsports and driving**.
+
+We get together **every month** to do **karting sessions**, races and we're going to offer **simulator** sessions. If you like racing or want to discover what it feels like, **don't hesitate to come see us** - we'll be delighted to welcome you and answer your questions.
+
+For people who want to do it occasionally, we'll also organize **Grand Prix** during the year **at the Ostricourt circuit**.
+
+Being new, we're looking for as many interested people as possible - we're waiting for you on the track!
