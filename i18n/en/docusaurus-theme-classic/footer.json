@@ -94,5 +94,9 @@
   "link.item.label.Nos réseaux": {
     "message": "Our networks",
     "description": "The label of footer link with label=Nos réseaux linking to /reseaux"
+  },
+  "link.item.label.Chartes & documents officiels": {
+    "message": "Charters & official documents",
+    "description": "The label of footer link with label=Chartes & documents officiels linking to documents"
   }
 }

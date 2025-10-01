@@ -227,6 +227,10 @@ const config = {
                 label: "Administratif",
                 to: "administratif/administration",
               },
+              {
+                label: "Chartes & documents officiels",
+                to: "documents",
+              },
             ],
           },
           {
