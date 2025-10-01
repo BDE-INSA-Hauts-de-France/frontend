@@ -20,7 +20,7 @@ export const BoutonReseau = ({titre, lien, nom_icon, }) => (
 
 {/* Boite d'association */}
 const AssociationCard = ({ 
-    asso_name, asso_logo, asso_type, asso_description_short, asso_page_lien, asso_lien_instagram, asso_lien_site, asso_lien_discord, asso_lien_linkedin, asso_lien_spotify
+    asso_name, asso_logo, asso_type, asso_description_short, asso_page_lien, asso_lien_instagram, asso_lien_site, asso_lien_discord, asso_lien_linkedin, asso_lien_spotify, asso_lien_linktree
 }) => {
     const pageLink = useBaseUrl(`/vie-etudiante/assos-et-clubs/${asso_page_lien}`);
     return (
@@ -50,6 +50,9 @@ const AssociationCard = ({
               )}
               {asso_lien_spotify && (
                   <BoutonReseau titre="Lien vers Spotify" nom_icon="spotify" lien={asso_lien_spotify}/>
+              )}
+              {asso_lien_linktree && (
+                  <BoutonReseau titre="Lien vers le Linktree" nom_icon="link-solid" lien={asso_lien_linktree}/>
               )}
           </div>
           <p className='association-card-description'>{asso_description_short}</p>
