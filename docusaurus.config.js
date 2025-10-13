@@ -306,8 +306,8 @@ const config = {
                 href: "https://www.insa-hautsdefrance.fr/",
               },
               {
-                label: "INS'Alumnis HdF",
-                href: "http://insalumni.insash.org",
+                label: "INSA Alumni HdF",
+                href: "https://insaalumnihdf.github.io/site/",
               },
               {
                 label: "Groupe INSA",

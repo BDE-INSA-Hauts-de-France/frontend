@@ -67,9 +67,9 @@
     "message": "INSA Hauts-de-France",
     "description": "The label of footer link with label=INSA Hauts-de-France linking to https://www.insa-hautsdefrance.fr/"
   },
-  "link.item.label.INS'Alumnis HdF": {
-    "message": "INS'Alumnis HdF",
-    "description": "The label of footer link with label=INS'Alumnis HdF linking to http://insalumni.insash.org"
+  "link.item.label.INSA Alumni HdF": {
+    "message": "INSA Alumni HdF",
+    "description": "The label of footer link with label=INSA Alumni HdF linking to https://insaalumnihdf.github.io/site/"
   },
   "link.item.label.Groupe INSA": {
     "message": "Groupe INSA",
