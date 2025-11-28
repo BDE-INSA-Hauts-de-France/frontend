@@ -65,6 +65,12 @@ const config = {
         theme: {
           customCss: ["./src/css/custom.css"],
         },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+        },
       }),
     ],
   ],
@@ -306,8 +312,8 @@ const config = {
                 href: "https://www.insa-hautsdefrance.fr/",
               },
               {
-                label: "INS'Alumnis HdF",
-                href: "http://insalumni.insash.org",
+                label: "INSA Alumni HdF",
+                href: "https://insaalumnihdf.github.io/site/",
               },
               {
                 label: "Groupe INSA",
