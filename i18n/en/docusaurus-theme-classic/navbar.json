@@ -99,8 +99,8 @@
     "message": "🗺️ INSA HdF network and its alumni",
     "description": "Navbar item with label 🗺️ Réseau de l'INSA HdF et ses alumni"
   },
-  "item.label.🏛️ Quoi faire à VA ?": {
+  "item.label.🏛️ Que faire à VA ?": {
     "message": "🏛️ What to do in VA?",
-    "description": "Navbar item with label 🏛️ Quoi faire à VA ?"
+    "description": "Navbar item with label 🏛️ Que faire à VA ?"
   }
 }

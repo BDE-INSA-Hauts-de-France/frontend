@@ -148,7 +148,7 @@ const config = {
                 to: "vie-etudiante/le-point-culture",
               },
               {
-                label: "🏛️ Quoi faire à VA ?",
+                label: "🏛️ Que faire à VA ?",
                 to: "vie-etudiante/quoi-faire-a-valenciennes",
               },
             ],
