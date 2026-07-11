@@ -22,6 +22,11 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
+  // Emit /page/index.html so every canonical tag and the generated sitemap use
+  // the trailing-slash form, matching the server's http->https + trailing-slash
+  // redirects. Prevents the URL-duplication that kept pages out of the index.
+  trailingSlash: true,
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   // organizationName: '', // Usually your GitHub org/user name.
