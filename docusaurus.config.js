@@ -304,6 +304,18 @@ const config = {
                 to: "/mentions-legales",
               },
               {
+                label: "Politique de confidentialité",
+                to: "/politique-de-confidentialite",
+              },
+              {
+                label: "Conditions générales d'utilisation",
+                to: "/cgu",
+              },
+              {
+                label: "Supprimer mon compte",
+                to: "/suppression-compte",
+              },
+              {
                 label: "Plan du site",
                 to: "/plan-du-site",
               },
