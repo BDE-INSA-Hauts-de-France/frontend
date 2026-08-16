@@ -6,8 +6,14 @@ on:
 
 permissions: write-all
 
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 env:
   IMAGE_NAME: frontend
+  SITE_URL: https://bde.insahdf.fr
 
 jobs:
   build:
@@ -18,11 +24,6 @@ jobs:
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
-
-      - id: owner
-        uses: Entepotenz/change-string-case-action-min-dependencies@v1
-        with:
-          string: ${{ github.repository_owner }}
 
       - name: Log in to registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
@@ -51,6 +52,59 @@ jobs:
           echo "HEAD=${{ secrets.HEAD }}" >> .env
 
           docker buildx build . --file Dockerfile -t $IMAGE_ID:$VERSION --platform linux/amd64 --push
+
+  deploy:
+    name: Deploy to VPS
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: ${{ secrets.VPS_PORT || 22 }}
+          envs: GHCR_USER,GHCR_TOKEN
+          script: |
+            set -euo pipefail
+            cd /opt/docker/website
+            echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GHCR_USER" --password-stdin
+            docker compose pull
+            docker compose up -d --remove-orphans
+            docker logout ghcr.io >/dev/null 2>&1 || true
+            # The image the container was just replaced from is now dangling.
+            docker image prune -f
+            docker compose ps
+        env:
+          GHCR_USER: ${{ github.actor }}
+          GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Verify the site responds
+        run: |
+          for i in $(seq 1 12); do
+            code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 10 "$SITE_URL/" || echo 000)
+            echo "attempt $i: HTTP $code"
+            if [ "$code" = "200" ]; then
+              echo "$SITE_URL is serving."
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "::error::$SITE_URL did not return 200 within ~2 minutes after deploy." >&2
+          exit 1
+
+  cleanup:
+    name: Prune untagged images
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - id: owner
+        uses: Entepotenz/change-string-case-action-min-dependencies@v1
+        with:
+          string: ${{ github.repository_owner }}
 
       - name: Delete all containers from repository without tags
         uses: pcasteran/ghcr-cleaning-action@v1
