@@ -1,11 +1,22 @@
 name: build
+
+# SECURITY: this is the org's only PUBLIC repo and its jobs now run on the
+# production VPS. `push` is safe because only collaborators can push. Do NOT
+# add a `pull_request` or `pull_request_target` trigger to this workflow
+# without first moving it back to a GitHub-hosted runner: it would let anyone
+# with a fork execute arbitrary code on bdi-1.
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
+    inputs:
+      runner:
+        description: 'Runner for the build. Leave empty for the VPS; set ubuntu-latest to fall back to a GitHub-hosted runner.'
+        required: false
+        default: ''
 
 permissions: write-all
-
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -17,69 +28,106 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ${{ github.event.inputs.runner || 'bdi-1' }}
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      - name: Log in to registry
-        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
-
-      - name: Build and push Push image
+      - name: Resolve image reference
+        id: img
         run: |
-          IMAGE_ID=ghcr.io/${{ github.repository_owner }}/$IMAGE_NAME
-          IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
+          set -euo pipefail
+          IMAGE_ID=$(echo "ghcr.io/${{ github.repository_owner }}/$IMAGE_NAME" | tr '[:upper:]' '[:lower:]')
 
           VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
-
           [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
-
           # Check if the push is to a tag, and if so, replace "main" with "latest"
           # This ensures that when a new release is tagged, it gets published as latest
           if [[ "$VERSION" == "main" ]]; then
             VERSION="latest";
           fi
-          echo "IMAGE_ID=$IMAGE_ID" >> $GITHUB_ENV
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
-          echo "IMAGE_ID: $IMAGE_ID"
-          echo "IMAGE_NAME: $IMAGE_NAME"
 
+          echo "image_id=$IMAGE_ID" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "IMAGE_ID: $IMAGE_ID"
+          echo "VERSION: $VERSION"
+
+      # Built straight into the VPS's own Docker daemon: the deploy job below
+      # is on the same host, so the image never has to leave the box. That is
+      # what keeps the deploy working through a GHCR outage.
+      - name: Build image into the local daemon
+        env:
+          IMAGE_ID: ${{ steps.img.outputs.image_id }}
+          VERSION: ${{ steps.img.outputs.version }}
+        run: |
+          set -euo pipefail
+          # Build-time secrets. Written to the runner's workspace, so they now
+          # touch disk on the VPS instead of a throwaway hosted runner: the
+          # cleanup step below removes the file whether the build passed or not.
           echo "NEXT_PUBLIC_TINA_CLIENT_ID=${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}" > .env
           echo "TINA_TOKEN=${{ secrets.TINA_TOKEN }}" >> .env
           echo "HEAD=${{ secrets.HEAD }}" >> .env
 
-          docker buildx build . --file Dockerfile -t $IMAGE_ID:$VERSION --platform linux/amd64 --push
+          docker build . \
+            --file Dockerfile \
+            --platform linux/amd64 \
+            --label "org.opencontainers.image.revision=${GITHUB_SHA}" \
+            --label "org.opencontainers.image.source=${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}" \
+            -t "$IMAGE_ID:$VERSION" \
+            -t "$IMAGE_ID:$VERSION-${GITHUB_SHA::7}"
+
+      - name: Remove build-time secrets from the workspace
+        if: always()
+        run: rm -f .env
+
+      # Best effort on purpose. GHCR is the archive that makes a `docker run
+      # <sha-tag>` rollback possible from anywhere, but it is no longer on the
+      # critical path, so a registry incident must not fail the deploy.
+      - name: Push to GHCR (best effort)
+        continue-on-error: true
+        env:
+          IMAGE_ID: ${{ steps.img.outputs.image_id }}
+          VERSION: ${{ steps.img.outputs.version }}
+        run: |
+          set -euo pipefail
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+          docker push "$IMAGE_ID:$VERSION"
+          docker push "$IMAGE_ID:$VERSION-${GITHUB_SHA::7}"
+          docker logout ghcr.io >/dev/null 2>&1 || true
 
   deploy:
     name: Deploy to VPS
-    runs-on: ubuntu-latest
+    # Pinned, not overridable: this job runs *on* the box it deploys to, so
+    # pointing it at a GitHub-hosted runner could only ever fail.
+    runs-on: bdi-1
     needs: build
 
     steps:
-      - name: Deploy via SSH
-        uses: appleboy/ssh-action@v1.2.0
-        with:
-          host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
-          key: ${{ secrets.VPS_SSH_KEY }}
-          port: ${{ secrets.VPS_PORT || 22 }}
-          envs: GHCR_USER,GHCR_TOKEN
-          script: |
-            set -euo pipefail
-            cd /opt/docker/website
-            echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GHCR_USER" --password-stdin
+      # nginx.conf ships inside the image, so a config change deploys by this
+      # step alone. The compose file on the VPS is the source of truth for the
+      # container; the copy in this repo is never shipped.
+      - name: Restart the container
+        run: |
+          set -euo pipefail
+          cd /opt/docker/website
+
+          # Normally the build job has just put this image in the local daemon
+          # and there is nothing to fetch. The pull is the fallback for the one
+          # case where it did not: a run dispatched onto a GitHub-hosted runner.
+          IMG="$(docker compose config --images | head -1)"
+          if docker image inspect "$IMG" >/dev/null 2>&1; then
+            echo "Using locally built ${IMG}"
+          else
+            echo "${IMG} is not in the local daemon, pulling from GHCR"
+            echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
             docker compose pull
-            docker compose up -d --remove-orphans
             docker logout ghcr.io >/dev/null 2>&1 || true
-            # The image the container was just replaced from is now dangling.
-            docker image prune -f
-            docker compose ps
-        env:
-          GHCR_USER: ${{ github.actor }}
-          GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          fi
+
+          docker compose up -d --remove-orphans
+          # The image the container was just replaced from is now dangling.
+          docker image prune -f
+          docker compose ps
 
       - name: Verify the site responds
         run: |
@@ -97,8 +145,11 @@ jobs:
 
   cleanup:
     name: Prune untagged images
-    runs-on: ubuntu-latest
+    runs-on: ${{ github.event.inputs.runner || 'bdi-1' }}
     needs: build
+    # Housekeeping on GHCR only. It has nothing to do with whether the site is
+    # up, and it is the one job here that cannot work while GitHub is degraded.
+    continue-on-error: true
 
     steps:
       - id: owner
