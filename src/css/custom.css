@@ -108,6 +108,33 @@ div.navbar__logo img {
   border-radius:0px;
 }
 
+/*
+  Bouton d'appel a l'action dans la navbar.
+  Classe simple et non modulaire : docusaurus.config.js ne peut pas reference
+  les classes hachees de src/components/Button/Button.module.css.
+*/
+.navbar-cta {
+  background-color: var(--rouge-bde);
+  color: #ffffff !important;
+  border-radius: 8px;
+  padding: 0.35rem 0.85rem;
+  transition: background-color var(--global-transition-duration);
+}
+.navbar-cta:hover {
+  background-color: var(--rouge-bde-dark);
+  color: #ffffff !important;
+}
+/* glyphe "lien externe" ajoute par docusaurus sur tout item href */
+.navbar-cta svg {
+  display: none;
+}
+/* dans le menu mobile, l'item redevient une ligne de liste normale */
+.navbar-sidebar .navbar-cta {
+  background-color: transparent;
+  color: var(--ifm-navbar-link-color) !important;
+  padding: initial;
+}
+
 /* format */
 ::selection {
   background: var(--rouge-bde);

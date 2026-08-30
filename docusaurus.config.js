@@ -211,6 +211,15 @@ const config = {
             position: "right",
           },
           {
+            // Rentrée: students create their BDE account on the web while the
+            // apps are not out yet. "href" because the page lives on the
+            // dashboard host, not in this site's route table.
+            href: "https://dashboard.bde.insahdf.fr/inscription",
+            label: "Créer mon compte BDE",
+            position: "right",
+            className: "navbar-cta",
+          },
+          {
             type: "localeDropdown",
             position: "right",
           },

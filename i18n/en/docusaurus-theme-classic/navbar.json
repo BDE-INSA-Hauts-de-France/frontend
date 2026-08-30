@@ -31,6 +31,10 @@
     "message": "Calendar",
     "description": "Navbar item with label Calendrier"
   },
+  "item.label.Créer mon compte BDE": {
+    "message": "Create my BDE account",
+    "description": "Navbar item with label Créer mon compte BDE"
+  },
   "item.label.🗺️ Plan du campus & Repères": {
     "message": "🗺️ Campus map and landmarks",
     "description": "Navbar item with label 🗺️ Plan du campus & Repères"
